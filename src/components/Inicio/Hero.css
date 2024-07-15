@@ -1,0 +1,52 @@
+.hero-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/belomonte.jpg'); 
+  }
+
+  .hero-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  .hero-content {
+    z-index: 1;
+    margin: 80px;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+  .hero-count{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .hero-count-item{
+    display: flex;
+    flex-direction: column;
+  }
+  

@@ -5,7 +5,7 @@
     background-color: #8F99B266;
     padding: 5px 20px;
     font-family: 'yaldevi500';
-    height: 96px;
+    height: 60px;
 }
 
 .logo {
@@ -29,7 +29,7 @@
 }
 
 .nav-item {
-    padding: 0px 50px;
+    padding: 15px;
     text-decoration: none;
     color: #260E17;
 }
