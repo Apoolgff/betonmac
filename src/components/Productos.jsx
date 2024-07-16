@@ -5,8 +5,8 @@ import './Productos.css';
 const Productos = () => {
   const [products, setProducts] = useState([]);
   const [hovered, setHovered] = useState(false);
-  const [selectedType, setSelectedType] = useState(''); // Estado para el tipo seleccionado
-  const [selectedSubType, setSelectedSubType] = useState(''); // Estado para el submenú seleccionado
+  const [selectedType, setSelectedType] = useState('');
+  const [selectedSubType, setSelectedSubType] = useState('');
 
   useEffect(() => {
     fetch('/src/Data/products.json')
@@ -34,12 +34,12 @@ const Productos = () => {
     ],
   };
 
-  // Filtrar productos por el tipo seleccionado
+  //Filtra productos por el tipo seleccionado
   const filteredProducts = selectedType
     ? products.filter(product => product.Type.toLowerCase() === selectedType.toLowerCase())
     : products;
 
-  // Filtrar productos por el subtipo seleccionado
+  //Filtra productos por el subtipo seleccionado
   const filteredSubProducts = selectedSubType
     ? filteredProducts.filter(product => product.SubType && product.SubType.toLowerCase() === selectedSubType.toLowerCase())
     : filteredProducts;
@@ -56,7 +56,7 @@ const Productos = () => {
             onClick={() => {
               setSelectedType(type);
               setSelectedSubType('');
-            }} // Filtrar productos por tipo al hacer clic
+            }} //Filtra productos por tipo al hacer clic
           >
             {type}
             {type === 'plantas de hormigon' && hovered && (
@@ -82,7 +82,7 @@ const Productos = () => {
           onClick={() => {
             setSelectedType('');
             setSelectedSubType('');
-          }} // Mostrar todos los productos al hacer clic en una opción especial (por ejemplo, "Todos")
+          }} //Muestra todos los productos al hacer clic en "todos"
         >
           Todos
         </div>

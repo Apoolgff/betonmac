@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Box.css'; // Asegúrate de tener un archivo CSS para estilizar el formulario si es necesario.
+import './Box.css';
 
 const Box = () => {
   const [formData, setFormData] = useState({
@@ -21,9 +21,9 @@ const Box = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes manejar la lógica para enviar los datos del formulario, por ejemplo, a través de una API o realizar alguna acción con los datos.
+    
     console.log(formData);
-    // Limpia el formulario después del submit
+    
     setFormData({
       nombreApellido: '',
       empresa: '',

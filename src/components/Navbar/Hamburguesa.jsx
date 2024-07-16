@@ -23,7 +23,7 @@ export default function HamburgerMenu() {
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        style={{ fontSize: '34px', color: '#BC0A0A' }}
+        style={{ fontSize: '34px', color: '#000000' }}
       >
         &#9776;
       </Button>
