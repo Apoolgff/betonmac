@@ -1,8 +1,8 @@
 import React from 'react'
-import Hero from './Inicio/Hero'
-import Hproducts from './Inicio/Hproducts'
-import Hconsulta from './Inicio/Hconsulta'
-import Hcards from './Inicio/Hcards'
+import Hero from './inicio/Hero'
+import Hproducts from './inicio/Hproducts'
+import Hconsulta from './inicio/Hconsulta'
+import Hcards from './inicio/Hcards'
 
 const Inicio = () => {
   return (

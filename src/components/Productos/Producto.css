@@ -1,0 +1,60 @@
+.producto {
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .producto-image {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+  }
+  
+  .producto-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .producto-separator {
+    margin: 10px 0;
+  }
+  
+  .producto-description {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .producto-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .producto-grid-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .producto-grid-cell:hover {
+    transform: scale(1.1);
+  }
+  
+  .producto-grid-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  

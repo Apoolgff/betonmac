@@ -13,7 +13,7 @@ const Navbar = () => {
             {/*Seccion del Logo*/}
            { <div className="logo">
                 <Link to="/">
-                    <img src="" alt="logo betonmac" />
+                    <img src="https://betonmac.com/images/Imagenes/Logo/Logo.png" alt="logo betonmac" />
                 </Link>
             </div>}
              {/*Seccion de Links*/}

@@ -1,0 +1,103 @@
+[
+    {
+      "image": "https://betonmac.com/images/Imagenes/PortadasMTH/Portada-MTH-TF.jpg",
+      "Type": "hormigoneras",
+      "SubType": "",
+      "title": "Product 1",
+      "subtitle": "Subtitle 1",
+      "description": "This is the description for product 1.",
+      "gridContent": [
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/PortadasMTH/Portada-MTH-TF.jpg" },
+        { "type": "text", "value": "Text 1" },
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/70.jpg" },
+        { "type": "text", "value": "Text 2" },
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/71.jpg" },
+        { "type": "text", "value": "Text 3" },
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/72.jpg" },
+        { "type": "text", "value": "Text 4" },
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/73.jpg" },
+        { "type": "text", "value": "Text 5" }
+      ]
+    },
+    {
+      "image": "https://betonmac.com/images/Imagenes/PortadasMTH/Portada-MTH-MA.jpg",
+      "Type": "hormigoneras",
+      "SubType": "",
+      "title": "Product 2",
+      "subtitle": "Subtitle 2",
+      "description": "This is the description for product 2.",
+      "gridContent": [
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/PortadasMTH/Portada-MTH-MA.jpg" },
+        { "type": "text", "value": "Text 1" },
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/69.jpg" },
+        { "type": "text", "value": "Text 2" },
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/70.jpg" },
+        { "type": "text", "value": "Text 3" },
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/71.jpg" },
+        { "type": "text", "value": "Text 4" },
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/72.jpg" },
+        { "type": "text", "value": "Text 5" }
+      ]
+    },
+    {
+      "image": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg",
+      "Type": "silos",
+      "SubType": "",
+      "title": "Product 3",
+      "subtitle": "Subtitle 3",
+      "description": "This is the description for product 3.",
+      "gridContent": [
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
+        { "type": "text", "value": "Text 1" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
+        { "type": "text", "value": "Text 2" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
+        { "type": "text", "value": "Text 3" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
+        { "type": "text", "value": "Text 4" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
+        { "type": "text", "value": "Text 5" }
+      ]
+    },
+    {
+      "image": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg",
+      "Type": "plantas de hormigon",
+      "SubType": "plantas dosificadoras",
+      "title": "Product 4",
+      "subtitle": "Subtitle 4",
+      "description": "This is the description for product 4.",
+      "gridContent": [
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
+        { "type": "text", "value": "Text 1" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
+        { "type": "text", "value": "Text 2" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
+        { "type": "text", "value": "Text 3" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
+        { "type": "text", "value": "Text 4" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
+        { "type": "text", "value": "Text 5" }
+      ]
+    } ,
+    {
+      "image": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg",
+      "Type": "plantas de hormigon",
+      "SubType": "plantas elaboradoras",
+      "title": "Product 5",
+      "subtitle": "Subtitle 5",
+      "description": "This is the description for product 5.",
+      "gridContent": [
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
+        { "type": "text", "value": "Text 1" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
+        { "type": "text", "value": "Text 2" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
+        { "type": "text", "value": "Text 3" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
+        { "type": "text", "value": "Text 4" },
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
+        { "type": "text", "value": "Text 5" }
+      ]
+    }
+  ]
+  
