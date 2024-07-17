@@ -13,11 +13,13 @@ const Hcards = () => {
 <div className="cards-container">
       {cards.map((card, index) => (
         <div key={index} className="card" style={{ backgroundImage: `url(${card.image})` }}>
-          <div className="card-overlay"></div>
+          
           <div className="card-content">
+          <div className="card-overlay">
             <h2 className="card-title">{card.title}</h2>
             <p className="card-text">{card.reducedText}</p>
             <p className="card-text-extended">{card.extendedText}</p>
+            </div>
           </div>
         </div>
       ))}

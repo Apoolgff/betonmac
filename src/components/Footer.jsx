@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-right">
-        <img className="footer-location-icon" src='/images/icons/ubicacion.png' />
+        
         <p className="footer-address">Av. Circunvalación Y Camino San Carlos Km 4,5.
           <br />5000 Córdoba - Argentina -</p>
         <p className="footer-phone">(+54 - 351) 569-3100 / (+54 - 351) 464-2107</p>

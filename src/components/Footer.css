@@ -3,7 +3,7 @@
     width: 100%;
     height: 400px;
     background:url(/public/images/backgrounds/light-cement-pores.webp);
-   background-size: cover;
+    background-size: cover;
     color: white;
   }
  .footer-layer{
