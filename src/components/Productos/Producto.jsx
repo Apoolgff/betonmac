@@ -2,11 +2,15 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import productsData from '../../Data/products.json';
 import './Producto.css';
-import Box from '../contacto/Box'
+import Box from '../contacto/Box';
 
 const Producto = () => {
   const { id } = useParams();
-  const product = productsData[id];
+  const product = productsData.find(product => product.id === id);
+
+  if (!product) {
+    return <div>Producto no encontrado</div>;
+  }
 
   return (
     <div className="producto">

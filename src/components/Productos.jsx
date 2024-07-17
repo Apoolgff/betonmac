@@ -34,12 +34,12 @@ const Productos = () => {
     ],
   };
 
-  //Filtra productos por el tipo seleccionado
+  // Filtra productos por el tipo seleccionado
   const filteredProducts = selectedType
     ? products.filter(product => product.Type.toLowerCase() === selectedType.toLowerCase())
     : products;
 
-  //Filtra productos por el subtipo seleccionado
+  // Filtra productos por el subtipo seleccionado
   const filteredSubProducts = selectedSubType
     ? filteredProducts.filter(product => product.SubType && product.SubType.toLowerCase() === selectedSubType.toLowerCase())
     : filteredProducts;
@@ -56,7 +56,7 @@ const Productos = () => {
             onClick={() => {
               setSelectedType(type);
               setSelectedSubType('');
-            }} //Filtra productos por tipo al hacer clic
+            }} // Filtra productos por tipo al hacer clic
           >
             {type}
             {type === 'plantas de hormigon' && hovered && (
@@ -82,18 +82,18 @@ const Productos = () => {
           onClick={() => {
             setSelectedType('');
             setSelectedSubType('');
-          }} //Muestra todos los productos al hacer clic en "todos"
+          }} // Muestra todos los productos al hacer clic en "Todos"
         >
           Todos
         </div>
       </div>
       <div className="product-grid">
-        {filteredSubProducts.map((product, index) => (
-          <div key={index} className="product-card">
+        {filteredSubProducts.map(product => (
+          <div key={product.id} className="product-card">
             <img src={product.image} alt={product.title} className="product-card-image" />
             <h2>{product.title}</h2>
             <p>{product.subtitle}</p>
-            <Link to={`/producto/${index}`} className="product-card-button">
+            <Link to={`/producto/${product.id}`} className="product-card-button">
               Ver Producto
             </Link>
           </div>

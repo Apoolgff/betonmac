@@ -1,0 +1,81 @@
+.obra-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero-carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .carousel-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .carousel-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .descriptive-text {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .services-section {
+    margin: 40px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .services-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service {
+    text-align: center;
+  }
+  
+  .service-icon {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 10px;
+  }
+  
+  .image-separator {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 40px 0;
+    background-image: url('https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg');
+  }
+  
+  .centered-text-section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  

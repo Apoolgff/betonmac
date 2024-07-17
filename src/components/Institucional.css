@@ -1,0 +1,95 @@
+.institucional-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: url('https://betonmac.com/images/Imagenes/Empresa/Fabrica01.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text h1, .hero-text h3 {
+    color: black;
+  }
+  
+  .separator-text {
+    margin: 20px 0;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    position: relative;
+    width: 30%;
+    background-color: #f1f1f1;
+    margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+ .card-content{
+    color: black
+ }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .short-text {
+    display: block;
+    color: black
+  }
+  
+  .full-text {
+    display: none;
+    color: black
+  }
+  
+  .card:hover .short-text {
+    display: none;
+    color: black
+  }
+  
+  .card:hover .full-text {
+    display: block;
+  }
+  
+  .services-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  
+  .service {
+    width: 23%;
+    text-align: center;
+  }
+  
+  .service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+  }
+  
+  .image-separator {
+    width: 100%;
+    height: 200px;
+    background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/camposnovos.jpg') no-repeat center center/cover;
+    margin: 20px 0;
+  }
+  
+  .centered-text-section {
+    margin: 20px 0;
+  }
+  
