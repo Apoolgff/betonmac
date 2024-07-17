@@ -1,7 +1,9 @@
 .home-contact{
+    background: url(/public/images/backgrounds/);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 30px;
+    height: 220px;
 }

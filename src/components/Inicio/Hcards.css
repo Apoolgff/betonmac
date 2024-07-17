@@ -1,15 +1,14 @@
 .cards-container {
     display: flex;
     justify-content: space-between;
-    margin: 40px;
-    padding: 40px;
+    height: 600px; 
+    width: 100%;
+   margin: 20px 0 90px 0;
   }
   
   .card {
     position: relative;
     flex: 1;
-    min-width: 200px;
-    height: 400px; 
     background-size: cover;
     background-position: center;
     transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
@@ -41,14 +40,17 @@
     justify-content: center;
     align-items: center;
   }
+
   
   .card-title {
     font-size: 1.5rem;
     margin: 0;
+    color: white;
   }
   
   .card-text,
   .card-text-extended {
+    color: rgb(250, 192, 45);
     font-size: 1rem;
     margin: 10px 0 0 0;
     transition: opacity 0.3s ease-in-out;
@@ -61,7 +63,7 @@
   
   .card:hover {
     transform: scale(1.1);
-    height: 400px;
+    height: 100%;
   }
   
   .card:hover .card-text {

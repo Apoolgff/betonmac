@@ -10,6 +10,7 @@ const socialLinks = [
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="footer-layer">
       <div className="footer-left">
         <img src='https://betonmac.com/images/Imagenes/Logo/Logo.png' alt="Company Logo" className="footer-logo" />
         <a href='https://betonmac.com/index.php/legal' className="footer-legal">Aviso Legal</a>
@@ -24,8 +25,9 @@ const Footer = () => {
       <div className="footer-right">
         <img className="footer-location-icon" src='/images/icons/ubicacion.png' />
         <p className="footer-address">Av. Circunvalación Y Camino San Carlos Km 4,5.
-          5000 Córdoba - Argentina -</p>
+          <br />5000 Córdoba - Argentina -</p>
         <p className="footer-phone">(+54 - 351) 569-3100 / (+54 - 351) 464-2107</p>
+      </div>
       </div>
     </footer>
   );

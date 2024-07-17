@@ -3,11 +3,13 @@ import './Hconsulta.css'
 
 const Hconsulta = () => {
     return (
-        <div className='home-contact'>
+        <section className='home-contact'>
+            <div className='home-contact-layer'>
             <h3>Consulta</h3>
             <p>Por repuestos y ventas</p>
             <button>Consultar</button>
-        </div>
+            </div>
+        </section>
     )
 }
 
