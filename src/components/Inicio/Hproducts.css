@@ -1,23 +1,52 @@
+.products-section {
+  /*background-image: url("/public/images/backgrounds/cement.webp");
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  height: 100vh;
+}
 .products-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    gap: 5px;
-    width: 100%;
+    gap: 10px;
     height: 100%;
+    margin: auto;
+    padding: 10px 0 10px 0;
   }
   
   .product-cell {
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: start;
     color: white;
     text-align: center;
     background-size: cover;
     background-position: center;
-    height: 200px; 
+    height: 100%;
   }
+
+  .product-cell:nth-child(1) .product-overlay{
+    background-color: rgba(28, 25, 44, 0.801);
+  }
+  .product-cell:nth-child(2) .product-overlay{
+    background-color: rgba(122, 87, 35, 0.473);
+  }
+  .product-cell:nth-child(3) .product-overlay{
+    background-color: rgba(122, 87, 35, 0.473);
+  }
+  .product-cell:nth-child(4) .product-overlay{
+    background-color: rgba(28, 25, 44, 0.801);
+  }
+  .product-cell:nth-child(5) .product-overlay{
+    background-color: rgba(28, 25, 44, 0.801);
+  }
+  .product-cell:nth-child(6) .product-overlay{
+    background-color: rgba(122, 87, 35, 0.473);
+  }
+  
+ 
+  
   
   .product-overlay {
     content: "";
@@ -34,6 +63,6 @@
     position: relative;
     z-index: 1;
     font-size: 32px;
-    margin: 0;
+    margin: 20px;
   }
   

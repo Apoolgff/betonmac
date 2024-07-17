@@ -12,18 +12,20 @@ const products = [
 
 const Hproducts = () => {
   return (
-    <div className="products-grid">
-      {products.map((product, index) => (
-        <div 
-          key={index} 
-          className="product-cell" 
-          style={{ backgroundImage: `url(${product.image})` }}
-        >
-          <div className="product-overlay"></div>
-          <h2 className="product-title">{product.title}</h2>
-        </div>
-      ))}
-    </div>
+    <section className='products-section'>
+      <article className="products-grid">
+        {products.map((product, index) => (
+          <div 
+            key={index} 
+            className="product-cell" 
+            style={{ backgroundImage: `url(${product.image})` }}
+          >
+            <div className="product-overlay"></div>
+            <h2 className="product-title">{product.title}</h2>
+          </div>
+        ))}
+      </article>
+    </section>
   );
 };
 

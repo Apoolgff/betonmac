@@ -1,8 +1,8 @@
 .cards-container {
     display: flex;
-    gap: 5px; 
     justify-content: space-between;
-    margin: 20px;
+    margin: 40px;
+    padding: 40px;
   }
   
   .card {
@@ -15,6 +15,7 @@
     transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
     overflow: hidden;
     cursor: pointer;
+    
   }
   
   .card-overlay {

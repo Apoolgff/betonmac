@@ -2,22 +2,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8F99B266;
+    
+    background-size: cover;
+    background-position: top;
     padding: 5px 20px;
     font-family: 'yaldevi500';
-    height: 60px;
+    height: 90px;
 }
 
 .logo {
     display: flex;
     align-items: center;
+
 }
+
 
 .logo img {
     text-decoration: none;
     color: #260E17;
-    max-width: 140px;
-    max-height: 82px;
+    max-width: 250px;
+   
     margin-left: 10px;
 }
 
