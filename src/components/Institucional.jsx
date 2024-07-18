@@ -31,10 +31,10 @@ const Institucional = () => {
 
 
   const moreServicesData = [
-    { icon: '/public/images/icons/star.png', text: 'Premio al mayor volumen exportado' },
-    { icon: '/public/images/icons/star.png', text: 'Distincion a la trayectoria exportadora' },
-    { icon: '/public/images/icons/star.png', text: 'Premio al grado de internalizacion' },
-    { icon: '/public/images/icons/star.png', text: 'Miembro fundador de la AAHE' },
+    { icon: '/images/icons/star.png', text: 'Premio al mayor volumen exportado' },
+    { icon: '/images/icons/star.png', text: 'Distincion a la trayectoria exportadora' },
+    { icon: '/images/icons/star.png', text: 'Premio al grado de internalizacion' },
+    { icon: '/images/icons/star.png', text: 'Miembro fundador de la AAHE' },
   ];
 
   const moreCardsData = [

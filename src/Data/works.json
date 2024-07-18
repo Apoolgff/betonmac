@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "nombre": "Obra A",
+      "pais": "Argentina",
+      "lugar": "Buenos Aires",
+      "descripcion": "Descripción de la obra A en Buenos Aires.",
+      "materiales": ["Material A1", "Material A2"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg"],
+      "detalles": "Detalles adicionales de la obra A."
+    },
+    {
+        "id": 2,
+        "nombre": "Obra AA",
+        "pais": "Argentina",
+        "lugar": "Cordoba",
+        "descripcion": "Descripción de la obra AA en Buenos Aires.",
+        "materiales": ["Material AA1", "Material AA2"],
+        "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg"],
+        "detalles": "Detalles adicionales de la obra A."
+      },
+    {
+      "id": 3,
+      "nombre": "Obra B",
+      "pais": "Brasil",
+      "lugar": "São Paulo",
+      "descripcion": "Descripción de la obra B en São Paulo.",
+      "materiales": ["Material B1", "Material B2"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg"],
+      "detalles": "Detalles adicionales de la obra B."
+    },
+    {
+      "id": 4,
+      "nombre": "Obra C",
+      "pais": "Chile",
+      "lugar": "Santiago",
+      "descripcion": "Descripción de la obra C en Santiago.",
+      "materiales": ["Material C1", "Material C2"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg"],
+      "detalles": "Detalles adicionales de la obra C."
+    }
+  ]
+  

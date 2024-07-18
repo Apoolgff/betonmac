@@ -1,40 +1,25 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
+import worksData from '../../Data/works.json';
 import './Obra.css';
 
-const images = [
-  {
-    url: 'https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg',
-    title: 'Nombre Obra',
-    subtitle: 'Obra X'
-  },
-  {
-    url: 'https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg',
-    title: 'Nombre Obra',
-    subtitle: 'Obra X'
-  },
-  {
-    url: 'https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg',
-    title: 'Nombre Obra',
-    subtitle: 'Obra X'
-  }
-];
-
-const servicesData = [
-  { icon: '/images/icons/star.png', text: 'Planta' },
-  { icon: '/images/icons/star.png', text: 'Automatismos' },
-  { icon: '/images/icons/star.png', text: 'Equipamiento adicional' }
-];
-
 const Obra = () => {
+  const { id } = useParams();
+  const obra = worksData.find(work => work.id.toString() === id);
+
+  if (!obra) {
+    return <div>Obra no encontrada.</div>;
+  }
+
   return (
     <div className="obra-container">
-      {/*Hero con futuro carrusel*/}
+      {/*Hero con imagenes*/}
       <div className="hero-carousel">
-        {images.map((image, index) => (
-          <div className="carousel-image" key={index} style={{ backgroundImage: `url(${image.url})` }}>
+        {obra.imagenes.map((image, index) => (
+          <div className="carousel-image" key={index} style={{ backgroundImage: `url(${image})` }}>
             <div className="carousel-text">
-              <h1>{image.title}</h1>
-              <h3>{image.subtitle}</h3>
+              <h1>{obra.nombre}</h1>
+              <h3>{obra.lugar}, {obra.pais}</h3>
             </div>
           </div>
         ))}
@@ -42,29 +27,29 @@ const Obra = () => {
 
       {/*Descripcion*/}
       <div className="descriptive-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel massa lacinia, facilisis eros eget, iaculis velit. Maecenas rutrum lectus pharetra risus molestie aliquam. Phasellus augue augue, mattis ac bibendum eget, scelerisque et quam. Ut sed lacinia sem. Aenean varius metus sit amet nibh pharetra, et pharetra eros porttitor. Nam eu tortor vitae nisl aliquam pretium quis a tortor.</p>
+        <p>{obra.descripcion}</p>
       </div>
 
       {/*Materiales utilizados*/}
       <div className="services-section">
-        <h2>Servicios</h2>
+        <h2>Materiales Utilizados</h2>
         <div className="services-container">
-          {servicesData.map((service, index) => (
+          {obra.materiales.map((material, index) => (
             <div key={index} className="service">
-              <div className="service-icon" style={{ backgroundImage: `url(${service.icon})` }}></div>
-              <p>{service.text}</p>
+              {/*FALTA ICONO QUE DESPUES LO AGREGO AL JSON*/}
+              <p>{material}</p>
             </div>
           ))}
         </div>
       </div>
 
       {/*Separador Imagen*/}
-      <div className="image-separator"></div>{ /*style={{ backgroundImage: 'url(https://example.com/separator.jpg)' }} */}
+      <div className="image-separator" style={{ backgroundImage: 'url(https://example.com/separator.jpg)' }}></div>
 
       {/*Descripcion de la obra/planta*/}
       <div className="centered-text-section">
-        <h2>Descripcion de la Planta:</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel massa lacinia, facilisis eros eget, iaculis velit. Maecenas rutrum lectus pharetra risus molestie aliquam. Phasellus augue augue, mattis ac bibendum eget, scelerisque et quam. Ut sed lacinia sem. Aenean varius metus sit amet nibh pharetra, et pharetra eros porttitor. Nam eu tortor vitae nisl aliquam pretium quis a tortor. In efficitur, velit vitae gravida maximus, augue augue porttitor elit, nec rhoncus tellus elit a ante. Ut vitae feugiat est. In cursus mattis dolor a egestas. In consectetur maximus lectus nec posuere. Duis sollicitudin arcu et tincidunt accumsan. Suspendisse blandit consequat sagittis.</p>
+        <h2>Detalles Adicionales:</h2>
+        <p>{obra.detalles}</p>
       </div>
     </div>
   );
