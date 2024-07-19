@@ -120,7 +120,7 @@ Praesent sit amet est in risus hendrerit malesuada. Ut vitae nunc aliquam, condi
       <div className="cards-container">
         {moreCardsData.map((card, index) => (
           <div key={index} className="card">
-            <div className="card-content" style={{ backgroundImage: `url(${card.image})` }}>
+            <div className="card-content-us" style={{ backgroundImage: `url(${card.image})` }}>
               <h3>{card.title}</h3>
               <p>{card.text}</p>
             </div>

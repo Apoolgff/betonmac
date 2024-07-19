@@ -1,0 +1,110 @@
+[
+    {
+        "id": "1",
+        "contacto": "contacto  A1",
+        "pais": "Argentina",
+        "logo": "https://example.com/logos/empresa1.png",
+        "empresa": "Empresa 1",
+        "nombreCompleto": "Juan Pérez",
+        "puesto": "Gerente General",
+        "telefonosFijos": [
+            "+54 11 1234 5678",
+            "+54 11 8765 4321"
+        ],
+        "telefonosMoviles": [
+            "+54 9 11 2345 6789",
+            "+54 9 11 9876 5432"
+        ],
+        "fax": [
+            "+54 11 1234 5678"
+        ],
+        "mails": [
+            "juan.perez@empresa1.com",
+            "contacto@empresa1.com"
+        ],
+        "sitioWeb": "https://www.empresa1.com",
+        "direccion": "Calle Falsa 123, Buenos Aires",
+        "comentario": "Empresa líder en el mercado argentino."
+    },
+    {
+        "id": "2",
+        "contacto": "contacto A2",
+        "pais": "Argentina",
+        "logo": "https://example.com/logos/empresa1.png",
+        "empresa": "Empresa 2",
+        "nombreCompleto": "Juan Pérez",
+        "puesto": "Gerente General",
+        "telefonosFijos": [
+            "+54 11 1234 5678",
+            "+54 11 8765 4321"
+        ],
+        "telefonosMoviles": [
+            "+54 9 11 2345 6789",
+            "+54 9 11 9876 5432"
+        ],
+        "fax": [
+            "+54 11 1234 5678"
+        ],
+        "mails": [
+            "juan.perez@empresa1.com",
+            "contacto@empresa1.com"
+        ],
+        "sitioWeb": "https://www.empresa1.com",
+        "direccion": "Calle Falsa 123, Buenos Aires",
+        "comentario": "Empresa líder en el mercado argentino."
+    },
+    {
+        "id": "3",
+        "contacto": "contacto B1",
+        "pais": "Brasil",
+        "logo": "https://example.com/logos/empresa2.png",
+        "empresa": "Empresa 1",
+        "nombreCompleto": "Maria Silva",
+        "puesto": "Directora de Operaciones",
+        "telefonosFijos": [
+            "+55 21 2345 6789",
+            "+55 21 9876 5432"
+        ],
+        "telefonosMoviles": [
+            "+55 21 91234 5678",
+            "+55 21 99876 5432"
+        ],
+        "fax": [
+            "+55 21 2345 6789"
+        ],
+        "mails": [
+            "maria.silva@empresa2.com",
+            "contato@empresa2.com"
+        ],
+        "sitioWeb": "https://www.empresa2.com",
+        "direccion": "Rua Exemplo 456, Rio de Janeiro",
+        "comentario": "Empresa con gran presencia en el mercado brasileño."
+    },
+    {
+        "id": "4",
+        "contacto": "contacto C1",
+        "pais": "Chile",
+        "logo": "https://example.com/logos/empresa3.png",
+        "empresa": "Empresa 1",
+        "nombreCompleto": "Carlos González",
+        "puesto": "Jefe de Ventas",
+        "telefonosFijos": [
+            "+56 2 2345 6789",
+            "+56 2 9876 5432"
+        ],
+        "telefonosMoviles": [
+            "+56 9 91234 5678",
+            "+56 9 99876 5432"
+        ],
+        "fax": [
+            "+56 2 2345 6789"
+        ],
+        "mails": [
+            "carlos.gonzalez@empresa3.com",
+            "ventas@empresa3.com"
+        ],
+        "sitioWeb": "https://www.empresa3.com",
+        "direccion": "Av. Ejemplo 789, Santiago",
+        "comentario": "Empresa innovadora en el mercado chileno."
+    }
+]

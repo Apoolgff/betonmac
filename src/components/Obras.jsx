@@ -36,7 +36,7 @@ const Obras = () => {
   return (
     <div className="obras-container">
       {/*Hero*/}
-      <div className="hero-image">
+      <div className="hero-work-image">
         <h1>Mapa de latinoamerica</h1>
       </div>
 

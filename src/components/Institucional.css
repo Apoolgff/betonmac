@@ -37,13 +37,10 @@
     cursor: pointer;
   }
   
- .card-content{
-    color: black
+ .card-content-us{
+    color: black;
+    height: 100%;
  }
-  
-  .card-content {
-    padding: 15px;
-  }
   
   .short-text {
     display: block;
