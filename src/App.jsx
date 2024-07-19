@@ -7,7 +7,7 @@ import Institucional from './components/Institucional';
 import Obras from "./components/Obras";
 import Obra from "./components/obras/Obra"
 import Contacto from './components/Contacto';
-import Calendario from "./components/Calendario";
+import Eventos from "./components/Eventos";
 import Producto from './components/Productos/Producto'
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route path="/obras" element={<Obras />} />
         <Route path="/obra/:id" element={<Obra />} />
         <Route path="/contacto" element={<Contacto />} />
-        <Route path="/calendario" element={<Calendario />} />
+        <Route path="/calendario" element={<Eventos />} />
       </Routes>
       <Footer />
     </Router>
