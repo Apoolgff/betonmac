@@ -3,71 +3,121 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 120vh;
+  width: 99vw;
 }
 .products-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
+
     height: 100%;
-    margin: auto;
-    padding: 15px 0 15px 0;
+    width: 100%;
+   
   }
   
-  .product-cell {
-    font-family: 'roboto-medium';
-    text-transform: uppercase;
+
+  .garallelogram-container {
     position: relative;
+    width: 1000px; 
+    margin: auto;
+   
+    height: 100%;
+    
+  }
+  
+  .garallelogram {
+    width: 380px; 
+    height: 150px; 
     display: flex;
     align-items: center;
-    justify-content: start;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-  }
-
-  /*.product-cell:nth-child(1) .product-overlay{
-   /* background-color: rgb(20, 14, 59);
-    transition: 1s;
-  }
-  .product-cell:nth-child(1):hover .product-overlay{
-
-  .product-cell:nth-child(2) .product-overlay{
-    background-color: rgba(122, 87, 35, 0.473);
-  }
-  .product-cell:nth-child(3) .product-overlay{
-    background-color: rgba(122, 87, 35, 0.473);
-  }
-  .product-cell:nth-child(4) .product-overlay{
-    background-color: rgba(28, 25, 44, 0.801);
-  }
-  .product-cell:nth-child(5) .product-overlay{
-    background-color: rgba(28, 25, 44, 0.801);
-  }
-  .product-cell:nth-child(6) .product-overlay{
-    background-color: rgba(122, 87, 35, 0.473);
-  }
-  
- */
-  
-  
-  /*.product-overlay {
-    content: "";
+    justify-content: center;
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
-    z-index: 0;
-  }*/
-  
-  .product-title {
-    position: relative;
-    z-index: 1;
-    font-size: 32px;
-    margin: 20px;
+    border-radius: 0 3rem 1rem 0; 
+    background-color: white;
+    transition: 0.2s;
+  }
+  .garallelogram:hover {
+    
+    transition: 0.2s;
   }
   
+  .garallelogram-a {
+    background-color: #FF5733;
+    transform: rotate(-30deg) skew(-30deg); 
+    top: 8.5rem; 
+    left: 13.5%;
+    animation: left-animation-logo 3s ease 0s 1 normal none;
+  }
+  
+  .garallelogram-c {
+    background-color: #28A745;
+    transform: rotate(-30deg) skew(-30deg); 
+    top: 21.5rem; 
+    left: 13.5%; 
+    z-index: 1; 
+    animation: left-animation-logo 3s ease 0s 1 normal none;
+  }
+  @keyframes left-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px) translateY(30px) rotate(-30deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px) translateY(0) rotate(-30deg) skew(-30deg);
+	}
+}
+  
+  .garallelogram-b {
+    background-color: #007BFF;
+    transform: rotate(90deg) skew(-30deg); 
+    top: 12rem; 
+    left: 40.5%; 
+    animation: top-animation-logo 2.2s ease 0s 1 normal none;
+  }
+  
+  .garallelogram-d {
+    background-color: #FFC107;
+    transform: rotate(90deg) skew(-30deg); 
+    top: 18rem; 
+    left: 58.5%;
+    animation: top-animation-logo 2.2s ease 0s 1 normal none;
+  }
+  @keyframes top-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px) rotate(90deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0) rotate(90deg) skew(-30deg);
+	}
+}
+  
+  .garallelogram-f {
+    background-color: #FD7E14;
+    transform: rotate(210deg) skew(-30deg); 
+    top: 31.5rem; 
+    left: 40%; 
+    animation: right-animation-logo 2.4s ease 0s 1 normal none;
+  }
+  .garallelogram-e {
+    background-color: #6F42C1;
+    transform: rotate(210deg) skew(-30deg); 
+    top: 38rem; 
+    left: 22%; 
+    animation: right-animation-logo 2.4s ease 0s 1 normal none;
+  }
+  @keyframes right-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateX(50px) translateY(30px) rotate(210deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px) translateY(0) rotate(210deg) skew(-30deg);
+	}
+}

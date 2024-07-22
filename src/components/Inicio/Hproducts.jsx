@@ -14,16 +14,14 @@ const Hproducts = () => {
   return (
     <section className='products-section'>
       <article className="products-grid">
-        {products.map((product, index) => (
-          <div 
-            key={index} 
-            className="product-cell" 
-            style={{ backgroundImage: `url(${product.image})` }}
-          >
-            <div className="product-overlay"></div>
-            <h2 className="product-title">{product.title}</h2>
-          </div>
-        ))}
+      <div className='garallelogram-container'>
+                        <div className='garallelogram garallelogram-c'></div>
+                        <div className='garallelogram garallelogram-a'></div>
+                        <div className='garallelogram garallelogram-b'></div>
+                        <div className='garallelogram garallelogram-d'></div>
+                        <div className='garallelogram garallelogram-e'></div>
+                        <div className='garallelogram garallelogram-f'></div>  
+                </div>
       </article>
     </section>
   );
