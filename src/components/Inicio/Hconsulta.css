@@ -1,9 +1,12 @@
 .home-contact{
-    background: url(/public/images/backgrounds/);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 0;
     height: 220px;
+    background-color: rgb(31, 30, 34);
+    color: white;
+    font-family: 'roboto-light';
+    text-transform: uppercase;
 }

@@ -1,0 +1,19 @@
+.hero-count{
+    background-color: rgb(31, 30, 34);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 0;
+      height: 220px;
+    }
+  
+    .hero-count-item{
+      display: flex;
+      gap: 10px;
+      text-decoration: none;
+      font-family: "roboto-medium";
+      color: white;
+      font-size: 1.6rem;
+    }
+    
+    

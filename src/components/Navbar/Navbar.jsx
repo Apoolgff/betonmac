@@ -13,9 +13,19 @@ const Navbar = () => {
             {/*Seccion del Logo*/}
            { <div className="logo">
                 <Link to="/">
+                <div className='parallelogram-container'>
+                        <div className='parallelogram parallelogram-c'></div>
+                        <div className='parallelogram parallelogram-a'></div>
+                        <div className='parallelogram parallelogram-b'></div>
+                        <div className='parallelogram parallelogram-d'></div>
+                        <div className='parallelogram parallelogram-e'></div>
+                        <div className='parallelogram parallelogram-f'></div>  
+                </div>
                 
-                    <img src="https://betonmac.com/images/Imagenes/Logo/Logo.png" alt="logo betonmac" />
+                 
                 </Link>
+                <Link className='logo-text' to="/">betonmac</Link>
+                
             </div>}
              {/*Seccion de Links*/}
              <div>

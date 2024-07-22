@@ -2,20 +2,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(31, 30, 34);
     background-size: cover;
     background-position: top;
     padding: 5px 20px;
-    font-family: 'yaldevi500';
-    height: 90px;
+    font-family: 'roboto-light';
+    height: 100px;
 }
 
 .logo {
     display: flex;
     align-items: center;
-
+    text-decoration: none;
 }
 
+
+.logo-text {
+    text-decoration: none;
+    color: white;
+    font-family: 'ultramagnetic';
+    text-transform: uppercase;
+    font-size: 47px;
+    margin-left:-85px ;
+    animation: logo-text-animation 3s ease 0s 1 normal none;
+}
+@keyframes logo-text-animation  {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
 
 .logo img {
     text-decoration: none;
@@ -29,14 +48,44 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 16px;
+    font-size: 17px;
+    color: white;
+    margin-right: 100px;
 }
 
 .nav-item {
-    padding: 15px;
+    margin: 18px;
+    padding-bottom: 6px;
     text-decoration: none;
-    color: #260E17;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block; 
+    position: relative; 
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'roboto-light';
 }
+.nav-item::after {
+    content: '';
+    
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.6px;
+    bottom: 0;
+    left: 0;
+    background-color: white; 
+    transform-origin: bottom left;
+    transition: transform 0.4s ease-out;
+  }
+  
+  /* Efecto de hover */
+  .nav-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
 
 .nav-item:last-child {
     border-right: none;
@@ -75,4 +124,106 @@
         flex-direction: column;
     }
 
+}
+
+
+.parallelogram-container {
+    position: relative;
+    width: 200px; 
+    margin: 0;
+  }
+  
+  .parallelogram {
+    width: 38px; 
+    height: 15px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px; 
+    font-weight: bold;
+    position: absolute;
+    border-radius: 0 4px 1px 0; 
+    background-color: white;
+  }
+  
+  .parallelogram-a {
+    
+    transform: rotate(-30deg) skew(-30deg); 
+    top: -29px; 
+    left: 31px;
+    animation: left-animation-logo 3s ease 0s 1 normal none;
+  }
+  
+  .parallelogram-c {
+    
+    transform: rotate(-30deg) skew(-30deg); 
+    top: -9px; 
+    left: 31px; 
+    z-index: 1; 
+    animation: left-animation-logo 3s ease 0s 1 normal none;
+  }
+  @keyframes left-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px) translateY(30px) rotate(-30deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px) translateY(0) rotate(-30deg) skew(-30deg);
+	}
+}
+  
+  .parallelogram-b {
+    
+    transform: rotate(90deg) skew(-30deg); 
+    top: -23.5px; 
+    left: 58px; 
+    animation: top-animation-logo 2.2s ease 0s 1 normal none;
+  }
+  
+  .parallelogram-d {
+    
+    transform: rotate(90deg) skew(-30deg); 
+    top: -13.5px; 
+    left: 76px;
+    animation: top-animation-logo 2.2s ease 0s 1 normal none;
+  }
+  @keyframes top-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px) rotate(90deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0) rotate(90deg) skew(-30deg);
+	}
+}
+  
+  .parallelogram-f {
+    
+    transform: rotate(210deg) skew(-30deg); 
+    top: 7px; 
+    left: 57px; 
+    animation: right-animation-logo 2.4s ease 0s 1 normal none;
+  }
+  .parallelogram-e {
+    
+    transform: rotate(210deg) skew(-30deg); 
+    top: 17px; 
+    left: 39.5px; 
+    animation: right-animation-logo 2.4s ease 0s 1 normal none;
+  }
+  @keyframes right-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateX(50px) translateY(30px) rotate(210deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px) translateY(0) rotate(210deg) skew(-30deg);
+	}
 }
