@@ -24,7 +24,15 @@ const Navbar = () => {
                 
                  
                 </Link>
-                <Link className='logo-text' to="/">betonmac</Link>
+                <Link className='logo-text' to="/"><span>b</span>
+                <span>e</span>
+                <span>t</span>
+                <span>o</span>
+                <span>n</span>
+                <span>m</span>
+                <span>a</span>
+                <span>c</span>
+                </Link>
                 
             </div>}
              {/*Seccion de Links*/}
