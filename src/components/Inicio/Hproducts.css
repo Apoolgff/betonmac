@@ -1,5 +1,5 @@
 .products-section {
-  background-color: rgb(31, 30, 34);
+  background-color: rgb(248, 245, 255);
   background-size: cover;
   background-repeat: no-repeat;
   height: 120vh;
@@ -37,12 +37,14 @@
     transition: 0.2s;
   }
   .garallelogram:hover {
-    
+    background-color: #FF9900;
     transition: 0.2s;
+    cursor: pointer;
   }
   
   .garallelogram-a {
-    background-color: #FF5733;
+    background-color: #003084;
+    /*background-color: #FF5733;*/
     transform: rotate(-30deg) skew(-30deg); 
     top: 8.5rem; 
     left: 13.5%;
@@ -50,7 +52,8 @@
   }
   
   .garallelogram-c {
-    background-color: #28A745;
+    background-color: #003084;
+    /*background-color: #28A745;*/
     transform: rotate(-30deg) skew(-30deg); 
     top: 21.5rem; 
     left: 13.5%; 
@@ -70,7 +73,8 @@
 }
   
   .garallelogram-b {
-    background-color: #007BFF;
+    background-color: #003084;
+   /* background-color: #007BFF;*/
     transform: rotate(90deg) skew(-30deg); 
     top: 12rem; 
     left: 40.5%; 
@@ -78,7 +82,8 @@
   }
   
   .garallelogram-d {
-    background-color: #FFC107;
+    background-color: #003084;
+    /*background-color: #FFC107;*/
     transform: rotate(90deg) skew(-30deg); 
     top: 18rem; 
     left: 58.5%;
@@ -97,14 +102,16 @@
 }
   
   .garallelogram-f {
-    background-color: #FD7E14;
+    background-color: #003084;
+    /*background-color: #FD7E14;*/
     transform: rotate(210deg) skew(-30deg); 
     top: 31.5rem; 
     left: 40%; 
     animation: right-animation-logo 2.4s ease 0s 1 normal none;
   }
   .garallelogram-e {
-    background-color: #6F42C1;
+    background-color: #003084;
+    /*background-color: #6F42C1;*/
     transform: rotate(210deg) skew(-30deg); 
     top: 38rem; 
     left: 22%; 
