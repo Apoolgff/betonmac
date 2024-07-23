@@ -13,7 +13,8 @@ const products = [
 
 const Hproducts = () => {
   return (
-    <section className='home-products'>
+    <section className='home-container-products'>
+      <div className='home-products'>
       <article className="home-products-cards">
         <div className='home-product-content'>
           <h2 className='home-product-title'>plantas de hormigon</h2>
@@ -68,6 +69,7 @@ const Hproducts = () => {
         </div>
         <img className='home-product-image home-product-image-6' src='https://betonmac.com/images/Imagenes/automatismos/betonmatic/betonmatic-ini.png' alt="" />
       </article>
+      </div>
     </section>
   );
 };
