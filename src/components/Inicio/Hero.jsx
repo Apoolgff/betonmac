@@ -13,7 +13,7 @@ const Hero = () => {
                     </button>
 
                 </div>
-               <img className='hero-video' src="/videos/concrete-gif.gif" alt="background de prueba" />
+               <img className='hero-video' src="/videos/concrete-gif-video.gif" alt="background de prueba" />
             </header>
           
         </>

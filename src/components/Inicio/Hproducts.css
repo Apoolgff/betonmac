@@ -9,7 +9,7 @@
   display: flex;
   height: 20rem;
   width: 40rem;
-  background: linear-gradient(90deg, #0069FF,#0093ff);
+  background: linear-gradient(90deg, #003084,#075acf);
   border-radius: 2rem;
   box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);
   padding: 2rem;
@@ -39,28 +39,12 @@
     font-size: 2rem;
   }
 
- 
+ .home-product-image-2 {
+  transform: translateX(-150px);
+ }
 
-  
-  .product-cell {
-    font-family: 'roboto-medium';
-    text-transform: uppercase;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-  }
+ .home-product-image-6 {
+  transform: translateX(-60px) translateY(15px);
+ }
 
  
-  .product-title {
-    position: relative;
-    z-index: 1;
-    font-size: 32px;
-    margin: 20px;
-  }
-  

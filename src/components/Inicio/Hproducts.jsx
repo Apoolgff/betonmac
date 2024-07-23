@@ -21,7 +21,7 @@ const Hproducts = () => {
             ver mas
           </Link>
         </div>
-        <img className='home-product-image' src="/images/home/planta-movil.png" alt="" />
+        <img className='home-product-image ' src="/images/home/planta-movil.png" alt="" />
       </article>
       <article className="home-products-cards">
         <div className='home-product-content'>
@@ -30,7 +30,7 @@ const Hproducts = () => {
             ver mas
           </Link>
         </div>
-        <img className='home-product-image' src="/public/images/home/motohormigonera.png" alt="" />
+        <img className='home-product-image home-product-image-2' src="/public/images/home/motohormigonera.png" alt="" />
       </article>
       <article className="home-products-cards">
         <div className='home-product-content'>
@@ -57,7 +57,7 @@ const Hproducts = () => {
             ver mas
           </Link>
         </div>
-        <img className='home-product-image' src="" alt="" />
+        <img className='home-product-image' src="/images/home/proyecto.png" alt="" />
       </article>
       <article className="home-products-cards">
         <div className='home-product-content'>
@@ -66,7 +66,7 @@ const Hproducts = () => {
             ver mas
           </Link>
         </div>
-        <img className='home-product-image' src="/images/home/proyecto.png" alt="" />
+        <img className='home-product-image home-product-image-6' src='https://betonmac.com/images/Imagenes/automatismos/betonmatic/betonmatic-ini.png' alt="" />
       </article>
     </section>
   );
