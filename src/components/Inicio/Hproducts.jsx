@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Hproducts.css';
 
 const products = [
@@ -12,18 +13,60 @@ const products = [
 
 const Hproducts = () => {
   return (
-    <section className='products-section'>
-      <article className="products-grid">
-        {products.map((product, index) => (
-          <div 
-            key={index} 
-            className="product-cell" 
-            style={{ backgroundImage: `url(${product.image})` }}
-          >
-            <div className="product-overlay"></div>
-            <h2 className="product-title">{product.title}</h2>
-          </div>
-        ))}
+    <section className='home-products'>
+      <article className="home-products-cards">
+        <div className='home-product-content'>
+          <h2 className='home-product-title'>plantas de hormigon</h2>
+          <Link className='home-product-link' to="/">
+            ver mas
+          </Link>
+        </div>
+        <img className='home-product-image' src="/images/home/planta-movil.png" alt="" />
+      </article>
+      <article className="home-products-cards">
+        <div className='home-product-content'>
+          <h2 className='home-product-title'>motohormigoneras</h2>
+          <Link className='home-product-link' to="/">
+            ver mas
+          </Link>
+        </div>
+        <img className='home-product-image' src="/public/images/home/motohormigonera.png" alt="" />
+      </article>
+      <article className="home-products-cards">
+        <div className='home-product-content'>
+          <h2 className='home-product-title'>silos</h2>
+          <Link className='home-product-link' to="/">
+            ver mas
+          </Link>
+        </div>
+        <img className='home-product-image'  src="/images/home/planta-movil.png" alt="" />
+      </article>
+      <article className="home-products-cards">
+        <div className='home-product-content'>
+          <h2 className='home-product-title'>accesorios</h2>
+          <Link className='home-product-link' to="/">
+            ver mas
+          </Link>
+        </div>
+        <img className='home-product-image' src="/images/home/cinta.png" alt="" />
+      </article>
+      <article className="home-products-cards">
+        <div className='home-product-content'>
+          <h2 className='home-product-title'>proyectos</h2>
+          <Link className='home-product-link' to="/">
+            ver mas
+          </Link>
+        </div>
+        <img className='home-product-image' src="" alt="" />
+      </article>
+      <article className="home-products-cards">
+        <div className='home-product-content'>
+          <h2 className='home-product-title'>automatismos</h2>
+          <Link className='home-product-link' to="/">
+            ver mas
+          </Link>
+        </div>
+        <img className='home-product-image' src="/images/home/proyecto.png" alt="" />
       </article>
     </section>
   );
