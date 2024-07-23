@@ -1,0 +1,129 @@
+.products-section {
+    background-color: rgb(210, 208, 218);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 99vw;
+  }
+  .products-grid {
+  
+      height: 100%;
+      width: 100%;
+     
+    }
+    
+  
+    .garallelogram-container {
+      position: relative;
+      width: 1000px; 
+      margin: auto;
+     
+      height: 100%;
+      
+    }
+    
+    .garallelogram {
+      width: 380px; 
+      height: 150px; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 10px; 
+      font-weight: bold;
+      position: absolute;
+      border-radius: 0 3rem 1rem 0; 
+      background-color: white;
+      transition: 0.2s;
+    }
+    .garallelogram:hover {
+      
+      transition: 0.2s;
+    }
+    
+    .garallelogram-a {
+      background-color: #003084;
+      /*background-color: #FF5733;*/
+      transform: rotate(-30deg) skew(-30deg); 
+      top: 8.5rem; 
+      left: 13.5%;
+      animation: left-animation-logo 3s ease 0s 1 normal none;
+    }
+    
+    .garallelogram-c {
+      background-color: #003084;
+      /*background-color: #28A745;*/
+      transform: rotate(-30deg) skew(-30deg); 
+      top: 21.5rem; 
+      left: 13.5%; 
+      z-index: 1; 
+      animation: left-animation-logo 3s ease 0s 1 normal none;
+    }
+    @keyframes left-animation-logo {
+      0% {
+          opacity: 0;
+          transform: translateX(-50px) translateY(30px) rotate(-30deg) skew(-30deg); 
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0px) translateY(0) rotate(-30deg) skew(-30deg);
+      }
+  }
+    
+    .garallelogram-b {
+      background-color: #003084;
+     /* background-color: #007BFF;*/
+      transform: rotate(90deg) skew(-30deg); 
+      top: 12rem; 
+      left: 40.5%; 
+      animation: top-animation-logo 2.2s ease 0s 1 normal none;
+    }
+    
+    .garallelogram-d {
+      background-color: #003084;
+      /*background-color: #FFC107;*/
+      transform: rotate(90deg) skew(-30deg); 
+      top: 18rem; 
+      left: 58.5%;
+      animation: top-animation-logo 2.2s ease 0s 1 normal none;
+    }
+    @keyframes top-animation-logo {
+      0% {
+          opacity: 0;
+          transform: translateY(-50px) rotate(90deg) skew(-30deg); 
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateY(0) rotate(90deg) skew(-30deg);
+      }
+  }
+    
+    .garallelogram-f {
+      background-color: #003084;
+      /*background-color: #FD7E14;*/
+      transform: rotate(210deg) skew(-30deg); 
+      top: 31.5rem; 
+      left: 40%; 
+      animation: right-animation-logo 2.4s ease 0s 1 normal none;
+    }
+    .garallelogram-e {
+      background-color: #003084;
+      /*background-color: #6F42C1;*/
+      transform: rotate(210deg) skew(-30deg); 
+      top: 38rem; 
+      left: 22%; 
+      animation: right-animation-logo 2.4s ease 0s 1 normal none;
+    }
+    @keyframes right-animation-logo {
+      0% {
+          opacity: 0;
+          transform: translateX(50px) translateY(30px) rotate(210deg) skew(-30deg); 
+      }
+  
+      100% {
+          opacity: 1;
+          transform: translateX(0px) translateY(0) rotate(210deg) skew(-30deg);
+      }
+  }

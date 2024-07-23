@@ -56,50 +56,78 @@ const Institucional = () => {
   ];
 
   return (
-    <div className="institucional-container">
+    <section className="institucional-container">
       {/*Hero */}
-      <div className="hero-section">
+      <header className="hero-section">
         <div className="hero-image">
-          <div className="hero-text">
-            <h1>BETONMAC</h1>
-            <h3>Sub-texto de la empresa</h3>
+          <div className="institucional-hero-text">
+            <h1>empresa</h1>
+            <h3>sub-texto de la empresa</h3>
           </div>
         </div>
-      </div>
+      </header>
 
       {/*Ttexto descriptivo */}
-      <div className="separator-text">
+      <div className="institucional-description">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel massa lacinia, facilisis eros eget, iaculis velit. Maecenas rutrum lectus pharetra risus molestie aliquam. Phasellus augue augue, mattis ac bibendum eget, scelerisque et quam. Ut sed lacinia sem. Aenean varius metus sit amet nibh pharetra, et pharetra eros porttitor. Nam eu tortor vitae nisl aliquam pretium quis a tortor. In efficitur, velit vitae gravida maximus, augue augue porttitor elit, nec rhoncus tellus elit a ante. Ut vitae feugiat est. In cursus mattis dolor a egestas. In consectetur maximus lectus nec posuere. Duis sollicitudin arcu et tincidunt accumsan. Suspendisse blandit consequat sagittis.</p>
       </div>
 
       {/*Cards*/}
-      <div className="cards-container">
-        {cardsData.map((card, index) => (
-          <div key={index} className="card">
-            <div className="card-content" style={{ backgroundImage: `url(${card.image})` }}>
-              <h3>{card.title}</h3>
-              <p className="short-text">{card.shortText}</p>
-              <p className="full-text">{card.fullText}</p>
+
+     
+      <section className="article-container">
+        
+          <article  className="article card-especializacion" >
+            <div className="article-content" >
+              <h3>Especializacion</h3>
+              <p className="short-text">Parte del texto... (hover para más)</p>
+              <p className="full-text">Texto completo que se mostrará al hacer hover. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
             </div>
-          </div>
-        ))}
-      </div>
+          </article>
+          <article  className="article  card-ingenieria">
+            <div className="article-content" >
+              <h3>Ingenieria</h3>
+              <p className="short-text">Parte del texto... (hover para más)</p>
+              <p className="full-text">Texto completo que se mostrará al hacer hover. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+          </article>
+          <article  className="article  card-diversificacion">
+            <div className="article-content" >
+              <h3>Diversificacion</h3>
+              <p className="short-text">Parte del texto... (hover para más)</p>
+              <p className="full-text">Texto completo que se mostrará al hacer hover. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            </div>
+          </article>
+         
+      </section>
 
       {/*Seccion de Servicios*/}
-      <div className="services-section">
-        {servicesData.map((service, index) => (
-          <div key={index} className="service">
-            <div className="service-icon" style={{ backgroundImage: `url(${service.icon})` }}></div>
-            <p>{service.text}</p>
-          </div>
-        ))}
-      </div>
+      <section className='services'>
+        <figure >
+          <img src='/images/icons/calidad.png' alt="calidad" />
+          <figcaption>
+            control de calidad
+          </figcaption>
+        </figure>
+        <figure>
+          <img src='/images/icons/stock.png' alt="stock" />
+          <figcaption>
+            stock permanente
+          </figcaption>
+        </figure>
+        <figure>
+          <img src='/images/icons/tecnico.png' alt="tecnico" />
+          <figcaption>
+            servicio tecnico especializado
+          </figcaption>
+        </figure>
+      </section>
 
       {/*Separador*/}
-      <div className="image-separator"></div>
+      <div className="institucional-separator"></div>
 
       {/*Historia*/}
-      <div className="centered-text-section">
+      <div className="history">
         <h2>Historia</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel massa lacinia, facilisis eros eget, iaculis velit. Maecenas rutrum lectus pharetra risus molestie aliquam. Phasellus augue augue, mattis ac bibendum eget, scelerisque et quam. Ut sed lacinia sem. Aenean varius metus sit amet nibh pharetra, et pharetra eros porttitor. Nam eu tortor vitae nisl aliquam pretium quis a tortor. In efficitur, velit vitae gravida maximus, augue augue porttitor elit, nec rhoncus tellus elit a ante. Ut vitae feugiat est. In cursus mattis dolor a egestas. In consectetur maximus lectus nec posuere. Duis sollicitudin arcu et tincidunt accumsan. Suspendisse blandit consequat sagittis.
 
@@ -107,14 +135,32 @@ Praesent sit amet est in risus hendrerit malesuada. Ut vitae nunc aliquam, condi
       </div>
 
       {/*Seccion de Premios*/}
-      <div className="services-section">
-        {moreServicesData.map((service, index) => (
-          <div key={index} className="service">
-            <div className="service-icon" style={{ backgroundImage: `url(${service.icon})` }}></div>
-            <p>{service.text}</p>
-          </div>
-        ))}
-      </div>
+      <section className='services'>
+        <figure>
+          <img src='/images/icons/star.png' alt="calidad" />
+          <figcaption>
+          Premio al mayor volumen exportado
+          </figcaption>
+        </figure>
+        <figure>
+          <img src='/images/icons/star.png' alt="stock" />
+          <figcaption>
+          Distincion a la trayectoria exportadora
+          </figcaption>
+        </figure>
+        <figure>
+          <img src='/images/icons/star.png' alt="tecnico" />
+          <figcaption>
+          Premio al grado de internalizacion
+          </figcaption>
+        </figure>
+        <figure>
+          <img src='/images/icons/star.png' alt="tecnico" />
+          <figcaption>
+          Miembro fundador de la AAHE
+          </figcaption>
+        </figure>
+      </section>
 
       {/*Cards*/}
       <div className="cards-container">
@@ -127,7 +173,7 @@ Praesent sit amet est in risus hendrerit malesuada. Ut vitae nunc aliquam, condi
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

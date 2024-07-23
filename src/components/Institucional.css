@@ -1,7 +1,5 @@
 .institucional-container {
     width: 100%;
-    text-align: center;
-    padding: 20px;
   }
   
   .hero-section {
@@ -14,29 +12,107 @@
     justify-content: center;
   }
   
-  .hero-text h1, .hero-text h3 {
-    color: black;
+  .institucional-hero-text h1  {
+    line-height: 1;
+  font-size: 5rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'roboto-bold';
+  color: #003084;
+  }
+  .institucional-hero-text h3{
+    color: #003084;
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'roboto-medium';
+  }
+  .institucional-description {
+    padding: 100px 250px;
+    font-family: 'roboto-medium';
   }
   
-  .separator-text {
-    margin: 20px 0;
-  }
-  
-  .cards-container {
+  .article-container {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    height: 600px; 
+    width: 100%;
+    padding: 20px 40px ;
+   
+    
   }
   
-  .card {
+  .article {
     position: relative;
-    width: 30%;
-    background-color: #f1f1f1;
-    margin: 10px;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
     overflow: hidden;
     cursor: pointer;
+    
   }
   
+ 
+  
+  .article-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgba(52, 45, 105, 0.521);
+  }
+  .article-content h3 {
+    align-self: center;
+    font-family: 'roboto-bold';
+    font-size: 4rem;
+  }
+  .article-content p {
+    font-family: 'roboto-bold';
+    font-size: 1.6rem;
+    color: white;
+    text-align: left;
+    padding: 2rem;
+  }
+  .article:hover {
+    transform: scale(1.1);
+    height: 100%;
+    z-index: 2;
+   
+  }
+   .article-content:hover{
+    
+    background-color: rgba(7, 3, 37, 0.863);
+  }
+  
+  .article:hover .card-text {
+    display: none;
+    opacity: 0;
+  }
+  
+  .article:hover .card-text-extended {
+    display: block;
+    opacity: 1;
+  }
+  
+  .card-especializacion{
+    background: url('https://betonmac.com/images/Imagenes/Empresa/Inicios.JPG');
+  }
+  .card-ingenieria{
+    background: url('https://betonmac.com/images/Imagenes/Empresa/Belomonte-SMALL.jpg');
+    background-size: cover;
+    
+  }
+  .card-diversificacion{
+    background: url('https://betonmac.com/images/Imagenes/Empresa/Plaqueta2.jpg');
+  }
+
  .card-content-us{
     color: black;
     height: 100%;
@@ -51,42 +127,47 @@
     display: none;
     color: black
   }
-  
-  .card:hover .short-text {
+  .article:hover {
+    z-index: 2;
+  }
+  .article:hover .short-text {
     display: none;
     color: black
   }
   
-  .card:hover .full-text {
+  .article:hover .full-text {
     display: block;
   }
   
-  .services-section {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px 0;
-  }
+
   
-  .service {
-    width: 23%;
-    text-align: center;
-  }
-  
-  .service-icon {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto;
-  }
-  
-  .image-separator {
+  .institucional-separator {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/camposnovos.jpg') no-repeat center center/cover;
     margin: 20px 0;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
   
-  .centered-text-section {
-    margin: 20px 0;
+  .history {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20rem;
+    font-family:'roboto-medium';
+  }
+  .history h2 {
+    align-self: center;
   }
   
+  .services {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20rem;
+    padding: 5rem 0;
+    font-family: 'ultramagnetic-Regular';
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+  }
