@@ -54,7 +54,26 @@
   text-transform: uppercase;
   font-family: 'roboto-medium';
 }
-button {
+.button-hexagon{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 70px;
+  width: 70px;
+  background: url('/public/images/icons/hexagon-white.svg');
+  background-size: cover ;
+}
+.button-content{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: auto;
+  height: 28%;
+  width: 28%;
+  background: url('/public/images/icons/arrrow-white-wide.svg');
+  background-size: contain ;
+}
+/*button {
   position: relative;
   display: flex;
   justify-content: center;
@@ -116,4 +135,4 @@ button:hover span {
   100% {
     transform: scale(1);
   }
-}
+}*/
