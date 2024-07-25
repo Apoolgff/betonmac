@@ -11,7 +11,7 @@ const Hero = () => {
                     <div className='button-hexagon'><div className='button-content'></div></div>
 
                 </div>
-               <img className='hero-video' src="/videos/concrete-gif-video.gif" alt="background de prueba" />
+               <img className='hero-video' src="https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-Interior-Mina.jpg" alt="background de prueba" />
             </header>
           
         </>
