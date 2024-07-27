@@ -18,12 +18,12 @@
   
 }
 
-.card-overlay {
+/*.card-overlay {
  height: 100%;
   width: 110%;
   background-color: rgba(0, 0, 0, 0.5); 
  
-}
+}*/
 
 .card-content {
   position: relative;
@@ -33,8 +33,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
 
 
@@ -56,7 +56,7 @@
   display: none;
   opacity: 0;
 }
-
+/*
 .card:hover {
   transform: scale(1.1);
   height: 100%;
@@ -70,4 +70,4 @@
 .card:hover .card-text-extended {
   display: block;
   opacity: 1;
-}
+}*/
