@@ -163,10 +163,14 @@
     background-color: white;
     transition: 0.2s;
   }
-  .parallelogram-container:hover .parallelogram{
+  .parallelogram:hover{
     background-color: #FF9900;
     transition: 0.2s;
   }
+  /*.parallelogram-container:hover .parallelogram{
+    background-color: #FF9900;
+    transition: 0.2s;
+  }*/
   
   .parallelogram-a {
     
