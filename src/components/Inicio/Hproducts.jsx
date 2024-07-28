@@ -23,59 +23,59 @@ const Hproducts = () => {
         y seguros, y materias primas y componentes de calidad mundial</p>
       </div>
       <div className='home-products'>
-      <article className="home-products-cards">
+      <article className="home-products-cards home-products-cards-plantas">
         <div className='home-product-content'>
           <h2 className='home-product-title'>plantas de hormigon</h2>
           <Link className='home-product-link' to="/">
-            ver mas
+          <div className='button-hexagon-home'></div>
           </Link>
         </div>
-        <img className='home-product-image ' src="/images/home/planta-movil.png" alt="" />
+       
       </article>
-      <article className="home-products-cards">
+      <article className="home-products-cards home-products-cards-motohormigonera">
         <div className='home-product-content'>
           <h2 className='home-product-title'>motohormigoneras</h2>
           <Link className='home-product-link' to="/">
-            ver mas
+          <div className='button-hexagon-home'></div>
           </Link>
         </div>
-        <img className='home-product-image home-product-image-2' src="/public/images/home/motohormigonera.png" alt="" />
+       
       </article>
-      <article className="home-products-cards">
+      <article className="home-products-cards home-products-cards-silos">
         <div className='home-product-content'>
           <h2 className='home-product-title'>silos</h2>
           <Link className='home-product-link' to="/">
-            ver mas
+          <div className='button-hexagon-home'></div>
           </Link>
         </div>
-        <img className='home-product-image'  src="/images/home/planta-movil.png" alt="" />
+        
       </article>
-      <article className="home-products-cards">
+      <article className="home-products-cards home-products-cards-accesorios">
         <div className='home-product-content'>
           <h2 className='home-product-title'>accesorios</h2>
           <Link className='home-product-link' to="/">
-            ver mas
+          <div className='button-hexagon-home'></div>
           </Link>
         </div>
-        <img className='home-product-image' src="/images/home/cinta.png" alt="" />
+        
       </article>
-      <article className="home-products-cards">
+      <article className="home-products-cards home-products-cards-proyectos">
         <div className='home-product-content'>
           <h2 className='home-product-title'>proyectos</h2>
           <Link className='home-product-link' to="/">
-            ver mas
+          <div className='button-hexagon-home'></div>
           </Link>
         </div>
-        <img className='home-product-image' src="/images/home/proyecto.png" alt="" />
+       
       </article>
-      <article className="home-products-cards">
+      <article className="home-products-cards home-products-cards-automatismos">
         <div className='home-product-content'>
           <h2 className='home-product-title'>automatismos</h2>
           <Link className='home-product-link' to="/">
-            ver mas
+          <div className='button-hexagon-home'></div>
           </Link>
         </div>
-        <img className='home-product-image home-product-image-6' src='https://betonmac.com/images/Imagenes/automatismos/betonmatic/betonmatic-ini.png' alt="" />
+        
       </article>
       </div>
     </section>

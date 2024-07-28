@@ -12,6 +12,17 @@
   gap: 36px;
   margin: auto;
   align-items: center;
+ 
+}
+.home-product-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+  width: 100%;
+  height: 100%;
+  background-color: #2b45724d;
 }
 .home-products-title {
   font-family: 'roboto-bold';
@@ -19,6 +30,7 @@
   text-transform: uppercase;
   color: #003084;
  text-align: center;
+ 
 }
 .home-products-subtitle {
   font-family: 'roboto-light';
@@ -32,24 +44,47 @@
   display: flex;
   height: 20rem;
   width: 44rem;
-  background: linear-gradient(90deg, #003084,#075acf);
-  box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);
-  padding: 2rem;
-  justify-content: space-between;
   
+  background-position: top;
+  background-size: cover;
+  box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);
+  
+  justify-content: center;
+  align-items: center;
   }
-  .home-products-cards:hover{
-    background: linear-gradient(90deg, #e27200,#FF9900);
-    
+  .home-products-cards-plantas{
+    background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/Represas-patagonia.jpg');
+  background-size: cover;
+  }
+  .home-products-cards-motohormigonera{
+    background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/MTH-10-MB-SLIDE.jpg');
+  background-size: cover;
+  }
+  .home-products-cards-accesorios{
+    background: url('https://betonmac.com/images/Imagenes/Portadas-plantas/COMPLEMENTOS/Cinta-pesadora.jpg');
+  background-size: cover;
+  background-position: center ;
+  }
+  .home-products-cards-silos{
+    background: url('/public/images/home/silos.jpg');
+  background-size: cover;
+  background-position: center ;
+  }
+  .home-products-cards-proyectos{
+    background: url('https://betonmac.com/images/stories/com_form2content/p4/f16/40.jpg');
+  background-size: cover;
+  background-position: center ;
+  }
+  .home-products-cards-automatismos{
+    background: url('https://betonmac.com/images/Imagenes/Empresa/display.jpg');
+  background-size: cover;
+  background-position: center ;
   }
   
   .home-products-cards:hover .home-product-image {
     filter: drop-shadow(10px 10px 10px #755518);
   }
-  .home-product-content{
-    display: flex;
-    flex-direction: column;
-  }
+
 
   .home-product-image {
     filter: drop-shadow(10px 10px 10px #282888);
@@ -61,10 +96,11 @@
     animation-range: entry 10% cover 40%;
   }
   .home-product-title {
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'roboto-bold';
     text-transform: uppercase;
     font-size: 2rem;
+    
   }
 
  .home-product-image-2 {
@@ -103,3 +139,27 @@
     scale: 100%;
   }
  }
+ .button-hexagon-home{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 70px;
+  width: 70px;
+  background: url('/public/images/icons/button-white.png');
+  background-size: cover ;
+  transition: 0.5s;
+  cursor: pointer;
+  filter: invert(45%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
+  opacity: 0;
+}
+.button-hexagon-home:hover{
+  background: url('/public/images/icons/button-white-hover.png');
+  background-size: cover ;
+  transition: 0.5s;
+  
+  filter: invert(80%) sepia(100%) saturate(1000%) hue-rotate(190deg) brightness(100%) contrast(100%);
+}
+
+.home-products-cards:hover .button-hexagon-home{
+opacity: 1;
+}
