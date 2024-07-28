@@ -3,19 +3,20 @@
   justify-content: center;
   height: 600px; 
   width: 100%;
-  padding: 20px 0 90px 0;
-  background-color: white;
+  padding: 4rem 1rem;
+  background-color: rgb(245, 245, 253);
+  gap: 1rem;
 }
 
 .card {
-  position: relative;
-  flex: 1;
+  object-fit: cover;
   background-size: cover;
   background-position: center;
-  transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
+  transition: all ease-in-out 0.5s;
   overflow: hidden;
   cursor: pointer;
-  
+  box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);
+  width: 20%;
 }
 
 /*.card-overlay {
@@ -26,17 +27,46 @@
 }*/
 
 .card-content {
-  position: relative;
-  z-index: 1;
-  color: white;
-  text-align: center;
+ 
   height: 100%;
   display: flex;
-  flex-direction: column;
+ 
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: flex-end;
+  
 }
-
+.card-overlay {
+  display: flex;
+  width: 100%;
+opacity: 0;
+}
+.card:hover{
+  width: 35%;
+}
+.card-title{
+  font-family: 'roboto-medium';
+ 
+  opacity: 0;
+  transition: all ease-in-out 0.2s;
+  
+}
+.card:hover .card-overlay{
+  text-align: start;
+  padding: 1rem 2rem;
+  width: 100%;
+ opacity: 1;
+ transition: all ease-in-out 1.5s;
+ /*color: #ff9900;*/
+ background-color: rgba(5, 5, 73, 0.759);
+}
+.card:hover .card-title{
+  text-align: start;
+  width: 100%;
+ opacity: 1;
+ transition: all ease-in-out 1.5s;
+ /*color: #ff9900;*/
+ 
+}
 
 .card-title {
   font-size: 1.5rem;
@@ -44,7 +74,7 @@
   color: white;
 }
 
-.card-text,
+/*.card-text,
 .card-text-extended {
   color: rgb(250, 192, 45);
   font-size: 1rem;
@@ -55,7 +85,7 @@
 .card-text-extended {
   display: none;
   opacity: 0;
-}
+}*/
 /*
 .card:hover {
   transform: scale(1.1);

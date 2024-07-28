@@ -1,7 +1,10 @@
 .home-container-products{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(245, 245, 253);
+  padding: 5rem;
 }
 .home-products {
   display: grid;
@@ -10,12 +13,26 @@
   margin: auto;
   align-items: center;
 }
+.home-products-title {
+  font-family: 'roboto-bold';
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #003084;
+ text-align: center;
+}
+.home-products-subtitle {
+  font-family: 'roboto-light';
+  font-size: 1.21rem;
+  line-height: 1.5 ;
+ text-align: center;
+ margin: 1rem 20rem;
+}
+
 .home-products-cards{
   display: flex;
   height: 20rem;
   width: 44rem;
   background: linear-gradient(90deg, #003084,#075acf);
-  border-radius: 2rem;
   box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);
   padding: 2rem;
   justify-content: space-between;

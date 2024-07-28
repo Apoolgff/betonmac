@@ -3,10 +3,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+    padding: 10rem;
     height: 220px;
     background-color: white;
     color: black;
-    font-family: 'roboto-light';
+    font-family: 'roboto-medium';
+    
+}
+.home-contact-title {
+    align-self: center;
+    font-size: 2rem;
     text-transform: uppercase;
+    font-family: 'roboto-medium';
+    color: rgb(24, 24, 131);
+}
+
+.home-contact-subtitle {
+    text-align: center;
+    margin: 1rem 20rem;
+    font-family: 'roboto-light';
+    line-height: 1.5;
+    font-size: 1.21rem;
 }
