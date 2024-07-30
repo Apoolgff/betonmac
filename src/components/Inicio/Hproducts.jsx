@@ -13,15 +13,9 @@ const products = [
 
 const Hproducts = () => {
   return (
+    <div className='background'>
     <section className='home-container-products'>
-      
-      <div className='home-product-container-title'>
-      <h2 className='home-products-title'>productos y servicios</h2>
-      <p className='home-products-subtitle'>Proporcionamos equipos confiables en el tiempo, que aseguran productividad y 
-        calidad en el proceso de elaboración y dosificación de hormigón y productos afines con menores costos
-        de producción para el cliente, logrado a partir de diseños precisos, procesos industriales eficientes
-        y seguros, y materias primas y componentes de calidad mundial</p>
-      </div>
+     
       <div className='home-products'>
       <article className="home-products-cards home-products-cards-plantas">
         <div className='home-product-content'>
@@ -79,6 +73,7 @@ const Hproducts = () => {
       </article>
       </div>
     </section>
+    </div>
   );
 };
 

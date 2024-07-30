@@ -16,6 +16,7 @@
   object-fit: cover;
   
   z-index: -1; 
+  filter: brightness(0.7);
 }
 
 /*.hero-container::before {
@@ -62,16 +63,208 @@
   width: 70px;
   background: url('/public/images/icons/button-white.png');
   background-size: cover ;
-  transition: 0.5s;
+  
   cursor: pointer;
-  filter: invert(45%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
+  transition: 0.1s;
   
 }
 .button-hexagon-white:hover{
-  background: url('/public/images/icons/button-white-hover.png');
-  background-size: cover ;
+  background: none;
   transition: 0.5s;
-  
-  filter: invert(80%) sepia(100%) saturate(1000%) hue-rotate(190deg) brightness(100%) contrast(100%);
+
 }
 
+.button-hexagon-white:hover .harallelogram-container{
+opacity: 1;
+transition: 1s;
+}
+.harallelogram-container {
+  position: relative;
+  width: 75px; 
+  height: 70px;
+  margin: 0;
+ 
+ 
+}
+
+.harallelogram {
+  width: 38px; 
+  height: 15px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 10px; 
+  font-weight: bold;
+  position: absolute;
+  border-radius: 0 4px 1px 0; 
+  background-color:white;
+  transition: 0.2s;
+  cursor: pointer;
+ 
+}
+
+/*.parallelogram-container:hover .parallelogram{
+  background-color: #FF9900;
+  transition: 0.2s;
+}*/
+
+.harallelogram-a {
+
+  
+  transform: rotate(-30deg) skew(-30deg); 
+  animation: left-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+}
+
+.harallelogram-c {
+  
+  transform: rotate(-30deg) skew(-30deg); 
+  top: 20px; 
+  animation: left-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+ 
+ 
+}
+@keyframes left-animation-logo-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0px) translateY(0) rotate(-30deg) skew(-30deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-25px) translateY(15px) rotate(-30deg) skew(-30deg); 
+  }
+
+  
+  }
+
+@keyframes left-animation-logo {
+0% {
+  opacity: 0;
+  transform: translateX(-25px) translateY(15px) rotate(-30deg) skew(-30deg); 
+}
+
+100% {
+  opacity: 1;
+  transform: translateX(0px) translateY(0) rotate(-30deg) skew(-30deg);
+}
+}
+
+.harallelogram-b {
+  
+  transform: rotate(90deg) skew(-30deg); 
+  top: 6px; 
+  left: 26.5px; 
+  animation: top-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+  z-index: 1;
+}
+
+.harallelogram-d {
+  
+  transform: rotate(90deg) skew(-30deg); 
+  top: 16px; 
+  left: 44px;
+  animation: top-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+  z-index: 1;
+}
+@keyframes top-animation-logo-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(90deg) skew(-30deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-25px) rotate(90deg) skew(-30deg); 
+  }
+  
+  
+  }
+@keyframes top-animation-logo {
+0% {
+  opacity: 0;
+  transform: translateY(-25px) rotate(90deg) skew(-30deg); 
+}
+
+100% {
+  opacity: 1;
+  transform: translateY(0) rotate(90deg) skew(-30deg);
+}
+}
+
+.harallelogram-f {
+  
+  transform: rotate(210deg) skew(-30deg); 
+  top: 36px; 
+  left: 25px; 
+  animation: right-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+  z-index: 1;
+}
+.harallelogram-e {
+  
+  transform: rotate(210deg) skew(-30deg); 
+   top: 46px; 
+    left: 8px; 
+    animation: right-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+    z-index: 1;
+}
+@keyframes right-animation-logo-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0px) translateY(0) rotate(210deg) skew(-30deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(25px) translateY(15px) rotate(210deg) skew(-30deg); 
+  }
+  
+  
+  }
+@keyframes right-animation-logo {
+0% {
+  opacity: 0;
+  transform: translateX(25px) translateY(15px) rotate(210deg) skew(-30deg); 
+}
+
+100% {
+  opacity: 1;
+  transform: translateX(0px) translateY(0) rotate(210deg) skew(-30deg);
+}
+}
+
+.harallelogram-button {
+  transform: scale(0.9) translateY(7px) translateX(-1px);
+  opacity: 0;
+  transition: opacity 0.5s;
+  
+}
+
+.button-hexagon-white:hover .harallelogram-c {
+  animation: left-animation-logo 0.3s ease-in-out 0s 1 normal none;
+}
+.button-hexagon-white:hover .harallelogram-a {
+  animation: left-animation-logo 0.3s ease-in-out 0s 1 normal none;
+}
+.button-hexagon-white:hover .harallelogram-b {
+  animation: top-animation-logo 0.5s ease-in-out 0s 1 normal none;
+}
+.button-hexagon-white:hover .harallelogram-d {
+  animation: top-animation-logo 0.5s ease-in-out 0s 1 normal none;
+}
+.button-hexagon-white:hover .harallelogram-e {
+  animation: right-animation-logo 0.7s ease-in-out 0s 1 normal none;
+}
+.button-hexagon-white:hover .harallelogram-f {
+  animation: right-animation-logo 0.7s ease-in-out 0s 1 normal none;
+}
+
+.button-hexagon-full {
+  position: relative;
+  height: 80px;
+  z-index: 2;
+  transform: translateX(-5px) translateY(-12px);
+  opacity: 0;
+}
+.button-hexagon-white:hover .button-hexagon-full {
+ opacity: 1;
+ transition: opacity 1s ease-in;
+}

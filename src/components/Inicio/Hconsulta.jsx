@@ -12,7 +12,19 @@ const Hconsulta = () => {
                 contando además con un completo stock de repuestos que otorgue
                 una rápida solución a sus demandas
             </p>
-            <div><div className='button-hexagon-white'></div></div>
+            <div>
+                <div className='button-hexagon-consulta'> 
+                    <div className='carallelogram-container carallelogram-button'>
+                        <div className='carallelogram carallelogram-c'></div>
+                        <div className='carallelogram carallelogram-a'></div>
+                        <div className='carallelogram carallelogram-b'></div>
+                        <div className='carallelogram carallelogram-d'></div>
+                        <div className='carallelogram carallelogram-e'></div>
+                        <div className='carallelogram carallelogram-f'></div> 
+                        <img className='button-hexagon-full' src="/public/images/icons/button-white-hover.png" alt="" /> 
+                    </div>
+                </div>
+            </div>
           
         </section>
     )
