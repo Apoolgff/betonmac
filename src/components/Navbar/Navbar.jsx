@@ -14,12 +14,12 @@ const Navbar = () => {
            { <div className="logo">
                 <Link to="/">
                 <div className='parallelogram-container'>
-                        <div className='parallelogram parallelogram-c'></div>
-                        <div className='parallelogram parallelogram-a'></div>
-                        <div className='parallelogram parallelogram-b'></div>
-                        <div className='parallelogram parallelogram-d'></div>
-                        <div className='parallelogram parallelogram-e'></div>
-                        <div className='parallelogram parallelogram-f'></div>  
+                        <div className='parallelogram parallelogram-c '></div>
+                        <div className='parallelogram parallelogram-a '></div>
+                        <div className='parallelogram parallelogram-b '></div>
+                        <div className='parallelogram parallelogram-d '></div>
+                        <div className='parallelogram parallelogram-e '></div>
+                        <div className='parallelogram parallelogram-f '></div>  
                 </div>
                 
                  

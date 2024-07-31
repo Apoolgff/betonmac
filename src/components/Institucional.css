@@ -1,5 +1,14 @@
 .institucional-container {
     width: 100%;
+    
+  }
+  .hero-image {
+    background-color: #0a19336b;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .hero-section {
@@ -10,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   .institucional-hero-text h1  {
@@ -18,10 +28,10 @@
   margin: 0;
   text-transform: uppercase;
   font-family: 'roboto-bold';
-  color: #003084;
+  color: white;
   }
   .institucional-hero-text h3{
-    color: #003084;
+    color: white;
     font-size: 2rem;
     margin: 0;
     text-transform: uppercase;
@@ -74,8 +84,8 @@
     font-size: 4rem;
   }
   .article-content p {
-    font-family: 'roboto-bold';
-    font-size: 1.6rem;
+    font-family: 'roboto-medium';
+    font-size: 1.4rem;
     color: white;
     text-align: left;
     padding: 2rem;
@@ -143,12 +153,13 @@
   
   .institucional-separator {
     width: 100%;
-    height: 300px;
+    height: 200px;
     background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/camposnovos.jpg') no-repeat center center/cover;
     margin: 20px 0;
     background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
+    
   }
   
   .history {
@@ -157,8 +168,16 @@
     margin: 20px 20rem;
     font-family:'roboto-medium';
   }
-  .history h2 {
-    align-self: center;
+  .institucional-history {
+    width: 100%;
+    height: 100%;
+    color: #ff9900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(22, 22, 63, 0.867);
+    font-family: 'roboto-bold';
+    font-size: 4rem;
   }
   
   .services {
@@ -170,6 +189,50 @@
     text-transform: uppercase;
     align-items: center;
     text-align: center;
+    color: #003084;
   }
+.services img {
+  filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
+}
+.harallelogram-service {
+  filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
+}
+.service-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.cards-container-certification{
+  display: flex;
+  justify-content: center;
+  height: 45rem; 
+  width: 100%;
+  padding: 4rem 1rem;
+  background-color: rgb(245, 245, 253);
+ /* background-color: rgb(17, 17, 49);*/
+  gap: 1rem;
+}
+
+.card-certification {
+  object-fit: cover;
+  background-size: contain;
+  background-position: center;
+ 
+  cursor: pointer;
+  box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);
+  width: 25%;
+}
+
+
+
+.card-content-us {
+ 
+  height: 100%;
+  display: flex;
+ 
+  justify-content: flex-end;
+  align-items: flex-end;
   
+}

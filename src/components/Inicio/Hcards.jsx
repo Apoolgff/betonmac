@@ -11,9 +11,9 @@ const cards = [
 
 const Hcards = () => {
   return (
-<div className="cards-container">
+<section className="cards-container">
       {cards.map((card, index) => (
-        <div key={index} className="card" style={{ backgroundImage: `url(${card.image})` }}>
+        <article key={index} className="card" style={{ backgroundImage: `url(${card.image})` }}>
           
           <div className="card-content">
           <div className="card-overlay">
@@ -23,9 +23,9 @@ const Hcards = () => {
          
             </div>
           </div>
-        </div>
+        </article>
       ))}
-    </div>
+    </section>
   );
 };
 

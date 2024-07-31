@@ -15,15 +15,15 @@ const Contacto = () => {
   }, []);
 
   const ubication = [
-    'Fabrica',
-    'Argentina',
-    'Brasil',
-    'Ecuador',
-    'Peru',
-    'Uruguay',
-    'Paraguay',
-    'Chile',
-    'Bolivia'
+
+    {title: 'argentina', image:'/public/images/paises/argentina.jpg'},
+    {title: 'brasil', image:'/public/images/paises/brasil.jpg'},
+    {title: 'ecuador', image:'/public/images/paises/ecuador.jpg'},
+    {title: 'peru', image:'/public/images/paises/peru.jpg'},
+    {title: 'uruguay', image:'/public/images/paises/uruguay.jpg'},
+    {title: 'paraguay', image:'/public/images/paises/paraguay.jpg'},
+    {title: 'chile', image:'/public/images/paises/chile.jpg'},
+    {title: 'bolivia', image:'/public/images/paises/bolivia.jpg'},
   ];
 
   const groupedContact = contact.reduce((acc, cont) => {
@@ -44,9 +44,10 @@ const Contacto = () => {
       {/*Grilla de Contactos*/}
       <div className="contact-grid">
         {ubication.map((ubi, index) => (
-          <div key={index} className="contact-card">
-            <h3>{ubi}</h3>
-            <div className="contact-details">
+          <div key={index} className="contact-card contact-card-`${ubi.title}`" style={{ backgroundImage: `url(${ubi.image})` }}>
+            <div className='contact-content'>
+              <h3>{ubi.title}</h3>
+              <div className="contact-details">
               {groupedContact[ubi] ? (
                 groupedContact[ubi].map(contact => (
                   <button 
@@ -60,6 +61,7 @@ const Contacto = () => {
               ) : (
                 <p>No hay contactos en este país.</p>
               )}
+            </div>
             </div>
           </div>
         ))}

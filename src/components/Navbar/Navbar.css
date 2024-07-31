@@ -27,6 +27,7 @@
     animation: logo-text-animation 3s ease 0s 1 normal none;
     transition: color 0.2s;
 }
+
 .logo-text span{
   transition: color 0.2s;
 }

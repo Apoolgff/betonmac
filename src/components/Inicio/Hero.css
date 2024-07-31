@@ -71,7 +71,7 @@
 .button-hexagon-white:hover{
   background: none;
   transition: 0.5s;
-
+  cursor: pointer;
 }
 
 .button-hexagon-white:hover .harallelogram-container{
@@ -93,14 +93,13 @@ transition: 1s;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   font-size: 10px; 
   font-weight: bold;
   position: absolute;
   border-radius: 0 4px 1px 0; 
   background-color:white;
   transition: 0.2s;
-  cursor: pointer;
+ 
  
 }
 
@@ -110,20 +109,20 @@ transition: 1s;
 }*/
 
 .harallelogram-a {
-
-  
   transform: rotate(-30deg) skew(-30deg); 
-  animation: left-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+  
 }
 
 .harallelogram-c {
-  
   transform: rotate(-30deg) skew(-30deg); 
   top: 20px; 
-  animation: left-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
- 
  
 }
+.animation-button-left {
+  animation: left-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+}
+
+
 @keyframes left-animation-logo-out {
   0% {
     opacity: 1;
@@ -154,8 +153,6 @@ transition: 1s;
   transform: rotate(90deg) skew(-30deg); 
   top: 6px; 
   left: 26.5px; 
-  animation: top-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
-  z-index: 1;
 }
 
 .harallelogram-d {
@@ -163,9 +160,12 @@ transition: 1s;
   transform: rotate(90deg) skew(-30deg); 
   top: 16px; 
   left: 44px;
-  animation: top-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
-  z-index: 1;
 }
+
+.animation-button-top{
+  animation: top-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+}
+
 @keyframes top-animation-logo-out {
   0% {
     opacity: 1;
@@ -192,21 +192,19 @@ transition: 1s;
 }
 
 .harallelogram-f {
-  
   transform: rotate(210deg) skew(-30deg); 
   top: 36px; 
   left: 25px; 
-  animation: right-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
-  z-index: 1;
 }
 .harallelogram-e {
-  
   transform: rotate(210deg) skew(-30deg); 
    top: 46px; 
     left: 8px; 
-    animation: right-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
-    z-index: 1;
 }
+.animation-button-right{
+  animation: right-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
+}
+
 @keyframes right-animation-logo-out {
   0% {
     opacity: 1;
@@ -261,7 +259,7 @@ transition: 1s;
   position: relative;
   height: 80px;
   z-index: 2;
-  transform: translateX(-5px) translateY(-12px);
+  transform: translateX(-3.5px) translateY(-11.7px);
   opacity: 0;
 }
 .button-hexagon-white:hover .button-hexagon-full {

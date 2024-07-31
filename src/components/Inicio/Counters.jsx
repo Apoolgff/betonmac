@@ -9,10 +9,10 @@ const Counters = () => {
         <>
             <section className='hero-count'>
                 <Link to="/obras" className='hero-count-item'>
-                     <p>Obras</p>
+                     <p>150 Obras</p>
                 </Link>
                 <Link to="/contacto" className='hero-count-item'>
-                <p>Paises</p>
+                <p>8 Paises</p>
                 </Link>
 
             </section>

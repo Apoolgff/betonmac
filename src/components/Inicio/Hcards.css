@@ -1,9 +1,9 @@
 .cards-container {
   display: flex;
   justify-content: center;
-  height: 600px; 
+  height: 800px; 
   width: 100%;
-  padding: 4rem 1rem;
+  padding: 11rem 1rem;
   background-color: rgb(245, 245, 253);
  /* background-color: rgb(17, 17, 49);*/
   gap: 1rem;
@@ -45,7 +45,7 @@ opacity: 0;
   width: 35%;
 }
 .card-title{
-  font-family: 'roboto-medium';
+  font-family: 'roboto-light';
  
   opacity: 0;
   transition: all ease-in-out 0.2s;
@@ -70,7 +70,7 @@ opacity: 0;
 }
 
 .card-title {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 0;
   color: white;
 }
