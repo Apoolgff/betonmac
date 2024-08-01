@@ -3,22 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Asegurar que el tamaño del contenido sea el deseado */
-html {
-  box-sizing: border-box;
-}
-
-/* Asegurar que los elementos hereden el modelo de caja correcto */
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 
 @font-face {
   font-family: 'ultramagnetic';
