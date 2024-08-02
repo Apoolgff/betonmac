@@ -33,6 +33,7 @@
   .contact-list {
     display: flex;
     flex-direction: column;
+    
   }
   .contact-details {
   
@@ -60,13 +61,13 @@
     font-family: 'roboto-light';
     
   }
-  .summary-button {
+  /*.summary-button {
     position: absolute;
     right: 2rem;
     transform: scale(60%) translateY(-1rem);
-   /* filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);*/
+    filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
    filter: invert(80%) sepia(100%) saturate(1000%) hue-rotate(190deg) brightness(100%) contrast(100%);
-  }
+  }*/
   /*.hexagon-gallery {
     margin: auto;
     margin-top: 50px;

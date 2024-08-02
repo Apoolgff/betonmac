@@ -35,10 +35,7 @@
   margin: auto auto auto 120px;
   text-align: start;
 }
-.hero-button {
-  height: 50px;
-  width: 50px;
-}
+
 
 .hero-title {
   line-height: 1;
@@ -55,7 +52,7 @@
   text-transform: uppercase;
   font-family: 'roboto-medium';
 }
-.button-hexagon-white{
+/*.button-hexagon-white{
   display: flex;
   align-items: center;
   justify-items: center;
@@ -63,10 +60,8 @@
   width: 70px;
   background: url('/public/images/icons/button-white.png');
   background-size: cover ;
-  
   cursor: pointer;
-  transition: 0.1s;
-  
+  transition: 0.1s;  
 }
 .button-hexagon-white:hover{
   background: none;
@@ -101,13 +96,13 @@ transition: 1s;
   transition: 0.2s;
  
  
-}
+}*/
 
 /*.parallelogram-container:hover .parallelogram{
   background-color: #FF9900;
   transition: 0.2s;
 }*/
-
+/*
 .harallelogram-a {
   transform: rotate(-30deg) skew(-30deg); 
   
@@ -265,4 +260,4 @@ transition: 1s;
 .button-hexagon-white:hover .button-hexagon-full {
  opacity: 1;
  transition: opacity 1s ease-in;
-}
+}*/

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import '../utils/Button.css'
 
 const Hero = () => {
     return (

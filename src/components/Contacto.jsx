@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Tarjeta from './contacto/Tarjeta';
 import Box from './contacto/Box';
 import './Contacto.css';
+import './utils/Button.css'
 
 const Contacto = () => {
   const [contact, setContact] = useState([]);
@@ -50,7 +51,7 @@ const Contacto = () => {
             <summary className='contact-summary'>
               <h3 className='summary-title'>{ubi.title}</h3>
               <div className='summary-button'>
-              <div className='button-hexagon-white'>
+              <div className='button-hexagon-blue'>
                         <div className='harallelogram-container harallelogram-button'>
                             <div className='harallelogram harallelogram-c animation-button-left'></div>
                             <div className='harallelogram harallelogram-a animation-button-left'></div>
@@ -58,10 +59,12 @@ const Contacto = () => {
                             <div className='harallelogram harallelogram-d animation-button-top'></div>
                             <div className='harallelogram harallelogram-e animation-button-right'></div>
                             <div className='harallelogram harallelogram-f animation-button-right'></div>
-                            <img className="button-hexagon-full"src="/public/images/icons/button-white-hover.png" alt="" />  
+                            <img className="button-hexagon-full"src="/public/images/icons/button-blue-top-full.png" alt="" />  
                         </div>
                     </div>
                     </div>
+              </summary>
+              asdasdasd
               <div className="contact-individual">
               {groupedContact[ubi] ? (
                 groupedContact[ubi].map(contact => (
@@ -77,7 +80,7 @@ const Contacto = () => {
                 <p>No hay contactos en este país.</p>
               )}
             </div>
-            </summary>
+           
           </details>
         ))}
       </div>
