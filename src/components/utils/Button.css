@@ -270,3 +270,16 @@
     transform: translateX(-3.5px) translateY(-11.7px);
     opacity: 0;
   }
+
+  /*PARALELOGRAMO SERVICIO */
+  .harallelogram-service {
+    /*filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);*/
+    background-color: #ff9900;
+  }
+  .harallelogram-logo {
+    background-color: var(--primary-color);
+
+  }
+  .harallelogram-logo-container {
+    transform: translateY(6px);
+  }

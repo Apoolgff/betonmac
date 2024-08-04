@@ -10,7 +10,7 @@
     align-items: center;
     padding: 10rem;
     height: 600px;
-    background-color: rgba(22, 22, 63, 0.867);
+    background-color: var(--layer-color);
     
     font-family: 'roboto-medium';
     
@@ -21,17 +21,17 @@
     text-transform: uppercase;
     font-family: 'roboto-bold';
     /*color: rgb(24, 24, 131);*/
-    color: #ff9900;
+    color: var(--secondary-color);
 }
 
 .home-contact-subtitle {
     text-align: center;
-    margin: 1rem 20rem;
+    margin: 1rem auto;
     font-family: 'roboto-light';
     line-height: 1.5;
     font-size: 1.3rem;
     color: white;
-
+    max-width: 60rem;
 }
 /*
 .button-hexagon-consulta{

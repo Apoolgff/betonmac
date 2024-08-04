@@ -1,12 +1,17 @@
-
+.hproducts-title {
+  text-transform: uppercase;
+  font-family: 'roboto-bold';
+  font-size: 3rem;
+  color: var(--primary-color);
+}
 
 .home-container-products{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(245, 245, 253);
-  padding: 12rem 1rem;
+  background-color: var(--background-color);
+  padding: 5rem 1rem 12rem;
 }
 .home-products {
   display: grid;
@@ -34,22 +39,17 @@
   background: linear-gradient(0deg, rgba(5, 5, 5, 0.34) 10%, rgba(150, 155, 245, 0.194) 50%);
 
 }
-.home-products-title {
-  font-family: 'roboto-bold';
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: #ff9900;
- text-align: center;
+
  
- 
-}
+
 .home-products-subtitle {
   font-family: 'roboto-light';
-  font-size: 1.21rem;
+  font-size: 1.3rem;
   line-height: 1.5 ;
  text-align: center;
- margin: 1rem 20rem;
- color: white;
+ margin: 1rem auto 3rem;
+ color: black;
+ max-width: 60rem;
 }
 
 .home-products-cards{
@@ -60,11 +60,11 @@
   background-position: top;
   background-size: cover;
  /* box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);*/
-  
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   }
-  
+
   .home-products-cards-plantas{
     background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/Represas-patagonia.jpg');
   background-size: cover;

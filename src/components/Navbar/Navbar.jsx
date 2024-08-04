@@ -4,6 +4,7 @@ import './Navbar.css';
 import { useMediaQuery } from 'react-responsive';
 import Menu from './Menu';
 import HamburgerMenu from './Hamburguesa';
+import '../utils/Button.css'
 
 
 const Navbar = () => {
@@ -13,13 +14,13 @@ const Navbar = () => {
             {/*Seccion del Logo*/}
            { <div className="logo">
                 <Link to="/">
-                <div className='parallelogram-container'>
-                        <div className='parallelogram parallelogram-c '></div>
-                        <div className='parallelogram parallelogram-a '></div>
-                        <div className='parallelogram parallelogram-b '></div>
-                        <div className='parallelogram parallelogram-d '></div>
-                        <div className='parallelogram parallelogram-e '></div>
-                        <div className='parallelogram parallelogram-f '></div>  
+                <div className='harallelogram-container harallelogram-logo-container'>
+                        <div className='harallelogram harallelogram-c harallelogram-logo'></div>
+                        <div className='harallelogram harallelogram-a harallelogram-logo'></div>
+                        <div className='harallelogram harallelogram-b harallelogram-logo'></div>
+                        <div className='harallelogram harallelogram-d harallelogram-logo'></div>
+                        <div className='harallelogram harallelogram-e harallelogram-logo'></div>
+                        <div className='harallelogram harallelogram-f harallelogram-logo'></div>  
                 </div>
                 
                  

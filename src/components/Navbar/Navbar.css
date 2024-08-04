@@ -2,28 +2,30 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(17, 17, 49);
+   /* background-color: rgb(17, 17, 49);*/
+    /*background-color: var(--primary-color);*/
     background-size: cover;
     background-position: top;
-    padding: 5px 20px;
+    
     font-family: 'roboto-light';
-    height: 100px;
+    height: 90px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     text-decoration: none;
+    margin-left: 8rem;
 }
 
 
 .logo-text {
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
     font-family: 'ultramagnetic';
     text-transform: uppercase;
     font-size: 47px;
-    margin-left:-85px ;
+   margin-left: 4px;
     animation: logo-text-animation 3s ease 0s 1 normal none;
     transition: color 0.2s;
 }
@@ -51,13 +53,7 @@
 	}
 }
 
-.logo img {
-    text-decoration: none;
-    color: #260E17;
-    max-width: 250px;
-   
-    margin-left: 10px;
-}
+
 
 .nav-links {
     display: flex;
@@ -72,13 +68,16 @@
     margin: 18px;
     padding-bottom: 6px;
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
     display: inline-block; 
     position: relative; 
     text-decoration: none;
     cursor: pointer;
     font-family: 'roboto-light';
+}
+.nav-item:hover{
+ font-family: 'roboto-bold';
 }
 
 .nav-item::after {
@@ -115,18 +114,7 @@
         padding: 1rem;
     }*/
 
-    .logo {
-        /*margin-bottom: 1rem;*/
-        display: flex;
-        align-items: center;
-    }
-
-    .logo img {
-        text-decoration: none;
-        color: #260E17;
-        /*max-width: 100%;
-        max-height: 100%;*/
-    }
+   
 
     .nav-item {
         padding: 0.5rem 1rem;
@@ -156,12 +144,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--primary-color);
     font-size: 10px; 
     font-weight: bold;
     position: absolute;
     border-radius: 0 4px 1px 0; 
-    background-color: white;
+    background-color: var(--primary-color);
     transition: 0.2s;
   }
   /*.parallelogram:hover{

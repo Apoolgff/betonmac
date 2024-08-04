@@ -72,7 +72,7 @@
     width: 100%;
     height: 350px;
     display: flex;
-    background-color: #1d2738;
+    background-color: var(--footer-color);
     color: white;
     display: flex;
     flex-direction: column;
@@ -136,7 +136,7 @@
     transition: 0.2s;
   }
   .farallelogram:hover{
-    background-color: #FF9900;
+    background-color: var(--secondary-color);
     transition: 0.2s;
     cursor: pointer;
   }

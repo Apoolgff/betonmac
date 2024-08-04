@@ -11,7 +11,13 @@ const cards = [
 
 const Hcards = () => {
   return (
-<section className="cards-container">
+<section className="hcards-section">
+  <h2 className='hcards-title'>64 años de experiencia</h2>
+  <p className='hcards-subtitle'>Acompañando las crecientes necesidades del mercado, asegurando la continua innovación de nuestros equipos
+    con foco en la investigacion y desarrollo de automatismos, tecnología avanzada y soluciones informáticas que
+    optimice el menor costo, mayor calidad y productividad de hormigón elaborado 
+  </p>
+  <div className="cards-container">
       {cards.map((card, index) => (
         <article key={index} className="card" style={{ backgroundImage: `url(${card.image})` }}>
           
@@ -25,6 +31,7 @@ const Hcards = () => {
           </div>
         </article>
       ))}
+      </div>
     </section>
   );
 };

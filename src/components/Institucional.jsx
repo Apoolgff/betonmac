@@ -1,5 +1,6 @@
 import React from 'react';
 import './Institucional.css';
+import './utils/Button.css';
 
 const Institucional = () => {
   const cardsData = [

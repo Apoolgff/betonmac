@@ -194,9 +194,9 @@
 .services img {
   filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
 }
-.harallelogram-service {
+/*.harallelogram-service {
   filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
-}
+}*/
 .service-image {
   width: 100%;
   display: flex;

@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --primary-color: #010A66;
+  --secondary-color: #FF9900;
+  --underline-color: #c7def7;
+  --layer-color: rgba(22, 22, 63, 0.867);
+  --background-color: rgb(245, 245, 253);
+  --footer-color: #1d2738;
+}
 
 
 @font-face {

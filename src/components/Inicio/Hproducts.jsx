@@ -15,7 +15,11 @@ const Hproducts = () => {
   return (
     <div className='background'>
     <section className='home-container-products'>
-     
+     <h2 className='hproducts-title'>nuestros productos y servicios</h2>
+     <p className='home-products-subtitle'>Equipos confiables, que aseguran productividad y 
+  calidad en el proceso de elaboración y dosificación de hormigón y productos afines con menores costos
+  de producción para el cliente, logrado a partir de diseños precisos, procesos industriales eficientes
+  y seguros, materias primas y componentes de calidad mundial</p>
       <div className='home-products'>
       <article className="home-products-cards home-products-cards-plantas">
         <div className='home-product-content'>
