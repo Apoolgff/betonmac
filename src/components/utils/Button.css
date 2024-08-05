@@ -141,7 +141,7 @@
   
   .harallelogram-c {
     transform: rotate(-30deg) skew(-30deg); 
-    top: 20px; 
+    top: 20.5px; 
    
   }
   .animation-button-left {
@@ -177,15 +177,15 @@
   .harallelogram-b {
     
     transform: rotate(90deg) skew(-30deg); 
-    top: 6px; 
+    top: 5.2px; 
     left: 26.5px; 
   }
   
   .harallelogram-d {
     
     transform: rotate(90deg) skew(-30deg); 
-    top: 16px; 
-    left: 44px;
+    top: 15.5px; 
+    left: 44.3px;
   }
   
   .animation-button-top{
@@ -220,12 +220,12 @@
   .harallelogram-f {
     transform: rotate(210deg) skew(-30deg); 
     top: 36px; 
-    left: 25px; 
+    left: 26.5px; 
   }
   .harallelogram-e {
     transform: rotate(210deg) skew(-30deg); 
-     top: 46px; 
-      left: 8px; 
+     top: 46.25px; 
+      left: 8.8px; 
   }
   .animation-button-right{
     animation: right-animation-logo-out 0.5s ease-in-out 0s 1 normal none;
@@ -282,4 +282,11 @@
   }
   .harallelogram-logo-container {
     transform: translateY(6px);
+  }
+
+
+  /*paralelogramo checkbox*/
+
+  .harallelogram-checkbox .haralellogram {
+    background-color: #010A66;
   }

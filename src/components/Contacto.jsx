@@ -15,6 +15,16 @@ const Contacto = () => {
       .catch(error => console.error('Error fetching data:', error));
   }, []);
 
+
+  const fabrica = [
+    {title: 'ventas repuestos', phone:' (54-351) 464 2107 Int:155' , mail:'repuestos@betonmac.com.ar'},
+    {title: 'soporte', phone:'(54-351) 464 2107' , mail:'soporte@betonmac.com.ar'},
+    {title: 'solicitud técnico en obra ', phone:'(+54 - 351) 464 2107 Int 165' , mail:' solicitud.tecnico@betonmac.com.ar'},
+    {title: 'ventas equipos', phone:'(+54 - 351) 464 2107 Int 165' , mail:'ventas@betonmac.com.ar'},
+   
+  ];
+
+
   const ubication = [
     {title: 'argentina', image:'/public/images/paises/argentina.jpg'},
     {title: 'uruguay', image:'/public/images/paises/uruguay.jpg'},
@@ -23,10 +33,6 @@ const Contacto = () => {
     {title: 'chile', image:'/public/images/paises/chile.jpg'},
     {title: 'bolivia', image:'/public/images/paises/bolivia.jpg'},
     {title: 'peru', image:'/public/images/paises/peru.jpg'},
-    
-    
-    
-    
   ];
 
   const groupedContact = contact.reduce((acc, cont) => {
@@ -39,11 +45,47 @@ const Contacto = () => {
 
   return (
     <section className='contact-container'>
-      <h1 className='contact-title'>Box de consultas</h1>
+      <article className='contact-fabric'>
+      <div className="fabric-list">
+        {fabrica.map((oficina, index) => (
+          <div key={index} className="fabric-details" >
+           
+            <h4 >{oficina.title}</h4>
+             <a href="">{oficina.phone}</a>
+             <a href="">{oficina.mail}</a>
+          </div>
+        ))}
+      </div>
+    
+      
       <Box />
+      </article>
       {/*Titulo*/}
-      <h2 className="contact-main-title">Contactos</h2>
-
+      <article className='contact-region'>
+                        <div className='harallelogram-container harallelogram-checkbox'>
+                            <div className='harallelogram harallelogram-c '></div>
+                            <div className='harallelogram harallelogram-a '></div>
+                            <div className='harallelogram harallelogram-b '></div>
+                            <div className='harallelogram harallelogram-d '></div>
+                            <div className='harallelogram harallelogram-e '></div>
+                            <div className='harallelogram harallelogram-f '></div>
+                          
+                            
+                            <h2 className="contact-main-title">local</h2>
+                            
+                        </div>
+                        <div className='harallelogram-container harallelogram-checkbox '>
+                            <div className='harallelogram harallelogram-c '></div>
+                            <div className='harallelogram harallelogram-a '></div>
+                            <div className='harallelogram harallelogram-b '></div>
+                            <div className='harallelogram harallelogram-d '></div>
+                            <div className='harallelogram harallelogram-e'></div>
+                            <div className='harallelogram harallelogram-f'></div>
+                            
+                            <h2 className="contact-main-title">sudamérica</h2>
+                            
+                        </div>
+      </article>
       {/*Grilla de Contactos*/}
       <div className="contact-list">
         {ubication.map((ubi, index) => (
@@ -64,7 +106,11 @@ const Contacto = () => {
                     </div>
                     </div>
               </summary>
-              asdasdasd
+              <div>
+              <article>
+
+              </article>
+              </div>
               <div className="contact-individual">
               {groupedContact[ubi] ? (
                 groupedContact[ubi].map(contact => (

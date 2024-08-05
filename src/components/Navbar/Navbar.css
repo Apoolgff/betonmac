@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: top;
     
-    font-family: 'roboto-light';
+   
     height: 90px;
 }
 
@@ -68,13 +68,13 @@
     margin: 18px;
     padding-bottom: 6px;
     text-decoration: none;
-    color: black;
+    color: var(--primary-color);
     text-transform: uppercase;
     display: inline-block; 
     position: relative; 
     text-decoration: none;
     cursor: pointer;
-    font-family: 'roboto-light';
+    font-family: 'roboto-bold';
 }
 .nav-item:hover{
  font-family: 'roboto-bold';
@@ -89,7 +89,7 @@
     height: 1.6px;
     bottom: 0;
     left: 0;
-    background-color: white;
+    background-color: var(--primary-color);
     transform-origin: bottom left;
     transition: transform 0.4s ease-out;
   }
