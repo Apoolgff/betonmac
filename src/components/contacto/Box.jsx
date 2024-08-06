@@ -102,7 +102,17 @@ const Box = () => {
             required
           ></textarea>
         </div>
-        <button type="submit">Enviar</button>
+        <button type="submit" className='button-hexagon-yellow'>
+                        <div className='harallelogram-container harallelogram-button'>
+                            <div className='harallelogram harallelogram-c animation-button-left'></div>
+                            <div className='harallelogram harallelogram-a animation-button-left'></div>
+                            <div className='harallelogram harallelogram-b animation-button-top'></div>
+                            <div className='harallelogram harallelogram-d animation-button-top'></div>
+                            <div className='harallelogram harallelogram-e animation-button-right'></div>
+                            <div className='harallelogram harallelogram-f animation-button-right'></div>
+                            <img className="button-hexagon-full" src="/public/images/icons/button-yellow-full.png" alt="" />  
+                        </div> 
+          </button>
       </form>
     </div>
   );

@@ -17,16 +17,16 @@ const Contacto = () => {
 
 
   const fabrica = [
-    {title: 'ventas repuestos', phone:' (54-351) 464 2107 Int:155' , mail:'repuestos@betonmac.com.ar'},
-    {title: 'soporte', phone:'(54-351) 464 2107' , mail:'soporte@betonmac.com.ar'},
-    {title: 'solicitud técnico en obra ', phone:'(+54 - 351) 464 2107 Int 165' , mail:' solicitud.tecnico@betonmac.com.ar'},
-    {title: 'ventas equipos', phone:'(+54 - 351) 464 2107 Int 165' , mail:'ventas@betonmac.com.ar'},
+    {title: 'Ventas repuestos', phone:' (54-351) 464 2107 Int:155' , mail:'repuestos@betonmac.com.ar'},
+    {title: 'Soporte', phone:'(54-351) 464 2107' , mail:'soporte@betonmac.com.ar'},
+    {title: 'Solicitud técnico en obra ', phone:'(+54 - 351) 464 2107' , mail:' solicitud.tecnico@betonmac.com.ar'},
+    {title: 'Ventas equipos', phone:'(+54 - 351) 464 2107 Int 165' , mail:'ventas@betonmac.com.ar'},
    
   ];
 
 
   const ubication = [
-    {title: 'argentina', image:'/public/images/paises/argentina.jpg'},
+   
     {title: 'uruguay', image:'/public/images/paises/uruguay.jpg'},
     {title: 'brasil', image:'/public/images/paises/brasil.jpg'},
     {title: 'ecuador', image:'/public/images/paises/ecuador.jpg'},

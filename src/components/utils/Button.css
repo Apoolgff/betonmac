@@ -274,7 +274,7 @@
   /*PARALELOGRAMO SERVICIO */
   .harallelogram-service {
     /*filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);*/
-    background-color: #ff9900;
+    background-color: var(--secondary-color);
   }
   .harallelogram-logo {
     background-color: var(--primary-color);
@@ -290,3 +290,56 @@
   .harallelogram-checkbox .haralellogram {
     background-color: #010A66;
   }
+
+  /*boton de enviar form*/
+ 
+  .button-hexagon-yellow{
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 70px;
+    width: 70px;
+    background: url('/public/images/icons/button-yellow.png');
+    background-size: cover ;
+    cursor: pointer;
+    transition: 0.1s;  
+  }
+  .button-hexagon-yellow .harallelogram {
+    background-color: var(--secondary-color);
+  }
+  .button-hexagon-yellow:hover{
+    background: none;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .button-hexagon-yellow:hover .harallelogram-container{
+  opacity: 1;
+  transition: 1s;
+  }
+
+
+    .button-hexagon-yellow:hover .harallelogram-c {
+      animation: left-animation-logo 0.3s ease-in-out 0s 1 normal none;
+    }
+    .button-hexagon-yellow:hover .harallelogram-a {
+      animation: left-animation-logo 0.3s ease-in-out 0s 1 normal none;
+    }
+    .button-hexagon-yellow:hover .harallelogram-b {
+      animation: top-animation-logo 0.5s ease-in-out 0s 1 normal none;
+    }
+    .button-hexagon-yellow:hover .harallelogram-d {
+      animation: top-animation-logo 0.5s ease-in-out 0s 1 normal none;
+    }
+    .button-hexagon-yellow:hover .harallelogram-e {
+      animation: right-animation-logo 0.7s ease-in-out 0s 1 normal none;
+    }
+    .button-hexagon-yellow:hover .harallelogram-f {
+      animation: right-animation-logo 0.7s ease-in-out 0s 1 normal none;
+    }
+    .button-hexagon-yellow:hover .button-hexagon-full {
+      opacity: 1;
+      transition: opacity 1s ease-in;
+     }
+  
