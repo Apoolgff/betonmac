@@ -99,15 +99,7 @@
   }
 
 
-  .home-product-image {
-    filter: drop-shadow(10px 10px 10px #282888);
-    view-timeline-name: --reveal;
 
-    animation-name: show;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: entry 10% cover 40%;
-  }
   .home-product-title {
     color: rgb(255, 255, 255);
     font-family: 'roboto-bold';
@@ -173,16 +165,64 @@
  
 }
 
-/*.home-products-cards:hover .button-hexagon-home{
-opacity: 1;
-}*/
+.home-product-article {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+  /*border:  rgb(17, 17, 49) solid 15px;*/
+}
+        .home-product-silos { grid-column: 3 / 4; grid-row: 1 / 2; }
+        .home-product-accesorios { grid-column: 4/ 5; grid-row: 1 / 2; }
+        .home-product-plantas{ grid-column: 1/ 3; grid-row: 1 / 2; }
+        .home-product-motohormigoneras { grid-column: 2/ 4; grid-row: 2 / 3; }
+        .home-product-proyectos { grid-column: 1 / 2; grid-row: 2 / 3; }
+        .home-product-automatismos { grid-column: 4 / 5; grid-row: 2 / 3; }
 
 
- 
-/*<div className='home-product-container-title'>
-<h2 className='home-products-title'>productos y servicios</h2>
-<p className='home-products-subtitle'>Proporcionamos equipos confiables en el tiempo, que aseguran productividad y 
-  calidad en el proceso de elaboración y dosificación de hormigón y productos afines con menores costos
-  de producción para el cliente, logrado a partir de diseños precisos, procesos industriales eficientes
-  y seguros, y materias primas y componentes de calidad mundial</p>
-</div>*/
+.home-product-figure{
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  display: flex; 
+  align-items: flex-end ;
+  z-index:01;
+  overflow: hidden;
+
+}
+.home-product-image {
+ position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(0.9);
+  transition: all 0.5s ease;
+}
+
+.home-product-figcaption {
+  position: relative;
+  z-index: 3;
+  color: white;
+  font-family: 'roboto-bold';
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  animation-name: show;
+  animation-fill-mode: both;
+  animation-timeline: --reveal;
+  animation-range: entry 10% cover 40%;
+}
+.home-product-link {
+  position: relative;
+  text-decoration: none;
+}
+
+.home-product-link:hover .home-product-image {
+ width: 105%;
+ height: 105%;
+ transition: all 0.5s ease;
+}

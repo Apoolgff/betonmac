@@ -18,6 +18,14 @@
     margin-left: 8rem;
 }
 
+.logo-text span:nth-child(1) { --i: 0; }
+.logo-text span:nth-child(2) { --i: 1; }
+.logo-text span:nth-child(3) { --i: 2; }
+.logo-text span:nth-child(4) { --i: 3; }
+.logo-text span:nth-child(5) { --i: 4; }
+.logo-text span:nth-child(6) { --i: 5; }
+.logo-text span:nth-child(7) { --i: 6; }
+.logo-text span:nth-child(8) { --i: 7; }
 
 .logo-text {
     text-decoration: none;
@@ -26,13 +34,16 @@
     text-transform: uppercase;
     font-size: 47px;
    margin-left: 4px;
-    animation: logo-text-animation 3s ease 0s 1 normal none;
-    transition: color 0.2s;
+  
 }
 
 .logo-text span{
   transition: color 0.2s;
+  animation: logo-text-animation 1s forwards; /* Aplica la animación de desvanecimiento */
+  animation-delay: calc(var(--i) *  0.12s);
+  opacity: 0;
 }
+
 /*.logo-text span:hover  {
   color: white;
   transition: color 0.2s;
@@ -131,113 +142,3 @@
 }
 
 
-.parallelogram-container {
-    position: relative;
-    width: 200px; 
-    margin: 0;
-   
-  }
-  
-  .parallelogram {
-    width: 38px; 
-    height: 15px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--primary-color);
-    font-size: 10px; 
-    font-weight: bold;
-    position: absolute;
-    border-radius: 0 4px 1px 0; 
-    background-color: var(--primary-color);
-    transition: 0.2s;
-  }
-  /*.parallelogram:hover{
-    background-color: #FF9900;
-    transition: 0.2s;
-  }*/
-  .parallelogram-container:hover .parallelogram{
-    background-color: #FF9900;
-    transition:  background-color 0.2s;
-  }
-
-  .parallelogram-a {
-    
-    transform: rotate(-30deg) skew(-30deg); 
-    top: -29px; 
-    left: 31px;
-    animation: left-animation-logo 3s ease 0s 1 normal none;
-  }
-  
-  .parallelogram-c {
-    
-    transform: rotate(-30deg) skew(-30deg); 
-    top: -9px; 
-    left: 31px; 
-    z-index: 1; 
-    animation: left-animation-logo 3s ease 0s 1 normal none;
-  }
-  @keyframes left-animation-logo {
-	0% {
-		opacity: 0;
-		transform: translateX(-50px) translateY(30px) rotate(-30deg) skew(-30deg); 
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0px) translateY(0) rotate(-30deg) skew(-30deg);
-	}
-}
-  
-  .parallelogram-b {
-    
-    transform: rotate(90deg) skew(-30deg); 
-    top: -23.5px; 
-    left: 58px; 
-    animation: top-animation-logo 2.2s ease 0s 1 normal none;
-  }
-  
-  .parallelogram-d {
-    
-    transform: rotate(90deg) skew(-30deg); 
-    top: -13.5px; 
-    left: 76px;
-    animation: top-animation-logo 2.2s ease 0s 1 normal none;
-  }
-  @keyframes top-animation-logo {
-	0% {
-		opacity: 0;
-		transform: translateY(-50px) rotate(90deg) skew(-30deg); 
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateY(0) rotate(90deg) skew(-30deg);
-	}
-}
-  
-  .parallelogram-f {
-    
-    transform: rotate(210deg) skew(-30deg); 
-    top: 7px; 
-    left: 57px; 
-    animation: right-animation-logo 2.4s ease 0s 1 normal none;
-  }
-  .parallelogram-e {
-    
-    transform: rotate(210deg) skew(-30deg); 
-    top: 17px; 
-    left: 39.5px; 
-    animation: right-animation-logo 2.4s ease 0s 1 normal none;
-  }
-  @keyframes right-animation-logo {
-	0% {
-		opacity: 0;
-		transform: translateX(50px) translateY(30px) rotate(210deg) skew(-30deg); 
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0px) translateY(0) rotate(210deg) skew(-30deg);
-	}
-}

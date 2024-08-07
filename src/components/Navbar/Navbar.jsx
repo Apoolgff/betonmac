@@ -15,17 +15,18 @@ const Navbar = () => {
            { <div className="logo">
                 <Link to="/">
                 <div className='harallelogram-container harallelogram-logo-container'>
-                        <div className='harallelogram harallelogram-c harallelogram-logo'></div>
-                        <div className='harallelogram harallelogram-a harallelogram-logo'></div>
-                        <div className='harallelogram harallelogram-b harallelogram-logo'></div>
-                        <div className='harallelogram harallelogram-d harallelogram-logo'></div>
-                        <div className='harallelogram harallelogram-e harallelogram-logo'></div>
-                        <div className='harallelogram harallelogram-f harallelogram-logo'></div>  
+                        <div className='harallelogram harallelogram-c harallelogram-entrance-left'></div>
+                        <div className='harallelogram harallelogram-a harallelogram-entrance-left'></div>
+                        <div className='harallelogram harallelogram-b harallelogram-entrance-top'></div>
+                        <div className='harallelogram harallelogram-d harallelogram-entrance-top'></div>
+                        <div className='harallelogram harallelogram-e harallelogram-entrance-right'></div>
+                        <div className='harallelogram harallelogram-f harallelogram-entrance-right'></div>  
                 </div>
                 
                  
                 </Link>
-                <Link className='logo-text' to="/"><span>b</span>
+                <Link className='logo-text' to="/">
+                <span>b</span>
                 <span>e</span>
                 <span>t</span>
                 <span>o</span>

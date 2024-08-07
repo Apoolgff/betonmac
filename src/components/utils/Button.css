@@ -9,8 +9,30 @@
     background: url('/public/images/icons/button-white.png');
     background-size: cover ;
     cursor: pointer;
-    transition: 0.1s;  
+    transition: 0.1s; 
+    
+    
   }
+
+  .hero-button {
+    margin-top: 1rem;
+    animation: button-entrance 3s ease-in-out ; 
+  }
+  @keyframes button-entrance {
+    0% {
+      opacity: 0;
+      transform: scale(10%);
+    }
+    60% {
+      opacity: 0;
+      transform: scale(10%);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(100%);
+    }
+  }
+
   .button-hexagon-white .harallelogram {
     background-color: white;
   }
@@ -47,6 +69,7 @@
     transition: opacity 1s ease-in;
    }
 
+ 
   /*Boton summary*/
   .summary-button {
     position: absolute;
@@ -70,7 +93,7 @@
     background-color:#010A66;
   }
   
-  .contact-details[open].harallelogram-c {
+  .contact-details[open] .harallelogram-c {
     animation: left-animation-logo 0.3s ease-in-out 0s 1 normal none;
   }
   .contact-details[open] .harallelogram-a {
@@ -276,13 +299,63 @@
     /*filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);*/
     background-color: var(--secondary-color);
   }
-  .harallelogram-logo {
+
+
+  /*paralelogramo del logo */
+  .harallelogram-entrance-top ,
+  .harallelogram-entrance-right ,
+  .harallelogram-entrance-left {
     background-color: var(--primary-color);
 
   }
   .harallelogram-logo-container {
     transform: translateY(6px);
   }
+  .harallelogram-entrance-left {
+    animation: left-animation-logo 1s ease 0s 1 normal none;
+  }
+  @keyframes left-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px) translateY(30px) rotate(-30deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px) translateY(0) rotate(-30deg) skew(-30deg);
+	}
+}
+  
+  .harallelogram-entrance-top {
+    animation: top-animation-logo 0.6s ease 0s 1 normal none;
+  }
+
+  @keyframes top-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px) rotate(90deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0) rotate(90deg) skew(-30deg);
+	}
+}
+  
+  .harallelogram-entrance-right  {
+    animation: right-animation-logo 0.8s ease 0s 1 normal none;
+  }
+  @keyframes right-animation-logo {
+	0% {
+		opacity: 0;
+		transform: translateX(50px) translateY(30px) rotate(210deg) skew(-30deg); 
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0px) translateY(0) rotate(210deg) skew(-30deg);
+	}
+}
 
 
   /*paralelogramo checkbox*/
@@ -343,3 +416,46 @@
       transition: opacity 1s ease-in;
      }
   
+
+     /*botton de region del contacto*/
+
+     .harallelogram-checkbox {
+      transform: scale(250%) translateY(-10px);
+      z-index: 1;
+      position: relative;
+      cursor: pointer;
+     }
+   
+     .harallelogram-checkbox .harallelogram {
+       z-index: 2;
+     transition: box-shadow 2s ease;
+     
+    
+    
+     }
+     .harallelogram-checkbox:hover .harallelogram {
+       z-index: 2;
+     transition: box-shadow 1s ease;
+     box-shadow: 0 0 0.2rem 1px rgb(235, 235, 236);
+     
+     }
+       .selected .harallelogram {
+       z-index: 2;
+     transition: box-shadow 1s ease;
+     box-shadow: 0 0 0.2rem 1px rgb(218, 217, 217);
+     
+     }
+     .selected:hover .harallelogram {
+       z-index: 2;
+     transition: box-shadow 1s ease;
+     box-shadow: 0 0 0.2rem 1px rgb(218, 217, 217);
+     
+     }
+     .harallelogram-checkbox:hover .contact-main-title{
+       z-index: 2;
+     transition: box-shadow 1s ease;
+    
+     }
+    
+
+     /* */ 

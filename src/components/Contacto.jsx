@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Tarjeta from './contacto/Tarjeta';
 import Box from './contacto/Box';
+import Region from './contacto/Region'
 import './Contacto.css';
 import './utils/Button.css'
 
@@ -59,58 +60,16 @@ const Contacto = () => {
     
       
       <Box />
+     
       </article>
       {/*Titulo*/}
-      <article className='contact-region'>
-                        <div className='harallelogram-container harallelogram-checkbox'>
-                            <div className='harallelogram harallelogram-c '></div>
-                            <div className='harallelogram harallelogram-a '></div>
-                            <div className='harallelogram harallelogram-b '></div>
-                            <div className='harallelogram harallelogram-d '></div>
-                            <div className='harallelogram harallelogram-e '></div>
-                            <div className='harallelogram harallelogram-f '></div>
-                          
-                            
-                            <h2 className="contact-main-title">local</h2>
-                            
-                        </div>
-                        <div className='harallelogram-container harallelogram-checkbox '>
-                            <div className='harallelogram harallelogram-c '></div>
-                            <div className='harallelogram harallelogram-a '></div>
-                            <div className='harallelogram harallelogram-b '></div>
-                            <div className='harallelogram harallelogram-d '></div>
-                            <div className='harallelogram harallelogram-e'></div>
-                            <div className='harallelogram harallelogram-f'></div>
-                            
-                            <h2 className="contact-main-title">sudamérica</h2>
-                            
-                        </div>
-      </article>
+      <Region />
+      
       {/*Grilla de Contactos*/}
       <div className="contact-list">
         {ubication.map((ubi, index) => (
-          <details key={index} className="contact-details" >
-            <summary className='contact-summary'>
-              <h3 className='summary-title'>{ubi.title}</h3>
-              <div className='summary-button'>
-              <div className='button-hexagon-blue'>
-                        <div className='harallelogram-container harallelogram-button'>
-                            <div className='harallelogram harallelogram-c animation-button-left'></div>
-                            <div className='harallelogram harallelogram-a animation-button-left'></div>
-                            <div className='harallelogram harallelogram-b animation-button-top'></div>
-                            <div className='harallelogram harallelogram-d animation-button-top'></div>
-                            <div className='harallelogram harallelogram-e animation-button-right'></div>
-                            <div className='harallelogram harallelogram-f animation-button-right'></div>
-                            <img className="button-hexagon-full"src="/public/images/icons/button-blue-top-full.png" alt="" />  
-                        </div>
-                    </div>
-                    </div>
-              </summary>
-              <div>
-              <article>
+          <div key={index} className="contact-details" >
 
-              </article>
-              </div>
               <div className="contact-individual">
               {groupedContact[ubi] ? (
                 groupedContact[ubi].map(contact => (
@@ -127,7 +86,7 @@ const Contacto = () => {
               )}
             </div>
            
-          </details>
+          </div>
         ))}
       </div>
 

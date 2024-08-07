@@ -1,75 +1,6 @@
 
 
-  .contact-title{
-    font-size: 26px;
-    text-align: center;
-  }
-  
-  .contact-main-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .contact-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
-    gap: 20px;
-    margin: 0 20rem;
-  }
-  
-  .contact-card {
-    background-position: center;
-    background-size: cover;
-    
-    
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
-    transition: all 0.3s ease;
-   
-  }
-  .contact-list {
-    display: flex;
-    flex-direction: column;
-    
-  }
-  .contact-details {
-  
-    
-    margin:  auto ;
-    width: 75%;
-    list-style: none;
-    
-  }
-  .contact-summary {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    cursor: pointer;
-    background-color: white;
-    border-bottom: #c7def7 1px solid;
-    position: relative;
-   height: 100%;
-   padding: 2rem;
-  }
-  .summary-title {
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-family: 'roboto-light';
-    
-  }
-
-  .contact-individual{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-  }
-  .contact-content {
-    width: 100%;
-    height: 100%;
-    background-color: #111f2d30;
-  }
+ 
  
   .contact-link {
     display: block;
@@ -118,18 +49,7 @@
     border: none;
   }
 
-  .contact-region {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20rem;
-    text-transform: uppercase;
-    margin: 10rem;
-    font-family: 'roboto-bold';
-    font-size: 6px;
-  }
-  
-  .harallelogram-checkbox {
+  /*.harallelogram-checkbox {
    transform: scale(250%) translateY(-10px);
    z-index: 1;
    position: relative;
@@ -138,12 +58,24 @@
 
   .harallelogram-checkbox .harallelogram {
     z-index: 2;
-  transition: box-shadow 1s ease;
-  box-shadow: 0 0 0.2rem 1px rgb(235, 235, 236);
+  transition: box-shadow 2s ease;
+  
  
  
   }
   .harallelogram-checkbox:hover .harallelogram {
+    z-index: 2;
+  transition: box-shadow 1s ease;
+  box-shadow: 0 0 0.2rem 1px rgb(235, 235, 236);
+  
+  }
+    .selected .harallelogram {
+    z-index: 2;
+  transition: box-shadow 1s ease;
+  box-shadow: 0 0 0.2rem 1px rgb(218, 217, 217);
+  
+  }
+  .selected:hover .harallelogram {
     z-index: 2;
   transition: box-shadow 1s ease;
   box-shadow: 0 0 0.2rem 1px rgb(218, 217, 217);
@@ -153,22 +85,9 @@
     z-index: 2;
   transition: box-shadow 1s ease;
  
- 
-  }
-  .contact-main-hexagon {
-    position: absolute;
-    filter: drop-shadow(0 0 0.9rem crimson);
-    z-index: 1;
-    width: 79px;
-    transform: translateY(-11.4px) translateX(-2.8px);
-    transition: box-shadow 3s ease;
-    }
-  .contact-main-title {
-    position: relative;
-    z-index: 3;
-    transform: translateY(21px);
-   color: var(--primary-color);
-  }
+  }*/
+  
+
  
   .fabric-list {
     display: flex;
