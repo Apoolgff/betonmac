@@ -25,24 +25,6 @@
     margin-bottom: 20px;
   }
   
-  .contact-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
-    gap: 20px;
-    margin: 0 20rem;
-  }
-  
-  .contact-card {
-    background-position: center;
-    background-size: cover;
-    
-    
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
-    transition: all 0.3s ease;
-   
-  }
   .contact-list {
     display: flex;
     flex-direction: column;
@@ -73,13 +55,43 @@
     
   }
 
-  .contact-individual{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-  }
-  .contact-content {
-    width: 100%;
-    height: 100%;
-    background-color: #111f2d30;
-  }
+/* CARDS INDIVIDUALES POR ACA*/
+.contact-card-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:2rem
+}
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  height: 20rem;
+  width: 40rem;
+  border: #c7def7 1px solid; 
+  font-family: 'roboto-light';
+  padding: 2rem;
+  margin: 1rem;
+}
+.contact-card-top {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+.contact-card-top p {
+  font-size: 1.5rem;
+}
+.contact-card-top h6 {
+  font-size: 3rem;
+}
+.contact-card-top img{
+  width: 20%;
+}
+.contact-card-bottom {
+  display: flex;
+  flex-direction: column;
+  
+}
+.contact-card-bottom  a{
+ text-decoration: none;
+ color: black;
+}

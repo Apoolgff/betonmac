@@ -49,44 +49,7 @@
     border: none;
   }
 
-  /*.harallelogram-checkbox {
-   transform: scale(250%) translateY(-10px);
-   z-index: 1;
-   position: relative;
-   cursor: pointer;
-  }
 
-  .harallelogram-checkbox .harallelogram {
-    z-index: 2;
-  transition: box-shadow 2s ease;
-  
- 
- 
-  }
-  .harallelogram-checkbox:hover .harallelogram {
-    z-index: 2;
-  transition: box-shadow 1s ease;
-  box-shadow: 0 0 0.2rem 1px rgb(235, 235, 236);
-  
-  }
-    .selected .harallelogram {
-    z-index: 2;
-  transition: box-shadow 1s ease;
-  box-shadow: 0 0 0.2rem 1px rgb(218, 217, 217);
-  
-  }
-  .selected:hover .harallelogram {
-    z-index: 2;
-  transition: box-shadow 1s ease;
-  box-shadow: 0 0 0.2rem 1px rgb(218, 217, 217);
-  
-  }
-  .harallelogram-checkbox:hover .contact-main-title{
-    z-index: 2;
-  transition: box-shadow 1s ease;
- 
-  }*/
-  
 
  
   .fabric-list {
@@ -119,3 +82,5 @@ font-family: 'roboto-light';
     color: black;
     font-family: 'roboto-light';
   }
+
+  /*tarjetas de contactos */

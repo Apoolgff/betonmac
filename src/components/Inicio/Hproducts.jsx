@@ -1,5 +1,7 @@
 
-import React from 'react';
+
+import React , { useEffect, useState }  from 'react';
+import useInViewHook from '../../hooks/useInViewHook';
 import { Link } from 'react-router-dom';
 import './Hproducts.css';
 
@@ -37,14 +39,30 @@ const products = [
   
 
 const Hproducts = () => {
- 
+  const [titleInViewOnce, setTitleInViewOnce] = useState(false);
+  const {ref:titleref, inView: titleInView} = useInViewHook(1);
 
+
+  useEffect(() => {
+    if (titleInView && !titleInViewOnce) {
+        setTitleInViewOnce(true);
+    }
+}, [titleInView, titleInViewOnce]);
+
+const [figcaptionInViewOnce, setFigcaptionInViewOnce] = useState(false);
+  const {ref:figcaptionref, inView: figcaptionInView} = useInViewHook(1);
+
+  useEffect(() => {
+    if (figcaptionInView && !figcaptionInViewOnce) {
+        setFigcaptionInViewOnce(true);
+    }
+}, [figcaptionInView, figcaptionInViewOnce]);
 
   return (
     <div className='background'>
     <section className='home-container-products'>
-      <h2  className='hproducts-title'>nuestros productos y servicios</h2>
-      <p  className='home-products-subtitle'>Equipos confiables, que aseguran productividad y 
+      <h2 ref={titleref} className= {`hproducts-title ${titleInViewOnce ? 'in-view' : ''} `} >nuestros productos y servicios</h2>
+      <p  className="hproducts-subtitle">Equipos confiables, que aseguran productividad y 
         calidad en el proceso de elaboración y dosificación de hormigón y productos afines con menores costos
         de producción para el cliente, logrado a partir de diseños precisos, procesos industriales eficientes
         y seguros, materias primas y componentes de calidad mundial
@@ -54,7 +72,7 @@ const Hproducts = () => {
           <Link className={`home-product-link ${product.class}`} to={product.url}>
           <figure className='home-product-figure'>
             <img className='home-product-image' src={product.image} alt={product.title} />
-            <figcaption   className='home-product-figcaption'>{product.title}</figcaption>
+            <figcaption ref={figcaptionref} className= {`home-product-figcaption ${figcaptionInViewOnce ? 'in-view' : ''} `} >{product.title}</figcaption>
           </figure>
           </Link>
           ))}

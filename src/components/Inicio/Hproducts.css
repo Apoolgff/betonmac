@@ -3,6 +3,18 @@
   font-family: 'roboto-bold';
   font-size: 3rem;
   color: var(--primary-color);
+  opacity: 0;
+  transform: translateX(-60px);
+}
+
+.hproducts-subtitle {
+  text-align: center;
+  margin: 1rem auto;
+  font-family: 'roboto-light';
+  line-height: 1.5;
+  font-size: 1.3rem;
+  color: black;
+  max-width: 60rem;
 }
 
 .home-container-products{
@@ -13,158 +25,6 @@
   background-color: var(--background-color);
   padding: 5rem 1rem 12rem;
 }
-.home-products {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
-  margin: auto;
-  align-items: center;
-  width: 100%;
-  /*border:  rgb(17, 17, 49) solid 15px;*/
-}
-        .home-products-cards-silos { grid-column: 3 / 4; grid-row: 1 / 2; }
-        .home-products-cards-accesorios { grid-column: 4/ 5; grid-row: 1 / 2; }
-        .home-products-cards-plantas{ grid-column: 1/ 3; grid-row: 1 / 2; }
-        .home-products-cards-motohormigonera { grid-column: 2/ 4; grid-row: 2 / 3; }
-        .home-products-cards-proyectos { grid-column: 1 / 2; grid-row: 2 / 3; }
-        .home-products-cards-automatismos { grid-column: 4 / 5; grid-row: 2 / 3; }
-
-.home-product-content{
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  position: relative; 
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(0deg, rgba(5, 5, 5, 0.34) 10%, rgba(150, 155, 245, 0.194) 50%);
-
-}
-
- 
-
-.home-products-subtitle {
-  font-family: 'roboto-light';
-  font-size: 1.3rem;
-  line-height: 1.5 ;
- text-align: center;
- margin: 1rem auto 3rem;
- color: black;
- max-width: 60rem;
-}
-
-.home-products-cards{
-  display: flex;
-  height: 20rem;
-  width:100%;
- /* border:  rgb(17, 17, 49) solid 5px;*/
-  background-position: top;
-  background-size: cover;
- /* box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);*/
-  cursor: pointer;
-  justify-content: center;
-  align-items: center;
-  }
-
-  .home-products-cards-plantas{
-    background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/Represas-patagonia.jpg');
-  background-size: cover;
-  }
-  .home-products-cards-motohormigonera{
-    background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/MTH-10-MB-SLIDE.jpg');
-  background-size: cover;
-  }
-  .home-products-cards-accesorios{
-    background: url('https://betonmac.com/images/Imagenes/Portadas-plantas/COMPLEMENTOS/Cinta-pesadora.jpg');
-  background-size: cover;
-  background-position: center ;
-  }
-  .home-products-cards-silos{
-    background: url('/public/images/home/silos.jpg');
-  background-size: cover;
-  background-position: center ;
-  }
-  .home-products-cards-proyectos{
-    background: url('https://betonmac.com/images/stories/com_form2content/p4/f16/40.jpg');
-  background-size: cover;
-  background-position: center ;
-  }
-  .home-products-cards-automatismos{
-    background: url('https://betonmac.com/images/Imagenes/Empresa/display.jpg');
-  background-size: cover;
-  background-position: center ;
-  }
-  
-  .home-products-cards:hover .home-product-image {
-    filter: drop-shadow(10px 10px 10px #755518);
-  }
-
-
-
-  .home-product-title {
-    color: rgb(255, 255, 255);
-    font-family: 'roboto-bold';
-    text-transform: uppercase;
-    font-size: 2rem;
-    padding: 1rem;
-  }
-
- .home-product-image-2 {
-  transform: translateX(-150px);
-  animation-name: show-moto;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: entry 10% cover 40%;
- }
-
- .home-product-image-6 {
-  transform: translateX(-60px) translateY(15px);
- }
- 
- @keyframes show {
-  from {
-    opacity: 0;
-    /*scale: 10%;*/
-    transform: translateX(100px) 
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0px); 
-    scale: 100%;
-  }
- }
- @keyframes show-moto {
-  from {
-    opacity: 0;
-    /*scale: 10%;*/
-    transform: translateX(100px) 
-  }
-  to {
-    opacity: 1;
-    transform: translateX(-60px); 
-    scale: 100%;
-  }
- }
- .button-hexagon-home{
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  height: 70px;
-  width: 70px;
-  background: url('/public/images/icons/button-white.png');
-  background-size: cover ;
-  transition: 0.5s;
-  cursor: pointer;
- margin: 0.2rem 1rem;
-  opacity: 0;
-}
-.button-hexagon-home:hover{
-  background: url('/public/images/icons/button-white-hover.png');
-  background-size: cover ;
-  transition: 0.5s;
-  
- 
-}
-
 .home-product-article {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -211,10 +71,9 @@
   font-size: 2rem;
   padding: 1rem;
   text-transform: uppercase;
-  animation-name: show;
-  animation-fill-mode: both;
-  animation-timeline: --reveal;
-  animation-range: entry 10% cover 40%;
+  opacity: 0;
+  transition: all 3s ease-in-out;
+  transform: translateX(-60);
 }
 .home-product-link {
   position: relative;
@@ -225,4 +84,12 @@
  width: 105%;
  height: 105%;
  transition: all 0.5s ease;
+}
+
+
+
+.in-view {
+  
+  opacity: 1;
+  transform: translateX(0);
 }
