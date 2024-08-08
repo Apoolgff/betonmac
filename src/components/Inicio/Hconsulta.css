@@ -1,6 +1,6 @@
 
 .background {
-    background: url(/public/images/backgrounds/light-cement-pores.webp);
+    background: url("/images/backgrounds/light-cement-pores.webp");
     background-attachment:fixed ;
 }
 .home-contact{

@@ -28,12 +28,12 @@ const Contacto = () => {
 
   const ubication = [
    
-    {title: 'uruguay', image:'/public/images/paises/uruguay.jpg'},
-    {title: 'brasil', image:'/public/images/paises/brasil.jpg'},
-    {title: 'ecuador', image:'/public/images/paises/ecuador.jpg'},
-    {title: 'chile', image:'/public/images/paises/chile.jpg'},
-    {title: 'bolivia', image:'/public/images/paises/bolivia.jpg'},
-    {title: 'peru', image:'/public/images/paises/peru.jpg'},
+    {title: 'uruguay', image:'/images/paises/uruguay.jpg'},
+    {title: 'brasil', image:'/images/paises/brasil.jpg'},
+    {title: 'ecuador', image:'/images/paises/ecuador.jpg'},
+    {title: 'chile', image:'/images/paises/chile.jpg'},
+    {title: 'bolivia', image:'/images/paises/bolivia.jpg'},
+    {title: 'peru', image:'/images/paises/peru.jpg'},
   ];
 
   const groupedContact = contact.reduce((acc, cont) => {

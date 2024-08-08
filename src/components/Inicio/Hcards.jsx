@@ -9,7 +9,7 @@ const cards = [
       title: 'Permanente formación de los recursos humanos para acompañar a las necesidades del negocio', 
       link: '/calendario' 
     },
-    { image: '/public/images/home/bureau-veritas.gif', 
+    { image: '/images/home/bureau-veritas.gif', 
       title: 'Comprometidos de cumplir con los requisitos aplicables y la mejora continua de nuestro sistema de gestion de calidad', 
       link: '/institiucional' 
       },
@@ -17,7 +17,7 @@ const cards = [
       title: 'Maximizamos la performance de los equipos, desarrollando proveedores que aseguren la cadena de abastecimiento enfocada en las necesidades del cliente y del mercado', 
       link: '/institucional'  
       },
-    { image: '/public/images/home/historia.gif', 
+    { image: '/images/home/historia.gif', 
       title: 'Soluciones integrales para el acopio de materiales, dosificación, elaboracion y transporte de hormigón y productos afines, disponiendo hacia el cliente experiencia y especialización técnica en el rubro a través de un equipo multidisciplinario en los distintos campos de la ingeniería', 
       link: '/institiucional', 
       },
@@ -25,7 +25,7 @@ const cards = [
 
 const Hcards = () => {
   const [bannerInViewOnce, setBannerInViewOnce] = useState(false);
-  const {ref:bannerref, inView: bannerInView} = useInViewHook(1);
+  const {ref:bannerRef, inView: bannerInView} = useInViewHook(1);
 
 
 useEffect(() => {
@@ -34,9 +34,10 @@ useEffect(() => {
       setBannerInViewOnce(true);
   }
 }, [bannerInView, bannerInViewOnce]);
+
   return (
 <section className="hcards-section">
-  <h2 ref={bannerref} className= {`hcards-title ${bannerInViewOnce ? 'in-view-banner' : ''} `}>64 años de experiencia</h2>
+  <h2 ref={bannerRef} className= {`hcards-title ${bannerInViewOnce ? 'in-view-banner' : ''} `}>64 años de experiencia</h2>
   <p className='hcards-subtitle'>Acompañando las crecientes necesidades del mercado, asegurando la continua innovación de nuestros equipos
     con foco en la investigacion y desarrollo de automatismos, tecnología avanzada y soluciones informáticas que
     optimice el menor costo, mayor calidad y productividad de hormigón elaborado 
@@ -48,7 +49,7 @@ useEffect(() => {
          
           <div className="card-content">
           <div className="card-overlay">
-          <Link className='hcards-link' to= {cards.link}>
+          <Link className='hcards-link' to= {card.link}>
           <h4 className='card-title'>{card.title}</h4>
          
           </Link>

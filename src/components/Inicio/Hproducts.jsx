@@ -69,7 +69,7 @@ const [figcaptionInViewOnce, setFigcaptionInViewOnce] = useState(false);
       </p>
       <article className= 'home-product-article'>
           {products.map((product, index) =>( 
-          <Link className={`home-product-link ${product.class}`} to={product.url}>
+          <Link className={`home-product-link ${product.class}`} to={product.url} key={index}>
           <figure className='home-product-figure'>
             <img  className= 'home-product-image' src={product.image} alt={product.title} />
             <figcaption ref={figcaptionref}  className= {`home-product-figcaption ${figcaptionInViewOnce ? `in-view${product.class}` : ''} ` } >{product.title}</figcaption>
