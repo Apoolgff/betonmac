@@ -50,7 +50,7 @@ const Hproducts = () => {
 }, [titleInView, titleInViewOnce]);
 
 const [figcaptionInViewOnce, setFigcaptionInViewOnce] = useState(false);
-  const {ref:figcaptionref, inView: figcaptionInView} = useInViewHook(1);
+  const {ref:figcaptionref, inView: figcaptionInView} = useInViewHook(0.1);
 
   useEffect(() => {
     if (figcaptionInView && !figcaptionInViewOnce) {
@@ -67,12 +67,12 @@ const [figcaptionInViewOnce, setFigcaptionInViewOnce] = useState(false);
         de producción para el cliente, logrado a partir de diseños precisos, procesos industriales eficientes
         y seguros, materias primas y componentes de calidad mundial
       </p>
-      <article className='home-product-article'>
+      <article className= 'home-product-article'>
           {products.map((product, index) =>( 
           <Link className={`home-product-link ${product.class}`} to={product.url}>
           <figure className='home-product-figure'>
-            <img className='home-product-image' src={product.image} alt={product.title} />
-            <figcaption ref={figcaptionref} className= {`home-product-figcaption ${figcaptionInViewOnce ? 'in-view' : ''} `} >{product.title}</figcaption>
+            <img  className= 'home-product-image' src={product.image} alt={product.title} />
+            <figcaption ref={figcaptionref}  className= {`home-product-figcaption ${figcaptionInViewOnce ? `in-view${product.class}` : ''} ` } >{product.title}</figcaption>
           </figure>
           </Link>
           ))}

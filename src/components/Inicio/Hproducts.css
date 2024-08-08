@@ -5,6 +5,7 @@
   color: var(--primary-color);
   opacity: 0;
   transform: translateX(-60px);
+  transition: all 5s ease;
 }
 
 .hproducts-subtitle {
@@ -15,6 +16,9 @@
   font-size: 1.3rem;
   color: black;
   max-width: 60rem;
+  opacity: 0;
+
+  transition: all 3s ease;
 }
 
 .home-container-products{
@@ -71,9 +75,9 @@
   font-size: 2rem;
   padding: 1rem;
   text-transform: uppercase;
-  opacity: 0;
-  transition: all 3s ease-in-out;
-  transform: translateX(-60);
+  opacity: 1;
+ 
+
 }
 .home-product-link {
   position: relative;
@@ -91,4 +95,15 @@
 .in-view {
   opacity: 1;
   transform: translateX(0);
+}
+
+.in-view ~ p {
+  opacity: 1;
+  
+}
+
+.in-viewhome-product-plantas   {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 1s ease;
 }
