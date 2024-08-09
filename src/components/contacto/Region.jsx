@@ -38,7 +38,7 @@ const Region = () => {
     fax: '+456454',
     mail: 'alfonsoperez@niquita.com',
     web: 'www.niquita.com',
-    address: 'Camino Pascual 1245',
+    address: 'Camino Casavalle 5166 124000 - Montevideo Uruguay',
     location: 'www.google.com'
 }
 
@@ -93,15 +93,22 @@ const Region = () => {
             <section className='contact-card-list'>
                 <article className='contact-card' >
                     <div  className='contact-card-top'>
-                        <div>
+                        
                             <p>{contact.name}</p>
                             <h6>{contact.company}</h6>
-                        </div>
-                        <img src={contact.image} alt={contact.company} />
+                            <a href={contact.web}>
+                                <img src="../../../public/images/icons/web.png" alt="web" />
+                                    {contact.web}
+                                </a>
+                            <a href={contact.location}>
+                                    <img src="../../../public/images/icons/location.png" alt="location" />
+                                    {contact.address}
+                             </a>
+                            
                         
-                    </div>
+                     </div>
                     <div className='contact-card-bottom'>
-
+                        <div className='contact-card-bottom-left'>
                         <a href={`tel:${contact.phone}`}>
                             <img src="../../../public/images/icons/phone.png" alt="phone" />
                             {contact.phone}</a>
@@ -109,24 +116,27 @@ const Region = () => {
                             <img src="../../../public/images/icons/cellphone.png" alt="mobile phone" />
                             {contact.cellphone}
                         </a>
-                        <a href={`tel:${contact.fax}`}>
-                            <img src="../../../public/images/icons/fax.png" alt="fax" />
-                            {contact.fax}
-                            </a>
-                        <a href={`mailto:${contact.mail}`}>
-                            <img src="../../../public/images/icons/mail.png" alt="mail" />
-                            {contact.mail}
-                            </a>
-                        <a href={contact.web}>
-                         <img src="../../../public/images/icons/web.png" alt="web" />
-                            {contact.web}
-                            </a>
-                        <a href={contact.location}>
-                        <img src="../../../public/images/icons/location.png" alt="location" />
-                        {contact.address}
-                        </a>
                         
+                       
+                        
+                        </div>
+                        <div className='contact-card-bottom-right'>
+                                
+                       
+                                
+                               
+                                <a href={`tel:${contact.fax}`}>
+                                    <img src="../../../public/images/icons/fax.png" alt="fax" />
+                                    {contact.fax}
+                                </a>
+                                <a href={`mailto:${contact.mail}`}>
+                                    <img src="../../../public/images/icons/mail.png" alt="mail" />
+                                    {contact.mail}
+                        </a>
+                        </div>
+                       
                     </div>
+                   
                 </article>
             </section>
           </details>

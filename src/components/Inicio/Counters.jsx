@@ -53,7 +53,7 @@ const Counters = () => {
                 <Link to="/contacto" className='hero-count-item' ref={paisesRef}>
                     <img className='paises-location' src="../../../public/images/icons/paises.png" alt="mundo de paises" />
                     <div>
-                        <h4>{paisesCount} Países</h4>
+                        <h4>{paisesCount} países</h4>
                         <p>donde estamos presentes</p>
                     </div>
                 </Link>

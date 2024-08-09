@@ -17,8 +17,8 @@
         
     font-family: "roboto-bold";
     color: var(--primary-color);
-    font-size: 1.6rem;
-    
+    font-size: 2rem;
+    text-transform: capitalize;
     }
     .hero-count-item p{
         

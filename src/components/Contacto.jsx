@@ -18,11 +18,24 @@ const Contacto = () => {
 
 
   const fabrica = [
-    {title: 'Ventas repuestos', phone:' (54-351) 464 2107 Int:155' , mail:'repuestos@betonmac.com.ar'},
-    {title: 'Soporte', phone:'(54-351) 464 2107' , mail:'soporte@betonmac.com.ar'},
-    {title: 'Solicitud técnico en obra ', phone:'(+54 - 351) 464 2107' , mail:' solicitud.tecnico@betonmac.com.ar'},
-    {title: 'Ventas equipos', phone:'(+54 - 351) 464 2107 Int 165' , mail:'ventas@betonmac.com.ar'},
-   
+    {title: 'Ventas repuestos', 
+      phone:' (54-351) 464 2107 Int:155' , 
+      mail:'repuestos@betonmac.com.ar',
+      image:'',
+    },
+    {title: 'Soporte', 
+      phone:'(54-351) 464 2107' , 
+      mail:'soporte@betonmac.com.ar'
+    },
+    {title: 'Solicitud técnico en obra ', 
+      phone:'(+54 - 351) 464 2107' , 
+      mail:' solicitud.tecnico@betonmac.com.ar'
+    },
+    {title: 'Ventas equipos', 
+      phone:'(+54 - 351) 464 2107 Int 165' , 
+      mail:'ventas@betonmac.com.ar'
+    },
+      
   ];
 
 

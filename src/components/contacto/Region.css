@@ -74,8 +74,9 @@
 }
 .contact-card-top {
   display: flex;
-  justify-content: space-between;
+ flex-direction: column;
   text-align: start;
+  gap: 0.5rem;
 }
 .contact-card-top p {
   font-size: 1.5rem;
@@ -83,15 +84,37 @@
 .contact-card-top h6 {
   font-size: 3rem;
 }
-.contact-card-top img{
-  width: 20%;
-}
+
 .contact-card-bottom {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: flex-start;
+  margin-top: 0.5rem;
   
 }
-.contact-card-bottom  a{
+.contact-card img{
+transform: translateY(5px);
+margin-right: 0.5rem;  
+}
+.contact-card  a{
  text-decoration: none;
  color: black;
+ font-size: 1.1rem;
+ 
 }
+
+.contact-card-bottom-right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.5rem;
+}
+.contact-card-bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+}
+
+/*<img src={contact.image} alt={contact.company} />/*
