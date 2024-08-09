@@ -1,6 +1,7 @@
 
 .background {
     background: url("/images/backgrounds/light-cement-pores.webp");
+    background-size: cover;
     background-attachment:fixed ;
 }
 .home-contact{
@@ -24,6 +25,7 @@
     color: var(--secondary-color);
     opacity: 0;
     transform: translateX(-60px);
+    transition: all 2s ease;
 }
 
 .home-contact-subtitle {
@@ -34,12 +36,14 @@
     font-size: 1.3rem;
     color: white;
     max-width: 60rem;
+    opacity: 0;
+    transition: all 3s ease;
 }
 
 .in-view-banner {
     opacity: 1;
     transform: translateX(0);
-    transition: all 2s ease;
+   
 }
 .hconsulta-button{
     opacity: 0;
@@ -50,5 +54,10 @@
 .in-view-banner ~ .hconsulta-button{
     opacity: 1;
     transform: scale(100%);
+    transition: all 2s ease-in-out;
+}
+
+.in-view-banner ~ .home-contact-subtitle{
+    opacity: 1;
     transition: all 2s ease-in-out;
 }

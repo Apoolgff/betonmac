@@ -12,6 +12,9 @@
   margin: 2rem auto  0;
   color: var(--primary-color);
   text-transform: uppercase;
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: all 2s ease;
 }
 .hcards-subtitle {
   font-family: 'roboto-light';
@@ -21,7 +24,26 @@
  margin: 1rem auto 3rem;
  color: black;
  max-width: 60rem;
+ opacity: 0;
+ transition: all 3s ease;
 }
+.in-view-replacement {
+  opacity: 1;
+  transform: translateX(0px);
+}
+.in-view-replacement ~ .hcards-subtitle{
+  opacity: 1;
+  
+}
+.in-view-replacement ~ .cards-container > .card{
+  opacity: 1;
+  
+}
+.hcards-link {
+  text-decoration: none;
+}
+
+
 .cards-container {
   display: flex;
   justify-content: center;
@@ -42,6 +64,7 @@
   cursor: pointer;
   box-shadow: -2px 4px 30px 12px rgba(0,0,0,0.2);
   width: 20%;
+  opacity: 0;
 }
 
 /*.card-overlay {

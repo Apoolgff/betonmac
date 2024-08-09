@@ -9,11 +9,31 @@
   
     .hero-count-item{
       display: flex;
-      gap: 10px;
+      gap: 20px;
       text-decoration: none;
-      font-family: "roboto-medium";
-      color: black;
-      font-size: 1.6rem;
+    
     }
+    .hero-count-item h4{
+        
+    font-family: "roboto-bold";
+    color: var(--primary-color);
+    font-size: 1.6rem;
     
-    
+    }
+    .hero-count-item p{
+        
+      font-family: "roboto-bold";
+      color: gray;
+      
+      
+      }
+      .paises-location{
+        transform: scale(130%);
+        
+        
+        }
+        
+      .paises-moto {
+        transform: translateY(-5px) translateX(-5px) scale(125%);
+      }
+  

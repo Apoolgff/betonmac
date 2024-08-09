@@ -28,7 +28,7 @@ const Counters = () => {
     useEffect(() => {
         if (paisesInView) {
             let start = 0;
-            const end = 8;
+            const end = 14;
             const duration = 2000;
             const incrementTime = (duration / end) * 1;
 
@@ -44,10 +44,18 @@ const Counters = () => {
         <>
             <section className='hero-count'>
                 <Link to="/obras" className='hero-count-item' ref={obrasRef}>
-                    <p>{obrasCount} Obras</p>
+                    <img className='paises-moto' src="../../../public/images/icons/obra.png" alt="motohormigonera de obras" />
+                   <div>
+                        <h4>{obrasCount} proyectos</h4>
+                        <p>cuentan con nuestros servicios</p>
+                    </div>
                 </Link>
                 <Link to="/contacto" className='hero-count-item' ref={paisesRef}>
-                    <p>{paisesCount} Países</p>
+                    <img className='paises-location' src="../../../public/images/icons/paises.png" alt="mundo de paises" />
+                    <div>
+                        <h4>{paisesCount} Países</h4>
+                        <p>donde estamos presentes</p>
+                    </div>
                 </Link>
             </section>
         </>
