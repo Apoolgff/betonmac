@@ -21,9 +21,12 @@
 
 
 .hero-content {
+  display: flex;
+  flex-direction: column;
   z-index: 1;
-  margin: auto auto auto 13rem;
-  text-align: start;
+  margin: auto auto auto auto;
+  text-align: center;
+align-items: center;
 }
 
 
