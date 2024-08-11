@@ -55,12 +55,24 @@
   .fabric-list {
     display: flex;
     flex-direction: column;
-    
+    margin: 2rem;
+    gap: 1rem;
+  }
+  .fabric-card{
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  .fabric-card img{
+    width: 70px;
+    height: 70px; 
+    margin-right: 1rem; 
   }
   .fabric-details {
     display: flex;
     flex-direction: column;
-    border-bottom: #c7def7 1px solid;
+    
    
     max-width: 30rem;
     height: 5rem;

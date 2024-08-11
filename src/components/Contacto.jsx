@@ -21,19 +21,22 @@ const Contacto = () => {
     {title: 'Ventas repuestos', 
       phone:' (54-351) 464 2107 Int:155' , 
       mail:'repuestos@betonmac.com.ar',
-      image:'',
+      image:'/public/images/icons/replacement.png'
     },
     {title: 'Soporte', 
       phone:'(54-351) 464 2107' , 
-      mail:'soporte@betonmac.com.ar'
+      mail:'soporte@betonmac.com.ar',
+      image:'/public/images/icons/support.png'
     },
     {title: 'Solicitud técnico en obra ', 
       phone:'(+54 - 351) 464 2107' , 
-      mail:' solicitud.tecnico@betonmac.com.ar'
+      mail:' solicitud.tecnico@betonmac.com.ar',
+      image:'/public/images/icons/tecnico.png'
     },
     {title: 'Ventas equipos', 
       phone:'(+54 - 351) 464 2107 Int 165' , 
-      mail:'ventas@betonmac.com.ar'
+      mail:'ventas@betonmac.com.ar',
+      image:'/public/images/icons/sell.png'
     },
       
   ];
@@ -62,11 +65,13 @@ const Contacto = () => {
       <article className='contact-fabric'>
       <div className="fabric-list">
         {fabrica.map((oficina, index) => (
-          <div key={index} className="fabric-details" >
-           
+          <div key={index} className="fabric-card" >
+           <img src={oficina.image} alt={`icono de ${oficina.title}`} />
+           <div className="fabric-details" >
             <h4 >{oficina.title}</h4>
              <a href="">{oficina.phone}</a>
              <a href="">{oficina.mail}</a>
+             </div>
           </div>
         ))}
       </div>
