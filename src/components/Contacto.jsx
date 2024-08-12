@@ -94,7 +94,7 @@ const Contacto = () => {
                   </button>
                 ))
               ) : (
-                <p>No hay contactos en este país.</p>
+                <p>{/*mensaje para mostrar si no hay contacto si se quiere*/}</p>
               )}
             </div>
            

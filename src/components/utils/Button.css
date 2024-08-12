@@ -6,7 +6,7 @@
     justify-items: center;
     height: 70px;
     width: 70px;
-    background: url('/public/images/icons/button-white.png');
+    background: url('/images/icons/button-white.png');
     background-size: cover ;
     cursor: pointer;
     transition: 0.1s; 
@@ -84,7 +84,7 @@
     justify-items: center;
     height: 70px;
     width: 70px;
-    background: url('/public/images/icons/button-blue-top.png');
+    background: url('/images/icons/button-blue-top.png');
     background-size: cover ;
     cursor: pointer;
     transition: 0.1s;  
