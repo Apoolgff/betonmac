@@ -2,8 +2,12 @@ import React, { useState, useEffect } from 'react';
 import Tarjeta from './contacto/Tarjeta';
 import Box from './contacto/Box';
 import Region from './contacto/Region'
+import ContactHeader from './contacto/ContactHeader';
+import Fabric from './contacto/Fabric';
+import ContactServices from './contacto/ContactServices';
 import './Contacto.css';
 import './utils/Button.css'
+
 
 const Contacto = () => {
   const [contact, setContact] = useState([]);
@@ -62,24 +66,13 @@ const Contacto = () => {
   }, {});
 
   return (
+ 
     <section className='contact-container'>
+       <ContactHeader />
+       <ContactServices />
       <article className='contact-fabric'>
-      <div className="fabric-list">
-        {fabrica.map((oficina, index) => (
-          <div key={index} className="fabric-card" >
-           <img src={oficina.image} alt={`icono de ${oficina.title}`} />
-           <div className="fabric-details" >
-            <h4 >{oficina.title}</h4>
-             <a href="">{oficina.phone}</a>
-             <a href="">{oficina.mail}</a>
-             </div>
-          </div>
-        ))}
-      </div>
-    
-      
-      <Box />
-     
+      <Fabric />
+      <Box />     
       </article>
       {/*Titulo*/}
       <Region />

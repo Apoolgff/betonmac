@@ -1,0 +1,51 @@
+.contact-service-list {
+    display: flex;
+ 
+     padding: 2rem;
+    align-items: center;
+    justify-content: center;
+   gap: 2rem;
+   background-color: var(--background-color);
+  }
+  .contact-service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 18rem;
+    height: 15rem;
+    text-align: center;
+    gap: 1rem;
+  }
+  .contact-service-card img{
+    width: 60px;
+    height: 60px; 
+    
+  }
+ 
+
+  .contact-service-card h4 {
+font-size: 1.5rem;
+font-family: 'roboto-light';
+
+  }
+  .contact-service-card a {
+    text-decoration: none;
+    color: black;
+    font-family: 'roboto-light';
+  }
+
+  .contact-service-list .contact-service-card:nth-child(2),
+.contact-service-list .contact-service-card:nth-child(4) {
+ color: white;
+  background-color: var(--primary-color);
+}
+
+.contact-service-list .contact-service-card:nth-child(2) a,
+.contact-service-list .contact-service-card:nth-child(4)  a{
+ color: white;
+  background-color: var(--primary-color);
+}

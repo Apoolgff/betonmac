@@ -1,0 +1,23 @@
+.contact-header {
+    background: url('https://betonmac.com/images/Imagenes/Dispositivas/principal/NM-120-SLIDE.jpg');
+    height: 50vh;
+}
+.contact-header-layer {
+    background-color:rgba(18, 23, 49, 0.886) ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-header-title {
+    color: white;
+    font-family: 'roboto-medium';
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.contact-header-subtitle {
+    color: white;
+    font-family: 'roboto-medium';
+    font-size: 1.6rem;
+}
