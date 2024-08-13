@@ -7,19 +7,19 @@ const ContactServices = () => {
     const via = [
         {title: 'ubicacion', 
           text:'Av. Circunvalación y Camino San Carlos Km 4,5.5000 Córdoba - Argentina -' , 
-          image:'/public/images/icons/location-large.png'
+          image:'/images/icons/location-large.png'
         },
         {title: 'telefono', 
           text:'+54 351 569-3100' , 
-          image:'/public/images/icons/phone-large.png'
+          image:'/images/icons/phone-large.png'
         },
         {title: 'whatsapp', 
           text:' +54 9 351 520-4466' , 
-          image:'/public/images/icons/whatsapp-large.png'
+          image:'/images/icons/whatsapp-large.png'
         },
         {title: 'mail', 
           text:'betonmac@betonmac.com.ar' , 
-          image:'/public/images/icons/mail-large.png'
+          image:'/images/icons/mail-large.png'
         },
         
           

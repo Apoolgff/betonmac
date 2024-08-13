@@ -1,0 +1,102 @@
+.article-container {
+    display: flex;
+    justify-content: center;
+    height: 600px; 
+    width: 100%;
+    padding: 20px 40px ;
+   
+    
+  }
+  
+  .article {
+    position: relative;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+    
+  }
+  
+ 
+  
+  .article-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgba(52, 45, 105, 0.521);
+  }
+  .article-content h3 {
+    align-self: center;
+    font-family: 'roboto-bold';
+   
+  }
+  .article-content p {
+    font-family: 'roboto-medium';
+    font-size: 1.4rem;
+    color: white;
+    text-align: left;
+    padding: 2rem;
+  }
+  .article:hover {
+    transform: scale(1.1);
+    height: 100%;
+    z-index: 2;
+   
+  }
+   .article-content:hover{
+    
+    background-color: rgba(7, 3, 37, 0.863);
+  }
+
+  .short-text {
+    display: block;
+    color: black
+  }
+  
+  .full-text {
+    display: none;
+    color: black
+  }
+  
+  .article:hover .card-text {
+    display: none;
+    opacity: 0;
+  }
+  
+  .article:hover .card-text-extended {
+    display: block;
+    opacity: 1;
+  }
+
+  .article:hover {
+    z-index: 2;
+  }
+  .article:hover .short-text {
+    display: none;
+    color: black
+  }
+  
+  .article:hover .full-text {
+    display: block;
+  }
+  
+  .card-especializacion{
+    background: url('https://betonmac.com/images/Imagenes/Empresa/Inicios.JPG');
+  }
+  .card-ingenieria{
+    background: url('https://betonmac.com/images/Imagenes/Empresa/Belomonte-SMALL.jpg');
+    background-size: cover;
+    
+  }
+  .card-diversificacion{
+    background: url('https://betonmac.com/images/Imagenes/Empresa/Plaqueta2.jpg');
+  }

@@ -8,22 +8,22 @@ const Fabric = () => {
         {title: 'Ventas equipos', 
           phone:'(+54 - 351) 464 2107 Int 165' , 
           mail:'ventas@betonmac.com.ar',
-          image:'/public/images/icons/sell.png'
+          image:'/images/icons/sell.png'
         },
         {title: 'Ventas repuestos', 
           phone:' (54-351) 464 2107 Int:155' , 
           mail:'repuestos@betonmac.com.ar',
-          image:'/public/images/icons/replacement.png'
+          image:'/images/icons/replacement.png'
         },
         {title: 'Soporte', 
           phone:'(54-351) 464 2107' , 
           mail:'soporte@betonmac.com.ar',
-          image:'/public/images/icons/support.png'
+          image:'/images/icons/support.png'
         },
         {title: 'Solicitud técnico en obra ', 
           phone:'(+54 - 351) 464 2107' , 
           mail:' solicitud.tecnico@betonmac.com.ar',
-          image:'/public/images/icons/tecnico.png'
+          image:'/images/icons/tecnico.png'
         },
         
           

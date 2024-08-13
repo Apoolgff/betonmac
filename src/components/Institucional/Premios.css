@@ -1,0 +1,113 @@
+.awards {
+    display: flex;
+    justify-content: space-around;
+    height: 80dvh;
+    width: 100%;
+    background: url('https://betonmac.com/images/Imagenes/Portadas-plantas/portada-adaptacion.jpg') ;
+    background-size: cover;
+    overflow-x: hidden;
+    
+  }
+  .award-container {
+   width: 20rem;
+   position: relative;
+  }
+
+  .award-container p {
+    text-wrap: nowrap;
+    position: absolute;
+    width: 1px;
+    bottom: -200px;
+    /*left: 1000px;*/
+    opacity: 0;
+    font-family: 'roboto-light';
+    font-size: 1.2rem;
+    animation: awards-move-away 1s ease;
+    z-index: -1;
+    transition: z-index 1s ease;
+   }
+   .award-container:hover p {
+    text-wrap: nowrap;
+    position: absolute;
+    bottom: -200px;
+    /*left: -20px;
+    /*opacity: 1;*/
+    /*transition: left 1s ease, opacity 0.5s ease;*/
+    opacity: 1;
+    z-index: 0;
+    animation: awards-move 1s ease;
+   }
+   .award-text-trayectoria{
+    left: -800px;
+   }
+   .award-text-internalizacion{
+    left: -400px;
+   }
+
+   .award-text-fundador{
+   
+    left: -1100px;
+   }
+
+
+
+@keyframes awards-move {
+  0% {
+    transform: translateX(2000px) ;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+}
+@keyframes awards-move-away {
+  0% {
+    transform: translateX(0) ;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-2000px);
+    opacity: 1;
+  }
+  
+}
+  .awards-layer {
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: var(--layer-color);
+  }
+  .awards-prize {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+   
+  }
+ 
+  .award-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-bottom: 1rem;
+  }
+
+  .award-text{
+    padding: 1rem;
+  }

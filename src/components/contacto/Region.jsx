@@ -30,7 +30,7 @@ const Region = () => {
   };
 
   const contact =  {
-    image: '../../../public/images/icons/coronavirus_2947660.png',
+    image: '/images/icons/coronavirus_2947660.png',
     name: 'Alfonso Perez',
     company: 'Niquita SA',
     phone: '24812636',
@@ -85,7 +85,7 @@ const Region = () => {
                     <div className='harallelogram harallelogram-d animation-button-top'></div>
                     <div className='harallelogram harallelogram-e animation-button-right'></div>
                     <div className='harallelogram harallelogram-f animation-button-right'></div>
-                    <img className="button-hexagon-full" src="/public/images/icons/button-blue-top-full.png" alt="" />
+                    <img className="button-hexagon-full" src="/images/icons/button-blue-top-full.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -97,11 +97,11 @@ const Region = () => {
                             <p>{contact.name}</p>
                             <h6>{contact.company}</h6>
                             <a href={contact.web}>
-                                <img src="../../../public/images/icons/web.png" alt="web" />
+                                <img src="/images/icons/web.png" alt="web" />
                                     {contact.web}
                                 </a>
                             <a href={contact.location}>
-                                    <img src="../../../public/images/icons/location.png" alt="location" />
+                                    <img src="/images/icons/location.png" alt="location" />
                                     {contact.address}
                              </a>
                             
@@ -110,10 +110,10 @@ const Region = () => {
                     <div className='contact-card-bottom'>
                         <div className='contact-card-bottom-left'>
                         <a href={`tel:${contact.phone}`}>
-                            <img src="../../../public/images/icons/phone.png" alt="phone" />
+                            <img src="/images/icons/phone.png" alt="phone" />
                             {contact.phone}</a>
                         <a href={`tel:${contact.cellphone}`}>
-                            <img src="../../../public/images/icons/cellphone.png" alt="mobile phone" />
+                            <img src="/images/icons/cellphone.png" alt="mobile phone" />
                             {contact.cellphone}
                         </a>
                         
@@ -126,11 +126,11 @@ const Region = () => {
                                 
                                
                                 <a href={`tel:${contact.fax}`}>
-                                    <img src="../../../public/images/icons/fax.png" alt="fax" />
+                                    <img src="/images/icons/fax.png" alt="fax" />
                                     {contact.fax}
                                 </a>
                                 <a href={`mailto:${contact.mail}`}>
-                                    <img src="../../../public/images/icons/mail.png" alt="mail" />
+                                    <img src="/images/icons/mail.png" alt="mail" />
                                     {contact.mail}
                         </a>
                         </div>

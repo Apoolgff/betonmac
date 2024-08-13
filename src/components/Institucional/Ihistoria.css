@@ -1,0 +1,28 @@
+.history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 0;
+    font-family:'roboto-light';
+    text-align: center;
+    background-color: var(--background-color);
+    
+  }
+  .history h2 {
+   margin-bottom: 1.6rem;
+    font-family:'roboto-bold';
+    text-align: center;
+    color: var(--primary-color);
+  }
+  .history p  {
+    text-align: center;
+    font-family: 'roboto-light';
+    line-height: 1.5;
+    font-size: 1.3rem;
+    color: black;
+    max-width: 60rem;
+    /*opacity: 0;
+  */
+    transition: all 3s ease;
+  }
+  

@@ -51,14 +51,14 @@ const Counters = () => {
     return (
         <section className='hero-count'>
             <Link to="/obras" className='hero-count-item' ref={obrasRef}>
-                <img className='paises-moto' src="../../../public/images/icons/obra.png" alt="motohormigonera de obras" />
+                <img className='paises-moto' src="/images/icons/obra.png" alt="motohormigonera de obras" />
                 <div>
                     <h4>{obrasCount} proyectos</h4>
                     <p>cuentan con nuestros servicios</p>
                 </div>
             </Link>
             <Link to="/contacto" className='hero-count-item' ref={paisesRef}>
-                <img className='paises-location' src="../../../public/images/icons/paises.png" alt="mundo de paises" />
+                <img className='paises-location' src="/images/icons/paises.png" alt="mundo de paises" />
                 <div>
                     <h4>{paisesCount} países</h4>
                     <p>donde estamos presentes</p>
