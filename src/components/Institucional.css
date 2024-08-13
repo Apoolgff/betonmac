@@ -36,6 +36,8 @@
   .institucional-description {
     padding: 100px 250px;
     font-family: 'roboto-medium';
+    font-size: 1.5rem;
+    text-align: center;
   }
   
   .article-container {
@@ -162,7 +164,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10rem;
+    padding: 10rem 0;
     font-family:'roboto-light';
     text-align: center;
     background-color: var(--background-color);
@@ -215,45 +217,95 @@
   .awards {
     display: flex;
     justify-content: space-around;
-    height: 70dvh;
+    height: 80dvh;
     width: 100%;
     background: url('https://betonmac.com/images/Imagenes/Portadas-plantas/portada-adaptacion.jpg') ;
     background-size: cover;
+    overflow-x: hidden;
+    
   }
   .award-container {
    width: 20rem;
    position: relative;
   }
+
   .award-container p {
     text-wrap: nowrap;
     position: absolute;
+    width: 1px;
     bottom: -200px;
-    left: 1000px;
+    /*left: 1000px;*/
     opacity: 0;
     font-family: 'roboto-light';
     font-size: 1.2rem;
-    transition: left 1s ease, opacity 0.5s ease;
+    animation: awards-move-away 1s ease;
+    z-index: -1;
+    transition: z-index 1s ease;
    }
    .award-container:hover p {
     text-wrap: nowrap;
     position: absolute;
     bottom: -200px;
-    left: -20px;
+    /*left: -20px;
+    /*opacity: 1;*/
+    /*transition: left 1s ease, opacity 0.5s ease;*/
     opacity: 1;
-    transition: left 1s ease, opacity 0.5s ease;
+    z-index: 0;
+    animation: awards-move 1s ease;
    }
-   .award-container p.away {
-  left: -1000px;
-  opacity: 0;
-  transition: left 1s ease, opacity 0.5s ease;
-}
+   .award-text-trayectoria{
+    left: -800px;
+   }
+   .award-text-internalizacion{
+    left: -400px;
+   }
 
-.award-container:hover p.away {
-  left: -20px;
-  opacity: 1;
+   .award-text-fundador{
+   
+    left: -1100px;
+   }
+
+
+
+@keyframes awards-move {
+  0% {
+    transform: translateX(2000px) ;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+}
+@keyframes awards-move-away {
+  0% {
+    transform: translateX(0) ;
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-2000px);
+    opacity: 1;
+  }
+  
 }
   .awards-layer {
     display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    background-color: var(--layer-color);
+  }
+  .awards-prize {
+    display: flex;
+   
     justify-content: space-around;
     align-items: center;
     height: 100%;
@@ -262,7 +314,7 @@
     text-transform: uppercase;
     text-align: center;
     color: white;
-    background-color: var(--layer-color);
+   
   }
  
   .award-image {
@@ -272,10 +324,10 @@
     justify-content: center;
    margin-bottom: 1rem;
   }
+
+
   
-.services img {
-  filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
-}
+
 /*.harallelogram-service {
   filter: invert(49%) sepia(100%) saturate(400%) hue-rotate(2deg) brightness(100%) contrast(103%);
 }*/

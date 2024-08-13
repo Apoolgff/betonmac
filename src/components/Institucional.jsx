@@ -156,7 +156,10 @@ l sector y ha logrado consolidar desde 1977 una prestigiosa trayectoria exportad
 
       {/*Seccion de Premios*/}
       <section className='awards'>
+        
         <div className='awards-layer'>
+        <h2 className='awards-title'>premios y distinciones</h2>
+        <div className='awards-prize'>
         <div className='award-container'>
           <div className='award-image'>
             <div className='harallelogram-container'>
@@ -171,7 +174,25 @@ l sector y ha logrado consolidar desde 1977 una prestigiosa trayectoria exportad
           <h4>
           Premio al mayor volumen exportado
           </h4>
-          <p>otorgado por el Gobierno de la Provincia de Córdoba y la Cámara de Comercio Exterior de Córdoba.</p>
+          <p className='award-text-volumen' >otorgado por el Gobierno de la Provincia de Córdoba y la Cámara de Comercio Exterior de Córdoba.</p>
+        </div>
+       
+        <div className='award-container'>
+        <div className='award-image'>
+            <div className='harallelogram-container'>
+                      <div className='harallelogram harallelogram-c harallelogram-service'></div>
+                      <div className='harallelogram harallelogram-a harallelogram-service'></div>
+                      <div className='harallelogram harallelogram-b harallelogram-service'></div>
+                      <div className='harallelogram harallelogram-d harallelogram-service'></div>
+                      <div className='harallelogram harallelogram-e harallelogram-service'></div>
+                      <div className='harallelogram harallelogram-f harallelogram-service'></div>          
+            </div>
+          </div>
+          <h4>
+          Premio al grado de internalizacion
+          </h4>
+         <p className='award-text-internalizacion'>otorgado por la Cámara de Comercio Exterior de Córdoba y la Agencia Pro Córdoba. 
+        </p>
         </div>
         <div className='award-container'>
         <div className='award-image'>
@@ -187,25 +208,7 @@ l sector y ha logrado consolidar desde 1977 una prestigiosa trayectoria exportad
           <h4>
           Distincion a la trayectoria exportadora
           </h4>
-         <p>Otorgado por el Gobierno de la Provincia de Córdoba</p>
-        </div>
-        <div className='award-container'>
-        <div className='award-image'>
-            <div className='harallelogram-container'>
-                      <div className='harallelogram harallelogram-c harallelogram-service'></div>
-                      <div className='harallelogram harallelogram-a harallelogram-service'></div>
-                      <div className='harallelogram harallelogram-b harallelogram-service'></div>
-                      <div className='harallelogram harallelogram-d harallelogram-service'></div>
-                      <div className='harallelogram harallelogram-e harallelogram-service'></div>
-                      <div className='harallelogram harallelogram-f harallelogram-service'></div>          
-            </div>
-          </div>
-          <h4>
-          Premio al grado de internalizacion
-          </h4>
-         <p>otorgado por la Cámara de Comercio Exterior de Córdoba y la Agencia Pro Córdoba. 
-          Sus exportaciones pasaron de una participación del 23% sobre el total de ventas en el 2006, 
-          a un 54% en el 2008</p>
+         <p className='award-text-trayectoria' >Otorgado por el Gobierno de la Provincia de Córdoba</p>
         </div>
         <div className='award-container'>
         <div className='award-image'>
@@ -221,8 +224,11 @@ l sector y ha logrado consolidar desde 1977 una prestigiosa trayectoria exportad
           <h4>
           Miembro fundador de la AAHE
           </h4>
-         <p>(Asociación Argentina del Hormigón Elaborado) y acompaña desde sus orígenes el desarrollo de la actividad.</p>
+         <p className='award-text-fundador'>(Asociación Argentina del Hormigón Elaborado) y acompaña desde sus orígenes el desarrollo de la actividad.</p>
         </div>
+        
+        </div>
+        
         </div>
       </section>
 
