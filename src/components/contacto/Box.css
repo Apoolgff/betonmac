@@ -1,12 +1,15 @@
 /* Box.css */
 .box-container {
-   /* max-width: 600px;
-    margin: 0 auto;*/
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin:3rem auto;
+    padding: 3rem;
     background-color: white;
    
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: 'roboto-light';
+    text-transform: uppercase;
   }
   
   .form-container {
@@ -26,10 +29,13 @@
   input[type="email"],
   input[type="tel"],
   textarea {
+    text-decoration: none;
+    
     width: 100%;
     padding: 8px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: none;
+    border-bottom: 1px solid var(--underline-color);
     border-radius: 4px;
   }
   
@@ -37,4 +43,8 @@
     resize: vertical;
   }
   
- 
+ .button-form-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+ }

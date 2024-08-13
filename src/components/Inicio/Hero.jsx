@@ -8,7 +8,7 @@ const Hero = () => {
             <header className="hero-container">
                 <div className="hero-content">
                     <h1 className="hero-title">hormigones, <br />automatismos y<br />equipos productivos</h1>
-                    <p className="hero-subtitle">Una Empresa De Ingenieria Con Experiencia Y Calidad</p>
+                    <h3 className="hero-subtitle">Una Empresa De Ingenieria Con Experiencia Y Calidad</h3>
                     <div className='button-hexagon-white hero-button'>
                         <div className='harallelogram-container harallelogram-button'>
                             <div className='harallelogram harallelogram-c animation-button-left'></div>

@@ -118,48 +118,47 @@ Vinificadores</p>
 
       {/*Seccion de Servicios*/}
       <section className='services'>
-        <figure >
-          <img src='/images/icons/calidad.png' alt="calidad" />
-          <figcaption>
+        <div >
+          <img src='/images/icons/tecnico.png' alt="calidad" />
+          <h4>
             control de calidad
-          </figcaption>
-        </figure>
-        <figure>
-          <img src='/images/icons/stock.png' alt="stock" />
-          <figcaption>
+          </h4>
+        </div>
+        <div>
+          <img src='/images/icons/tecnico.png' alt="stock" />
+          <h4>
             stock permanente
-          </figcaption>
-        </figure>
-        <figure>
+          </h4>
+        </div>
+        <div>
           <img src='/images/icons/tecnico.png' alt="tecnico" />
-          <figcaption>
+          <h4>
             servicio tecnico especializado
-          </figcaption>
-        </figure>
+          </h4>
+        </div>
       </section>
 
       {/*Separador*/}
-      <div className="institucional-separator">
-      <h2 className='institucional-history'> Historia</h2>
-      </div>
+      
+      
+     
 
       {/*Historia*/}
       <div className="history">
-        
+       <h2> Historia</h2>
         <p>En 1960, Luciano Bulgarelli, su fundador, a partir de su formación técnica y su experiencia directa en obras públicas y privadas, especialmente en hormigón, vió la necesidad de buscar algo simple y económico, que aumentara sensiblemente la productividad y asegurara la calidad del hormigón. Fué así que surgieron los primeros equipos BETONMAC.
 
 A 10 años de su iniciación, en 1970, BETONMAC S.A. traslada sus instalaciones a la ubicación actual, sobre un terreno de aproximadamente 35.000 m2, donde dispone de 7.500 m2 de superficie cubierta, totalmente servidos por 14 puentes grúa de diferentes capacidades y equipamiento de última generación.
 
 Desde entonces BETONMAC cuenta con su propio departamento de desarrollo de electrónica e informática habiendo desarrollado y aplicado con diseño propio la tecnología más moderna en automatizaciones y control de procesos industriales.
-Sus más de 50 modelos de plantas dosificadoras y elaboradoras, junto a sus soluciones en automatización y control de procesos, cubren las más variadas necesidades de producción de hormigón desde 10 hasta 400 m3/hora.
-Esto le permite ofrecer al mundo, productos de alta confiabilidad y calidad, ubicándose en una posición de primer nivel en los mercados internacionales. Los equipos BETONMAC están presentes en las obras de ingeniería civil más grandes de Sudamérica y Centroamérica, dado que reconocidas empresas constructoras del mundo confían en la calidad de sus productos y su soporte post venta. Sus equipos llegan a Brasil, Bolivia, Chile, Colombia, Costa Rica, Ecuador, Paraguay, Perú, Santo Domingo, El Salvador, Uruguay y Venezuela, entre otros mercados.
-Hoy, con mas de 50 años de sólida actividad, se posiciona cómo líder y referente del sector y ha logrado consolidar desde 1977 una prestigiosa trayectoria exportadora.</p>
+l sector y ha logrado consolidar desde 1977 una prestigiosa trayectoria exportadora.</p>
       </div>
 
       {/*Seccion de Premios*/}
-      <section className='services'>
-        <figure>
-          <div className='service-image'>
+      <section className='awards'>
+        <div className='awards-layer'>
+        <div className='award-container'>
+          <div className='award-image'>
             <div className='harallelogram-container'>
                       <div className='harallelogram harallelogram-c harallelogram-service'></div>
                       <div className='harallelogram harallelogram-a harallelogram-service'></div>
@@ -169,12 +168,13 @@ Hoy, con mas de 50 años de sólida actividad, se posiciona cómo líder y refer
                       <div className='harallelogram harallelogram-f harallelogram-service'></div>          
             </div>
           </div>
-          <figcaption>
+          <h4>
           Premio al mayor volumen exportado
-          </figcaption>
-        </figure>
-        <figure>
-        <div className='service-image'>
+          </h4>
+          <p>otorgado por el Gobierno de la Provincia de Córdoba y la Cámara de Comercio Exterior de Córdoba.</p>
+        </div>
+        <div className='award-container'>
+        <div className='award-image'>
             <div className='harallelogram-container'>
                       <div className='harallelogram harallelogram-c harallelogram-service'></div>
                       <div className='harallelogram harallelogram-a harallelogram-service'></div>
@@ -184,12 +184,13 @@ Hoy, con mas de 50 años de sólida actividad, se posiciona cómo líder y refer
                       <div className='harallelogram harallelogram-f harallelogram-service'></div>          
             </div>
           </div>
-          <figcaption>
+          <h4>
           Distincion a la trayectoria exportadora
-          </figcaption>
-        </figure>
-        <figure>
-        <div className='service-image'>
+          </h4>
+         <p>Otorgado por el Gobierno de la Provincia de Córdoba</p>
+        </div>
+        <div className='award-container'>
+        <div className='award-image'>
             <div className='harallelogram-container'>
                       <div className='harallelogram harallelogram-c harallelogram-service'></div>
                       <div className='harallelogram harallelogram-a harallelogram-service'></div>
@@ -199,12 +200,15 @@ Hoy, con mas de 50 años de sólida actividad, se posiciona cómo líder y refer
                       <div className='harallelogram harallelogram-f harallelogram-service'></div>          
             </div>
           </div>
-          <figcaption>
+          <h4>
           Premio al grado de internalizacion
-          </figcaption>
-        </figure>
-        <figure>
-        <div className='service-image'>
+          </h4>
+         <p>otorgado por la Cámara de Comercio Exterior de Córdoba y la Agencia Pro Córdoba. 
+          Sus exportaciones pasaron de una participación del 23% sobre el total de ventas en el 2006, 
+          a un 54% en el 2008</p>
+        </div>
+        <div className='award-container'>
+        <div className='award-image'>
             <div className='harallelogram-container'>
                       <div className='harallelogram harallelogram-c harallelogram-service'></div>
                       <div className='harallelogram harallelogram-a harallelogram-service'></div>
@@ -214,10 +218,12 @@ Hoy, con mas de 50 años de sólida actividad, se posiciona cómo líder y refer
                       <div className='harallelogram harallelogram-f harallelogram-service'></div>          
             </div>
           </div>
-          <figcaption>
+          <h4>
           Miembro fundador de la AAHE
-          </figcaption>
-        </figure>
+          </h4>
+         <p>(Asociación Argentina del Hormigón Elaborado) y acompaña desde sus orígenes el desarrollo de la actividad.</p>
+        </div>
+        </div>
       </section>
 
       {/*Cards*/}

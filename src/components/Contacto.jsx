@@ -69,11 +69,10 @@ const Contacto = () => {
  
     <section className='contact-container'>
        <ContactHeader />
-       <ContactServices />
-      <article className='contact-fabric'>
-      <Fabric />
-      <Box />     
-      </article>
+       <div className='contact-container-form'>
+       <Box />  
+       </div>  
+        <Fabric />
       {/*Titulo*/}
       <Region />
       

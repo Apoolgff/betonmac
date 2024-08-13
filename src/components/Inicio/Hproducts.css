@@ -1,7 +1,7 @@
 .hproducts-title {
   text-transform: uppercase;
   font-family: 'roboto-bold';
-  font-size: 3rem;
+  
   color: var(--primary-color);
   opacity: 0;
   transform: translateX(-60px);

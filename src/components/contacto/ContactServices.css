@@ -19,7 +19,9 @@
     height: 15rem;
     text-align: center;
     gap: 1rem;
+
   }
+  
   .contact-service-card img{
     width: 60px;
     height: 60px; 
@@ -28,7 +30,7 @@
  
 
   .contact-service-card h4 {
-font-size: 1.5rem;
+
 font-family: 'roboto-light';
 
   }

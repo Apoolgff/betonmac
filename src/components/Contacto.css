@@ -1,6 +1,7 @@
 
 
- 
+
+
  
   .contact-link {
     display: block;
@@ -54,12 +55,3 @@
  
   
   /*tarjetas de contactos */
-  .contact-fabric {
-    display: flex;
-    
-    align-items: center;
-    justify-content: center;
-   padding: 5rem;
-    width: 100%;
-    background-color: var(--background-color);
-  }

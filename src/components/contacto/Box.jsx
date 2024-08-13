@@ -35,6 +35,7 @@ const Box = () => {
   };
 
   return (
+   
     <div className="box-container">
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -102,6 +103,7 @@ const Box = () => {
             required
           ></textarea>
         </div>
+        <div className='button-form-container'> 
         <button type="submit" className='button-hexagon-yellow'>
                         <div className='harallelogram-container harallelogram-button'>
                             <div className='harallelogram harallelogram-c animation-button-left'></div>
@@ -113,8 +115,10 @@ const Box = () => {
                             <img className="button-hexagon-full" src="/public/images/icons/button-yellow-full.png" alt="" />  
                         </div> 
           </button>
+          </div>
       </form>
     </div>
+    
   );
 };
 

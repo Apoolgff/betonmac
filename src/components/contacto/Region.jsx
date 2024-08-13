@@ -55,7 +55,7 @@ const Region = () => {
           <div className='harallelogram harallelogram-d'></div>
           <div className='harallelogram harallelogram-e'></div>
           <div className='harallelogram harallelogram-f'></div>
-          <h2 className="contact-main-title">local</h2>
+          <p className="contact-main-title">local</p>
         </div>
         <div 
           className={`harallelogram-container harallelogram-checkbox ${selectedRegion === 'sudamerica' ? 'selected' : ''}`}
@@ -67,7 +67,7 @@ const Region = () => {
           <div className='harallelogram harallelogram-d'></div>
           <div className='harallelogram harallelogram-e'></div>
           <div className='harallelogram harallelogram-f'></div>
-          <h2 className="contact-main-title">sudamérica</h2>
+          <p className="contact-main-title">sudamérica</p>
         </div>
       </article>
       {/* Grilla de Contactos */}

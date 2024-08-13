@@ -7,9 +7,34 @@
   --primary-color: #010A66;
   --secondary-color: #FF9900;
   --underline-color: #c7def7;
-  --layer-color: rgba(22, 22, 63, 0.867);
+  --layer-color: rgba(18, 23, 49, 0.886);
   --background-color: rgb(245, 245, 253);
   --footer-color: #1d2738;
+ 
+
+}
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: 'roboto-bold';
+  color: white;
+}
+h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: 'roboto-bold';
+}
+
+h3{
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'roboto-bold';
+}
+
+h4{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-family: 'roboto-bold';
 }
 
 
