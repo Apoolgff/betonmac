@@ -29,9 +29,10 @@ const Fabric = () => {
           
       ];
 return (
+  <section className="section-fabric" >
     <article className="contact-fabric">
         <h2>Nuestras Oficinas</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, fugit nam. Possimus dolorem dolores quos expedita voluptate! Distinctio laudantium ullam possimus, similique, voluptatibus eius eos doloremque iure quidem consequuntur assumenda.</p>
+       
     <div className="fabric-list">
         {fabrica.map((oficina, index) => (
           <div key={index} className="fabric-card" >
@@ -45,6 +46,7 @@ return (
         ))}
       </div>
       </article>
+  </section>
 );
 };
 export default Fabric;

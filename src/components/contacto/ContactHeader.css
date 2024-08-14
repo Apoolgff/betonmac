@@ -3,7 +3,7 @@
     height: 50vh;
 }
 .contact-header-layer {
-    background-color:rgba(18, 23, 49, 0.886) ;
+    background-color:var(--layer-color) ;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
 }
 .contact-header-title {
     color: white;
-    
+    animation: title-entrance 2.5s ease;
     text-transform: uppercase;
     
 }
@@ -20,4 +20,5 @@
     color: white;
     font-family: 'roboto-medium';
     font-size: 1.6rem;
+    animation: subtitle-entrance 2s ease-in-out;
 }

@@ -3,9 +3,12 @@ import './Misvis.css'
 
 const Misvis = () => {
   return (
-    <div className="institucional-description">
+      <section className="institucional-description">
         <p>BETONMAC S.A. una empresa de Ingeniería con experiencia y creatividad, comprometida con la continua renovación e innovación. Equipos productivos y auxiliares de última generación han acompañado el constante desarrollo y creación de nuevos productos y soluciones impulsados por un plantel altamente calificado.</p>
-      </div>
+        <article>
+     
+        </article>
+      </section>
   )
 }
 

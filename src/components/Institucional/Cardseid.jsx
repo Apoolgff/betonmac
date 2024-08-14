@@ -6,19 +6,19 @@ const Cardseid = () => {
     const cardsData = [
         {
           image: 'https://betonmac.com/images/Imagenes/Empresa/Inicios.JPG',
-          title: 'Especializacion',
+          title: 'Misión',
           shortText: 'Parte del texto... (hover para más)',
           fullText: 'Texto completo que se mostrará al hacer hover. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.',
         },
         {
           image: 'https://betonmac.com/images/Imagenes/Empresa/Belomonte-SMALL.jpg',
-          title: 'Ingenieria',
+          title: 'Visión',
           shortText: 'Parte del texto... (hover para más)',
           fullText: 'Texto completo que se mostrará al hacer hover. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.',
         },
         {
           image: 'https://betonmac.com/images/Imagenes/Empresa/Plaqueta2.jpg',
-          title: 'Diversidicacion',
+          title: 'Valores',
           shortText: 'Parte del texto... (hover para más)',
           fullText: 'Texto completo que se mostrará al hacer hover. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.',
         },

@@ -1,15 +1,44 @@
-import React, { useState } from 'react'
+import React , { useEffect, useState }  from 'react';
+import useInViewHook from '../../hooks/useInViewHook';
 import './Premios.css'
 
 const Premios = () => {
     const [hoveredText, setHoveredText] = useState('');
+    const [hoveredClass, setHoveredClass] = useState('');
+    const [awardsInViewOnce, setAwardsInViewOnce] = useState(false);
+    const {ref:awardsRef, inView: awardsInView} = useInViewHook(1);
+
+    useEffect(() => {
+    
+        if (awardsInView && !awardsInViewOnce) {
+            setAwardsInViewOnce(true);
+        }
+    }, [awardsInView, awardsInViewOnce]);
+    
 
     const moreServicesData = [
-        { icon: '/images/icons/star.png', text: 'Premio al mayor volumen exportado', description: 'otorgado por el Gobierno de la Provincia de Córdoba y la Cámara de Comercio Exterior de Córdoba.' },
-        { icon: '/images/icons/star.png', text: 'Distincion a la trayectoria exportadora', description: 'Otorgado por el Gobierno de la Provincia de Córdoba' },
-        { icon: '/images/icons/star.png', text: 'Premio al grado de internalizacion', description: 'otorgado por la Cámara de Comercio Exterior de Córdoba y la Agencia Pro Córdoba.' },
-        { icon: '/images/icons/star.png', text: 'Miembro fundador de la AAHE', description: '(Asociación Argentina del Hormigón Elaborado) y acompaña desde sus orígenes el desarrollo de la actividad.' },
-    ];
+        {
+            text: 'Premio al mayor volumen exportado', 
+            description: 'otorgado por el Gobierno de la Provincia de Córdoba y la Cámara de Comercio Exterior de Córdoba.' ,
+            class: 'in-view-volumen',
+        },
+        {
+            text: 'Distincion a la trayectoria exportadora', 
+            description: 'Otorgado por el Gobierno de la Provincia de Córdoba',
+            class: 'in-view-trayectoria', 
+        },
+        { 
+            text: 'Premio al grado de internalizacion', 
+            description: 'otorgado por la Cámara de Comercio Exterior de Córdoba y la Agencia Pro Córdoba.', 
+            class: 'in-view-internalizacion',
+        },
+        { 
+            text: 'Miembro fundador de la AAHE', 
+            description: '(Asociación Argentina del Hormigón Elaborado) y acompaña desde sus orígenes el desarrollo de la actividad.', 
+            class: 'in-view-fundador',
+        },
+            
+        ];
 
     return (
         <section className='awards'>
@@ -20,10 +49,15 @@ const Premios = () => {
                         <div 
                             key={index} 
                             className='award-container'
-                            onMouseEnter={() => setHoveredText(award.description)}
-                            onMouseLeave={() => setHoveredText('')}
+                            onMouseEnter={() =>{ setHoveredText(award.description)
+                                setHoveredClass('enter-right');
+                            }}
+                            onMouseLeave={ () => {
+                                setHoveredText(award.description);
+                                setHoveredClass('exit-left');
+                            }}
                         >
-                            <div className='award-image'>
+                            <div ref={awardsRef} className= {`award-image ${awardsInViewOnce ? `${award.class}` : ''} `}>
                                 <div className='harallelogram-container'>
                                     <div className='harallelogram harallelogram-c harallelogram-service'></div>
                                     <div className='harallelogram harallelogram-a harallelogram-service'></div>
@@ -37,7 +71,7 @@ const Premios = () => {
                         </div>
                     ))}
                 </div>
-                <div className='award-text'>
+                <div className={`award-text ${hoveredClass}`}>
                     <p>{hoveredText}</p>
                 </div>
             </div>

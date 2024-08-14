@@ -22,7 +22,7 @@
     text-transform: uppercase;
     font-family: 'roboto-bold';
     /*color: rgb(24, 24, 131);*/
-    color: var(--secondary-color);
+    color: white;
     opacity: 0;
     transform: translateX(-60px);
     transition: all 2s ease;

@@ -1,3 +1,6 @@
+.section-fabric {
+  background: url('https://lh3.googleusercontent.com/p/AF1QipMTvdODGNr6j_4G8ZsHDdPJSzjPmobIS3tl2lSH=s1360-w1360-h1020');
+}
 .contact-fabric {
     display: flex;
     flex-direction: column;
@@ -6,15 +9,16 @@
    padding: 5rem;
     width: 100%;
     height: 100%;
-    background-color: var(--background-color);
+    background-color: var(--layer-color);
   }
   .contact-fabric h2 {
     text-transform: uppercase;
     font-family: 'roboto-bold';
-    color: var(--primary-color);
+    color: white;
    /* opacity: 0;
     transform: translateX(-60px);*/
-    transition: all 5s ease;
+    margin-bottom: 5rem;
+    transition: all 1s ease;
   }
   
   .contact-fabric p  {
@@ -23,7 +27,7 @@
     font-family: 'roboto-light';
     line-height: 1.5;
     font-size: 1.3rem;
-    color: black;
+    color: white;
     max-width: 60rem;
     /*opacity: 0;
   
@@ -36,14 +40,15 @@
     margin: 0 2rem;
     gap: 1rem;
     height: 100%;
+    margin-bottom: 7rem;
   }
   .fabric-card{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    /*background-color: white;*/
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
     padding: 0.4rem;
     height: 100%;
     gap: 1rem;
@@ -52,8 +57,8 @@
   }
 
   .fabric-card img{
-    width: 60px;
-    height: 60px; 
+    width: 70px;
+    height: 70px; 
   }
   .fabric-details {
     display: flex;
@@ -66,11 +71,11 @@
   }
 
   .fabric-details h4 {
-
+    color: white;
 font-family: 'roboto-light';
   }
   .fabric-details a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'roboto-light';
   }

@@ -8,21 +8,33 @@
     background-color: var(--background-color);
     
   }
-  .history h2 {
+  .history-title {
    margin-bottom: 1.6rem;
     font-family:'roboto-bold';
     text-align: center;
     color: var(--primary-color);
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: all 2s ease;
   }
-  .history p  {
+  .history-title ~ p  {
     text-align: center;
     font-family: 'roboto-light';
     line-height: 1.5;
     font-size: 1.3rem;
     color: black;
     max-width: 60rem;
-    /*opacity: 0;
-  */
+    opacity: 0;
     transition: all 3s ease;
   }
   
+.in-view-history {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 2s ease;
+}
+.in-view-history ~ p {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 3s ease;
+}

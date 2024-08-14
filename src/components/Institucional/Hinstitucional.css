@@ -5,6 +5,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   
   .hero-section {
@@ -21,11 +22,43 @@
   .institucional-hero-text h1  {
     line-height: 1;
     margin: 0;
- 
+    animation: title-entrance 2.5s ease;
   }
   .institucional-hero-text h3{
     color: white;
     margin: 0;
     text-transform: uppercase;
     font-family: 'roboto-medium';
+    animation: subtitle-entrance 2s ease-in-out;
   }
+
+  
+
+
+@keyframes title-entrance {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+
+@keyframes subtitle-entrance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

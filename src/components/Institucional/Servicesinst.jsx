@@ -4,33 +4,21 @@ import './Servicesinst.css'
 const Servicesinst = () => {
 
     const servicesData = [
-        { icon: '/images/icons/calidad.png', text: 'Control de calidad' },
-        { icon: '/images/icons/stock.png', text: 'Stock permanente' },
-        { icon: '/images/icons/tecnico.png', text: 'Serviciotecnico especializado' },
+        { icon: '/images/icons/tecnico.png', title: 'Control de calidad' },
+        { icon: '/images/icons/tecnico.png', title: 'Stock permanente' },
+        { icon: '/images/icons/tecnico.png', title: 'Servicio tecnico especializado' },
       ];
       
   return (
-    <section className='services'>
-    <div >
-      <img src='/images/icons/tecnico.png' alt="calidad" />
-      <h4>
-        control de calidad
-      </h4>
-    </div>
-    <div>
-      <img src='/images/icons/tecnico.png' alt="stock" />
-      <h4>
-        stock permanente
-      </h4>
-    </div>
-    <div>
-      <img src='/images/icons/tecnico.png' alt="tecnico" />
-      <h4>
-        servicio tecnico especializado
-      </h4>
-    </div>
-  </section>
-  )
+      <section className='services'>
+        {servicesData.map((service, index) => (
+                  <article key={index} className="institucional-service" >
+                    <img src={service.icon} alt={`icono de ${service.title}`} />
+                    <h4>{service.title}</h4>
+                  </article>
+        ))}
+      </section>
+      )
 }
 
 export default Servicesinst

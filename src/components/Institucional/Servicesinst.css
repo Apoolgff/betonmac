@@ -8,7 +8,13 @@
     text-transform: uppercase;
     align-items: center;
     text-align: center;
-    color: #003084;
+    color: var(--primary-color);
     
     
+  }
+  .institucional-service {
+    width: 200px;
+  }
+  .institucional-service {
+    width:  400px;
   }
