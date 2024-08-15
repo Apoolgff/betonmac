@@ -1,0 +1,38 @@
+.map-container {
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.map-container path {
+    fill: #010A66;
+    stroke: #fff;
+}
+
+.map-container a:hover path {
+    fill: #FF9900;
+}
+
+.info-box {
+    position: absolute;
+    background-color: #fff;
+    border: 2px solid #010A66;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    z-index: 10;
+    pointer-events: none; /* Evita que el tooltip interfiera con el mouse */
+    white-space: nowrap;
+    border-radius: 10%;
+    padding: 4px 8px;
+    box-shadow: 0px 0px 4px #222;
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
+    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+    background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+}
+
+

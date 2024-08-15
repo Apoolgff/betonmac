@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Obras.css';
+import Map from "./Mapa"
 
 const Obras = () => {
   const [works, setWorks] = useState([]);
@@ -37,7 +38,8 @@ const Obras = () => {
     <div className="obras-container">
       {/*Hero*/}
       <div className="hero-work-image">
-        <h1>Mapa de latinoamerica</h1>
+        {/*<h1>Mapa de latinoamerica</h1>*/}
+        <Map />
       </div>
 
       {/*Titulo*/}
