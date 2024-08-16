@@ -6,6 +6,7 @@
   justify-content: flex-start;
   color: white;
   overflow: hidden;
+  background-color: var(--layer-color);
 }
 .hero-video {
   position: absolute;
@@ -16,7 +17,7 @@
   object-fit: cover;
   
   z-index: -1; 
-  filter: brightness(0.7);
+ 
 }
 
 

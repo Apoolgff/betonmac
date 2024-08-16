@@ -22,7 +22,7 @@ const Hero = () => {
                     </div>
 
                 </div>
-               <img className='hero-video' src="https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-Interior-Mina.jpg" alt="background de prueba" />
+               <img className='hero-video' src="https://lh3.googleusercontent.com/p/AF1QipPJC6jpVPVt0Feu34fu7FMEYTaIePfW-qG6FgMb=s1360-w1360-h1020" alt="background de prueba" />
             </header>
           
         </>
