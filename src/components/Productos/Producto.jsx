@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import productsData from '../../Data/products.json';
 import './Producto.css';
 import Box from '../contacto/Box';
+import Carrusel from '../utils/Carrusel'
 
 const Producto = () => {
   const { id } = useParams();
@@ -33,8 +34,10 @@ const Producto = () => {
              Quo vel cupiditate similique laborum neque.</p>
         </div>
       </div>
-      <div className="producto-grid">
-        {product.gridContent.map((content, index) => (
+      <div className="product-carousel">
+      <Carrusel title={product.title} images={product.images.map(img => img.value)} />
+
+        {/*product.images.map((content, index) => (
 
           
           <div key={index} className="producto-grid-cell">
@@ -44,7 +47,7 @@ const Producto = () => {
               <p>{content.value}</p>
             )}
           </div>
-        ))}
+        ))*/}
       </div>
       <div className="product-image-second" style={{ backgroundImage: `url(${product.image})` }}>
         <div className="product-text-second">

@@ -7,17 +7,16 @@
       "title": "Product 1",
       "subtitle": "Subtitle 1",
       "description": "This is the description for product 1.",
-      "gridContent": [
+      "images": [
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/PortadasMTH/Portada-MTH-TF.jpg" },
-        { "type": "text", "value": "Text 1" },
+     
         { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/70.jpg" },
-        { "type": "text", "value": "Text 2" },
+     
         { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/71.jpg" },
-        { "type": "text", "value": "Text 3" },
+  
         { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/72.jpg" },
-        { "type": "text", "value": "Text 4" },
-        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/73.jpg" },
-        { "type": "text", "value": "Text 5" }
+   
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f59/73.jpg" }
       ]
     },
     {
@@ -28,17 +27,16 @@
       "title": "Product 3",
       "subtitle": "Subtitle 3",
       "description": "This is the description for product 3.",
-      "gridContent": [
+      "images": [
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
-        { "type": "text", "value": "Text 1" },
+      
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
-        { "type": "text", "value": "Text 2" },
+    
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
-        { "type": "text", "value": "Text 3" },
+       
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
-        { "type": "text", "value": "Text 4" },
-        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" },
-        { "type": "text", "value": "Text 5" }
+    
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg" }
       ]
     },
     {
@@ -49,17 +47,16 @@
       "title": "Product 4",
       "subtitle": "Subtitle 4",
       "description": "This is the description for product 4.",
-      "gridContent": [
+      "images": [
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
-        { "type": "text", "value": "Text 1" },
+   
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
-        { "type": "text", "value": "Text 2" },
+    
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
-        { "type": "text", "value": "Text 3" },
+    
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
-        { "type": "text", "value": "Text 4" },
-        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" },
-        { "type": "text", "value": "Text 5" }
+ 
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-dosif.jpg" }
       ]
     } ,
     {
@@ -70,17 +67,17 @@
       "title": "Product 5",
       "subtitle": "Subtitle 5",
       "description": "This is the description for product 5.",
-      "gridContent": [
+      "images": [
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
-        { "type": "text", "value": "Text 1" },
+        
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
-        { "type": "text", "value": "Text 2" },
+       
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
-        { "type": "text", "value": "Text 3" },
+        
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
-        { "type": "text", "value": "Text 4" },
-        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" },
-        { "type": "text", "value": "Text 5" }
+      
+        { "type": "image", "value": "https://betonmac.com/images/Imagenes/Portadas-plantas/Portada-elabo.jpg" }
+      
       ]
     },
     {
@@ -91,17 +88,16 @@
       "title": "Product 2",
       "subtitle": "Subtitle 2",
       "description": "This is the description for product 2.",
-      "gridContent": [
+      "images": [
         { "type": "image", "value": "https://betonmac.com/images/Imagenes/PortadasMTH/Portada-MTH-MA.jpg" },
-        { "type": "text", "value": "Text 1" },
+      
         { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/69.jpg" },
-        { "type": "text", "value": "Text 2" },
+      
         { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/70.jpg" },
-        { "type": "text", "value": "Text 3" },
+     
         { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/71.jpg" },
-        { "type": "text", "value": "Text 4" },
-        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/72.jpg" },
-        { "type": "text", "value": "Text 5" }
+
+        { "type": "image", "value": "https://betonmac.com/images/stories/com_form2content/p7/f60/72.jpg" }
       ]
     }
   ]
