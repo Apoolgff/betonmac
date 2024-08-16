@@ -1,5 +1,7 @@
 .section-fabric {
   background: url('https://lh3.googleusercontent.com/p/AF1QipMTvdODGNr6j_4G8ZsHDdPJSzjPmobIS3tl2lSH=s1360-w1360-h1020');
+  background-size: cover;
+  background-attachment: fixed ;
 }
 .contact-fabric {
     display: flex;
@@ -56,9 +58,11 @@
     height: 15rem;
   }
 
-  .fabric-card img{
+  .fabric-card .fabric-image{
     width: 70px;
     height: 70px; 
+    opacity: 0;
+    transform: scale(0%);
   }
   .fabric-details {
     display: flex;
@@ -70,12 +74,50 @@
    
   }
 
-  .fabric-details h4 {
+  .fabric-card h4 {
     color: white;
 font-family: 'roboto-light';
+opacity: 1;
+
   }
   .fabric-details a {
     text-decoration: none;
     color: white;
     font-family: 'roboto-light';
   }
+
+
+  .in-view-venta  .fabric-image{
+    opacity: 1;
+  }
+  .in-view-repuesto  .fabric-image{
+    opacity: 1;
+  }
+  .in-view-soporte  .fabric-image{
+    opacity: 1;
+  }
+  .in-view-tecnico  .fabric-image{
+    opacity: 1;
+  }
+
+  .in-view-venta  .fabric-image{
+    transition: all 1s ease;
+    transform: scale(100%) translateY(0);;
+    opacity: 1;
+  }
+  .in-view-repuesto  .fabric-image{
+    transition: all 1.8s ease;
+    transform: scale(100%) translateY(0);
+    opacity: 1;
+  }
+  .in-view-soporte  .fabric-image{
+    transition: all 2.2s ease;
+    transform: scale(100%) translateY(0);
+    opacity: 1;
+  }
+  .in-view-tecnico  .fabric-image{
+    transition: all 3s ease;
+    transform: scale(100%) translateY(0);
+    opacity: 1;
+  }
+ 

@@ -1,26 +1,94 @@
-.producto {
-    margin: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+.product {
     overflow: hidden;
   }
   
-  .producto-image {
-    position: relative;
+  .product-image {
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: calc(100vh - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   
-  .producto-text {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+  .product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 60%;
+    margin: 5rem 0;
+    padding: 02rem 13rem;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
+    background: linear-gradient(125deg, var(--layer-color) 0 75%,  transparent 0% 100%);
+
   }
+
+  .product-image-first {
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80dvh;
+  }
+  .product-text-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    padding: 02rem 13rem;
+    color: black;
+    background: linear-gradient(125deg, white 0 60%,  transparent 0% 100%);
+  }
+  .product-text-first p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    font-family: 'roboto-light';
+    line-height: 1.5;
+    color: black;
+    
+
+  }
+  .product-image-second {
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 80dvh;
+  }
+  .product-text-second {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 90%;
+    height: 100%;
+  
+    background: linear-gradient(125deg, white 0% 5%, transparent 0% 5%, transparent 50% 0%,  white 0% 60%);
+  }
+  .product-text-second p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    font-family: 'roboto-light';
+    line-height: 1.5;
+    color: black;
+ 
+
+  }
+
+
+
   
   .producto-separator {
     margin: 10px 0;

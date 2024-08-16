@@ -1,21 +1,21 @@
 .hproducts-title {
   text-transform: uppercase;
   font-family: 'roboto-bold';
-  
+  transform: translateX(-60px);
   color: var(--primary-color);
   opacity: 0;
-  transform: translateX(-60px);
+  margin-left: 13rem;
   transition: all 5s ease;
 }
 
 .hproducts-subtitle {
-  text-align: center;
-  margin: 1rem auto;
+  
+  margin: 1rem 13rem 3rem;
   font-family: 'roboto-light';
   line-height: 1.5;
   font-size: 1.3rem;
   color: black;
-  max-width: 60rem;
+  max-width: 90rem;
   opacity: 0;
 
   transition: all 3s ease;
@@ -25,17 +25,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background-color: var(--background-color);
-  padding: 5rem 1rem 12rem;
+  padding: 5rem 0;
 }
 .home-product-article {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
-  margin: auto;
+  margin: auto ;
   align-items: center;
   width: 100%;
+  padding: 0 10px 5rem;
   /*border:  rgb(17, 17, 49) solid 15px;*/
 }
         .home-product-silos { grid-column: 3 / 4; grid-row: 1 / 2; }

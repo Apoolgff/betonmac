@@ -9,7 +9,7 @@
 .hcards-title {
   font-family: 'roboto-bold';
   font-size: 3rem;
-  margin: 2rem auto  0;
+  margin: 2rem auto  0 13rem;
   color: var(--primary-color);
   text-transform: uppercase;
   opacity: 0;
@@ -20,12 +20,12 @@
   font-family: 'roboto-light';
   font-size: 1.3rem;
   line-height: 1.5 ;
- text-align: center;
- margin: 1rem auto 3rem;
- color: black;
- max-width: 60rem;
- opacity: 0;
- transition: all 3s ease;
+  text-align: left;
+  margin: 1rem auto 3rem 13rem;
+  color: black;
+  max-width: 60rem;
+  opacity: 0;
+   transition: all 3s ease;
 }
 .in-view-replacement {
   opacity: 1;

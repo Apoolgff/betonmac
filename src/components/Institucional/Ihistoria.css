@@ -1,29 +1,30 @@
 .history {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 10rem 0;
-    font-family:'roboto-light';
-    text-align: center;
+    
+    text-align: left;
     background-color: var(--background-color);
     
   }
   .history-title {
-   margin-bottom: 1.6rem;
+   margin: 1.6rem 13rem;
     font-family:'roboto-bold';
-    text-align: center;
+    text-align: left;
     color: var(--primary-color);
     opacity: 0;
     transform: translateX(-60px);
     transition: all 2s ease;
+    
   }
   .history-title ~ p  {
-    text-align: center;
+    text-align: left;
     font-family: 'roboto-light';
     line-height: 1.5;
     font-size: 1.3rem;
     color: black;
-    max-width: 60rem;
+    margin: 0 13rem;
     opacity: 0;
     transition: all 3s ease;
   }

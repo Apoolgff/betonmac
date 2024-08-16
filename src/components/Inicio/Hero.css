@@ -1,6 +1,6 @@
 .hero-container {
   position: relative;
-  height: calc(100vh - 95px);
+  height: calc(100vh - 90px);
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -24,9 +24,9 @@
   display: flex;
   flex-direction: column;
   z-index: 1;
-  margin: auto auto auto auto;
-  text-align: center;
-align-items: center;
+  margin: auto auto auto 13rem;
+  text-align: flex-start;
+  align-items: flex-start;
 }
 
 

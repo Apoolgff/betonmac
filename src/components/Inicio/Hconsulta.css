@@ -8,20 +8,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 10rem;
+    align-items: flex-start;
+    padding: 10rem 0;
     height: 600px;
     background-color: var(--layer-color);
-    
     font-family: 'roboto-medium';
     
 }
 .home-contact-title {
-    align-self: center;
+    align-self: flex-start;
     font-size: 3rem;
     text-transform: uppercase;
     font-family: 'roboto-bold';
-    /*color: rgb(24, 24, 131);*/
+    margin-left: 13rem;
     color: white;
     opacity: 0;
     transform: translateX(-60px);
@@ -29,13 +28,12 @@
 }
 
 .home-contact-subtitle {
-    text-align: center;
-    margin: 1rem auto;
+    text-align: left;
+    margin: 1rem 13rem;
     font-family: 'roboto-light';
     line-height: 1.5;
     font-size: 1.3rem;
     color: white;
-    max-width: 60rem;
     opacity: 0;
     transition: all 3s ease;
 }
@@ -49,6 +47,7 @@
     opacity: 0;
     transform: scale(10%);
     transition: all 2s ease;
+    margin-left: 13rem;
 }
 
 .in-view-banner ~ .hconsulta-button{

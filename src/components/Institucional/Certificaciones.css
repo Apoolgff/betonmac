@@ -1,11 +1,22 @@
 
+.certification-section{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+   width: 100%;
+   padding: 5rem 0;
+   background-color: var(--background-color);
+}
+
 .cards-container-certification{
     display: flex;
     justify-content: center;
     height: 45rem; 
     width: 100%;
     padding: 4rem 1rem;
-    background-color: rgb(245, 245, 253);
+    
    /* background-color: rgb(17, 17, 49);*/
     gap: 1rem;
   }
@@ -28,3 +39,25 @@
     justify-content: flex-end;
     align-items: flex-end;
   }
+
+  .certification-title {
+    margin-bottom: 1.6rem;
+     font-family:'roboto-bold';
+     text-align: left;
+     color: var(--primary-color);
+     opacity: 1;
+     margin: 1rem 13rem;
+    /* transform: translateX(-60px);*/
+     transition: all 2s ease;
+   }
+
+   .certification-title ~ p  {
+     text-align: left;
+     font-family: 'roboto-light';
+     line-height: 1.5;
+     font-size: 1.3rem;
+     color: black;
+     margin: 0 13rem;
+     opacity: 1;
+     transition: all 3s ease;
+   }

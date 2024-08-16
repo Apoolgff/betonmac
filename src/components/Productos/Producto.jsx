@@ -13,17 +13,30 @@ const Producto = () => {
   }
 
   return (
-    <div className="producto">
-      <div className="producto-image" style={{ backgroundImage: `url(${product.image})` }}>
-        <div className="producto-text">
-          <h2>{product.title}</h2>
-          <h4>{product.subtitle}</h4>
+    <section className="product">
+      <div className="product-image" style={{ backgroundImage: `url(${product.image})` }}>
+        <div className="product-text">
+          
+          <h1>{product.title}</h1>
+          
         </div>
       </div>
-      <hr className="producto-separator" />
-      <p className="producto-description">{product.description}</p>
+      <div className="product-image-first" style={{ backgroundImage: `url(${product.image})` }}>
+        <div className="product-text-first">
+          <h2>{product.title}</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Expedita adipisci velit aut quisquam inventore harum sapiente amet nam. 
+            Architecto eum, consectetur adipisci voluptatibus ratione officiis sint 
+            voluptatum at porro distinctio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Excepturi odit molestias consectetur consequatur nesciunt a fugiat blanditiis quos? 
+            Praesentium est possimus nisi impedit quibusdam.
+             Quo vel cupiditate similique laborum neque.</p>
+        </div>
+      </div>
       <div className="producto-grid">
         {product.gridContent.map((content, index) => (
+
+          
           <div key={index} className="producto-grid-cell">
             {content.type === 'image' ? (
               <img src={content.value} alt="" className="producto-grid-image" />
@@ -33,8 +46,22 @@ const Producto = () => {
           </div>
         ))}
       </div>
+      <div className="product-image-second" style={{ backgroundImage: `url(${product.image})` }}>
+        <div className="product-text-second">
+          <div>
+            <h2>{product.title}</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Expedita adipisci velit aut quisquam inventore harum sapiente amet nam. 
+              Architecto eum, consectetur adipisci voluptatibus ratione officiis sint 
+              voluptatum at porro distinctio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Excepturi odit molestias consectetur consequatur nesciunt a fugiat blanditiis quos? 
+              Praesentium est possimus nisi impedit quibusdam.
+             Quo vel cupiditate similique laborum neque.</p>
+             </div>
+        </div>
+      </div>
       <Box />
-    </div>
+    </section>
   );
 };
 

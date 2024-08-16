@@ -8,7 +8,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 13rem;
 }
 .contact-header-title {
     color: white;
@@ -17,6 +19,7 @@
     
 }
 .contact-header-subtitle {
+    text-align: left;
     color: white;
     font-family: 'roboto-medium';
     font-size: 1.6rem;
