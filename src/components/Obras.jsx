@@ -35,16 +35,17 @@ const Obras = () => {
   }, {});
 
   return (
-    <div className="obras-container">
+    <>
       {/*Hero*/}
-      <div className="hero-work-image">
-        {/*<h1>Mapa de latinoamerica</h1>*/}
-        <Map />
-      </div>
-
-      {/*Titulo*/}
-      <h2 className="main-title">Obras Realizadas</h2>
-
+     <header className="hero-work-image">
+        <div className="hero-work-layer">
+          <div className="hero-work-text">
+            <h1>obras</h1>
+            <h3>proyectos en latinoamerica</h3>
+          </div>
+        </div> 
+     </header>
+    <section className="obras-container">
       {/*Grilla de Obras*/}
       <div className="works-grid">
         {countries.map((country, index) => (
@@ -62,7 +63,8 @@ const Obras = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
+    </>
   );
 };
 

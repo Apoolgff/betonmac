@@ -1,20 +1,74 @@
+.hero-work-layer {
+  background-color:rgba(21, 41, 104, 0.431);
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 13rem;
+}
+
+.hero-work-image {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: url('/images/backgrounds/mapa.png') no-repeat center center/contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.hero-work-text h1  {
+  line-height: 1;
+  margin: 0;
+  animation: title-entrance 2.5s ease;
+}
+.hero-work-text h3{
+  color: white;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'roboto-medium';
+  animation: subtitle-entrance 2s ease-in-out;
+}
+
+
+
+
+@keyframes title-entrance {
+0% {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+50% {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+100% {
+  opacity: 1;
+  transform: translateX(0);
+}
+}
+
+
+
+
+@keyframes subtitle-entrance {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
 .obras-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
   }
   
-  .hero-work-image {
-    width: 100%;
-    height: 600px;
-    /*background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNCti22i5Z2fXWR_TunCu8WFjdZ1o6lSfmhw&s');*/
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+ 
 
   .main-title {
     text-align: center;

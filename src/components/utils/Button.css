@@ -6,7 +6,7 @@
     justify-items: center;
     height: 70px;
     width: 70px;
-    background: url('/images/icons/button-yellow.png');
+    background: url('/images/icons/button-white.png');
     background-size: cover ;
     cursor: pointer;
     transition: 0.1s; 
@@ -34,7 +34,7 @@
   }
 
   .button-hexagon-white .harallelogram {
-    background-color: var(--secondary-color);
+    background-color: white;
   }
   .button-hexagon-white:hover{
     background: none;

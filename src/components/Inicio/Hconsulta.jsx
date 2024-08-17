@@ -35,7 +35,7 @@ const Hconsulta = () => {
                         <div className='harallelogram harallelogram-d animation-button-top'></div>
                         <div className='harallelogram harallelogram-e animation-button-right'></div>
                         <div className='harallelogram harallelogram-f animation-button-right'></div> 
-                        <img className='button-hexagon-full' src="/images/icons/button-yellow-full.png" alt="" /> 
+                        <img className='button-hexagon-full' src="/images/icons/button-white-hover.png" alt="" /> 
                     </div>
                 </div>
             </Link>
