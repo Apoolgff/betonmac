@@ -1,0 +1,76 @@
+
+.work-map {
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    background: url('/images/backgrounds/latam.svg') no-repeat center center/contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: black 1px solid;
+  }
+
+  .map-argentina {
+    position: absolute;
+    transform: scale(50%);
+    left: 57%;
+    top: 63%;
+}
+
+.map-uruguay {
+    position: absolute;
+    transform: scale(50%);
+    left: 65%;
+    top: 66%;
+}
+.map-brasil{
+    position: absolute;
+    transform: scale(50%);
+    left: 72%;
+    top: 52%;
+}
+.map-chile{
+    position: absolute;
+    transform: scale(50%);
+    left: 50%;
+    top: 66%;
+}
+
+.map-paraguay{
+    position: absolute;
+    transform: scale(50%);
+    left: 60%;
+    top: 53%;
+}
+    
+.map-bolivia{
+    position: absolute;
+    transform: scale(50%);
+    left: 52%;
+    top: 50%;
+}
+    
+.map-peru{
+    position: absolute;
+    transform: scale(50%);
+    left: 40%;
+    top: 40%;
+}
+.map-venezuela{
+    position: absolute;
+    transform: scale(50%);
+    left: 55%;
+    top: 20%;
+}
+.map-ecuador{
+    position: absolute;
+    transform: scale(50%);
+    left: 38%;
+    top: 30%;
+}
+.map-colombia{
+    position: absolute;
+    transform: scale(50%);
+    left: 45%;
+    top: 23%;
+}

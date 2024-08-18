@@ -1,43 +1,174 @@
 [
     {
       "id": 1,
-      "nombre": "Obra A",
+      "nombre": "Ruta Nacional Nº14. (Ruta del Mercosur)",
       "pais": "Argentina",
-      "lugar": "Buenos Aires",
-      "descripcion": "Descripción de la obra A en Buenos Aires.",
-      "materiales": ["Material A1", "Material A2"],
+      "lugar": "Entre Rios",
+      "descripcion": "Tramo: Entre Ruta Provincial 16 a Ruta Provincial 20, Gualeguaychú  Entre Rios Es un tramo de 18 Km. de doble calzada principal de 7,3 m de ancho + 0,60 de banquina con un espesor de 25 cm. Es un total de 55.000 m3 de hormigón y 1.000.000 de m3 de movimiento de tierra. El plazo de la obra es de 24 meses.Cliente: Jose J. Chediack S.A.",
+      "materiales": ["Max Móvil 140", "Neo Móvil 70", "MBH 4500/3000", "MBH 3000/2000"],
       "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg"],
-      "detalles": "Detalles adicionales de la obra A."
+      "detalles": "Planta Nº 1 Planta dosificadora y elaboradora de hormigón con una producción de hasta 154 m3 de hormigón convencional, para carga de camiones volcadores, compuesto por dosificador de 6 áridos Max Móvil 140 (2 balanzas de 3 áridos cada una),torre de mezclado con mezcladora MBH 4500/3000, tolva pulmón de áridos, balanza de cemento con roscas de carga con micro RC, dosificaciónde agua por caudalímetro y pulmón de agua, 2 dosificadores de aditivos independientes y doble sistema de carga de áridos. Planta Nº 2 Planta dosificadora y elaboradora de hormigón con una producción de hasta 75 m3 de hormigón convencional, para carga de camiones volcadores, compuesto por dosificador de 4 áridos Neo Móvil 70, torre de mezclado con mezcladora MBH 3000/2000 balanza de cemento, dosificación de agua por caudalímetro, dosificador de aditivos y sistema de carga de áridos.Ambas plantas son fácilmente transportables en módulos a semirremolque o tractor. "
     },
     {
         "id": 2,
-        "nombre": "Obra AA",
+        "nombre": "Torres de edificios Jardines del Libertador",
         "pais": "Argentina",
-        "lugar": "Cordoba",
-        "descripcion": "Descripción de la obra AA en Buenos Aires.",
-        "materiales": ["Material AA1", "Material AA2"],
-        "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg"],
-        "detalles": "Detalles adicionales de la obra A."
+        "lugar": " Buenos Aires",
+        "descripcion": "En un plazo de 24 meses utilizando la más moderna tecnología se construyeron dos torres de tres subsuelos de cocheras, plata baja y 22 pisos altos de viviendas, que totalizan 80.000 m2.Cliente: Jose J. Chediack S.A.",
+        "materiales": [" Neo Móvil 70", "Mezcladora MBH 3000", "Betonplus"],
+        "imagenes": ["https://www.chediack.com.ar/webimages/portadas/chediack__obras_15550723495cb0855de4ca0.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJxvKohiCsa4Lx2smfls13bn1lG_Olq15qWw&s"],
+        "detalles": "La planta alimenta una bomba de hormigón con salida hacia las estructuras de los edificios, con derivación para motohormigoneras."
       },
     {
       "id": 3,
-      "nombre": "Obra B",
-      "pais": "Brasil",
-      "lugar": "São Paulo",
-      "descripcion": "Descripción de la obra B en São Paulo.",
-      "materiales": ["Material B1", "Material B2"],
-      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg"],
-      "detalles": "Detalles adicionales de la obra B."
+      "nombre": "Carretera Rosario-Victoria",
+      "pais": "Argentina",
+      "lugar": "Rosario (provincia de Santa Fe) y Victoria (provincia de Entre Ríos)",
+      "descripcion": "Obra carretera entre las ciudades de Rosario (provincia de Santa Fe) y Victoria (provincia de Entre Ríos), a través de islotes y numerosos puentes, en un recorrido de aproximadamente 60 Km sobre el Río Paraná en la República Argentina.Cliente: Puentes del Litoral (formado por Impregilo-Iglys, Hotchtief, Benito Roggio e Hijos y Techint)",
+      "materiales": ["Planta Flotante", "Mezcladora de doble eje", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f16/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f16/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f16/42.jpg"],
+      "detalles": "Betonmac S.A. costruyó a pedido del cliente una planta flotante montada sobre pontones, para cuatro aridos, dos silos de cemento, agua y aditivos, con una mezcladora de doble eje y elevación de áridos con skip, con una producción de 60 m3/hora, totalmente automatizada con el sistema Betonmatic.El poder hormigonar in situ, permite un máximo ahorro de tiempo y dinero. La planta se abastece mientras trabaja, con otros pontones que son remolcados desde puerto.El hormigón elaborado se descarga a través de una canaleta giratoria a una bomba de hormigón con brazo o a baldes para grúas"
     },
     {
       "id": 4,
-      "nombre": "Obra C",
-      "pais": "Chile",
-      "lugar": "Santiago",
-      "descripcion": "Descripción de la obra C en Santiago.",
-      "materiales": ["Material C1", "Material C2"],
-      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f14/41.jpg"],
-      "detalles": "Detalles adicionales de la obra C."
+      "nombre": "Acceso Norte y Av. Gral. Paz",
+      "pais": "Argentina",
+      "lugar": " Acceso Norte y Av. Gral. Paz - Buenos Aires",
+      "descripcion": "Obra vial por concesión, de dos de las autovías más importantes para acceder a la Ciudad de Buenos Aires, que son el Acceso Norte y la Avenida General Paz.Cliente: Autopistas del Sol, es un consorcio formado por: Dragados-Dycasa-AUREA, Impregilo-IGLYS y Sideco Ame",
+      "materiales": ["Max 100 D6", "Mezcladores HBV 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f17/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f17/41.jpg"],
+      "detalles": "Para esta obra, se utilizó como planta principal, una Max 100 D6 con dos mezcladores HBV 4500 y salida directa para carga de motohormigoneras.La producción de la planta con dos mezladores es de 120 m3/hora.Esta planta está automatizada con el sistema Betonmatic"
+    },
+    {
+      "id": 5,
+      "nombre": "Dique El Cajón",
+      "pais": "Argentina",
+      "lugar": "Córdoba",
+      "descripcion": "Dique ubicado sobre el Río Dolores, en la localidad de Capilla del Monte en las Sierras de la Provincia de Córdoba - República Argentina. El propósito del aprovechamiento es la provisión de agua potable y riego en su zona de influencia. Características principales: Tipo de Presa: arco de hormigón simple. Vertedero: dos laterales de hormigón armado, con una capacidad de 1.200 m. Volúmen de hormigón: 7.000 m3. Altura: 35 m. Longitud del coronamiento: 60 m.Cliente: Sollazo Hnos. S.A.",      
+      "materiales": ["Max 100", "Mezcladora de inversión de marcha"],
+      "imagenes": ["https://www.diquesdecordoba.com.ar/wp-content/uploads/2021/09/ElCajon01.jpg", "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRm1oaXkQrJb5SN22HI1fmgJjmiLR9NtJ9H96dFMmqs6OyqgXZVnNKS2ssC3iQj9xv3NhVih5sSl0fy1CEVNXs6AGY1vH-9FHWMss2_yME"],
+      "detalles": "Se utilizó una planta dosificadoras y elaboradoras de hormigón Max 100, con un derivador que permitía dosificar directamente motohormigoneras o premezclar el hormigón mediante una mezcladora de inversión de marcha."
+    },
+    {
+      "id": 6,
+      "nombre": "Central hidroeléctrica Yacyretá",
+      "pais": "Argentina",
+      "lugar": "sobre el río Paraná entre Argentina (provincia de Corrientes) y Paraguay",
+      "descripcion": "Datos del embalse:Area cuenca aportante: 970.000 km2 Caudal promedio rio Paraná: 12.000 m3/sArea del embalse: 1.600 km2 Longitud del embalse sobre rio: 342 kmVolumen total embalsado: 21.000 Hm3Capacidad Generacion nominal: 3.200 MWDatos de la presa: Altura Presa principal: 42m Ancho cresta principal: 13 mLongitud cresta principal: 1900mLongitud total dique: 64 km.Volumen total dique: 62.000.000 m3Volumen hormigón total: 950.000 m3Cemento utilizado: 233.500 tCliente: Eriday - U.T.E. Consorcio formado varias empresas líderados por Impregilo S.p.A. y Dumez S.A.",
+      "materiales": ["Max 100 D6", "HBV 4500"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f29/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f29/41.jpg"],
+      "detalles": "Dos plantas Max 100 D6 de similares características, seis áridos, cemento, agua, hielo y aditivos (todos en balanzas independientes), dos mezcladores mezcladoras HBV 4500 y salida directa a motohormigoneras. Estas plantas, una ubicada en la costa del lado Argentino y la otra ubicada en la isla de Yacyretá, se utilizaron para los hormigones iniciales de la obra, para construir el puente de servicio entre la isla y la costa y luego como plantas de apoyo."
+    },
+    {
+      "id": 7,
+      "nombre": "Complejo vial Zárate - Brazo Largo",
+      "pais": "Argentina",
+      "lugar": "Une las provincias de Buenos Aires y Entre Ríos",
+      "descripcion": "Complejo ferroviario y vial que une las provincias de Buenos Aires y Entre Ríos. Es la principal vía del Mercosur de la República Argentina. Se destacan los puentes colgantes sobre los dos brazos del Río Paraná. Cliente: Techint y Albano",
+      "materiales": ["Max 100", "Mezcladores HBV 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f30/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f30/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f30/42.jpg"],
+      "detalles": "Betonmac S.A. suministró al consorcio formado por las empresas Techint y Albano, cinco plantas dosificadoras de hormigón Max 100, con seis balanzas de áridos independientes, balanza de cemento y balanza de agua, elevación de áridos hasta el camión motohormigonero con cinta elevadora. Estas plantas fueron una avanzada tecnológica para el país en esa época (1971), por que a su elevada producción (140 m3/h), se sumaba el hecho de estar automatizadas."
+    },
+    {
+      "id": 8,
+      "nombre": "Dique Piedras Moras",
+      "pais": "Argentina",
+      "lugar": "Córdoba",
+      "descripcion": "Ubicacion: Córdoba <br/>Curso de agua: río Tercero.<br/>Propósito: abastecimiento de agua potable, riego, generación de energía y atenuación de crecidas.<br/>Finalización de la obra: 1979.<br/>Cuenca de alimentación: 3.770 kilómetros cuadrados.<br/>Cota de vertedero: 26 metros.<br/>Precipitación media anual en cuenca: 630 milímetros.<br/>Superficie del lago: 589 hectáreas.<br/>Cliente: Benito Roggio e Hijos S.A.",
+      "materiales": ["Max 75 DJ", "HBI 1500", "Electrónico Analógico"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f31/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f31/40.jpg"],
+      "detalles": "Planta dosificadora y elaboradora de hormigón Max 75 DJ con seis balanzas de áridos independientes, balanza de cemento y balanza de agua, elevación de áridos con skip hasta las dos mezcladoras HBI 1500 y descarga a tolvas pulmón de hormigón. La producción era de 45 m3/hora de hormigón elaborado y estaba totalmente automatizada. Dicha planta (de avanzada tecnología para la época - 1975), fué una evolución de las plantas Max 100 utilizadas en el puente carretero Zárate - Brazo Largo 4 años antes. Posteriormente, Betonmac S.A. actualizó el automatismo de la central por uno electrónico analógico, para ser utilizada en la construcción de la Central Termoeléctrica Luis Piedrabuena de Bahía Blanca y en la ampliación de la linea D de los Subterraneos de Buenos Aires."
+    },
+    {
+      "id": 9,
+      "nombre": "Puente Posadas-Encarnación",
+      "pais": "Argentina",
+      "lugar": "Entre las localidades de Posadas (Argentina) y Encarnación (Paraguay).",
+      "descripcion": "El Puente Internacional San Roque González de Santa Cruz es un puente erecto sobre el río Paraná, que comunica a las ciudades de Posadas, en la Argentina, y Encarnación, en el Paraguay.El puente, que además permite el paso de trenes, tiene una longitud total de 2.550 m. El puente central tiene 579 m.Fue inaugurado en abril de 1990 por los presidentes de Paraguay, General de Ejército Andrés Rodríguez Pedotti, y de Argentina Carlos Saúl Menem.Esta obra obtuvo el Premio Internacional Puente de Alcántara, a la obra pública más destacada del período (1989-1990).Cliente: Impresit Sideco",
+      "materiales": ["MAX 80 D1", "Elaboradora Flotante","Turbomezcladora TR 1000", "Electrónico Analógico"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f32/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f32/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f32/42.jpg"],
+      "detalles": "En esta obra se utilizaron dos plantas. La primera era dosificadora de motohormigoneras, ubicada en la ribera del río (modelo MAX 80 D1) y la segunda era dosificadora y elaboradora flotante para alimentar una bomba de hormigón. Ambas plantas dosificaban 6 áridos, dos cementos, agua, hielo en escamas y aditivos, todo por peso (balanzas). Ambas contaban con automatización analógica. La planta flotante elevaba los áridos mediante un skip a una turbomezcladora TR 1000."
+    },
+    {
+      "id": 10,
+      "nombre": "Dique Potrerillos Mendoza",
+      "pais": "Argentina",
+      "lugar": "Mendoza",
+      "descripcion": "Proyecto Potrerillos - Fase II<br />Dique sobre el río Mendoza en la imponente Cordillera de los Andes, ubicado en la localidad de Potrerillos - Provincia de Mendoza - República Argentina<br/>Propósito del aprovechamiento:<br/>Proveer a los requerimientos de la demanda de consumos de agua potable e industrial en el gran Mendoza y su zona de influencia.<br/>Regularizar y aumentar el área irrigada.<br/>Incrementar la producción de energía eléctrica en la provincia.<br/>El volúmen de hormigón total de la obra será de 135.000 m3.<br/>Cliente: José Cartellone Construcciones Civiles S.A.",
+      "materiales": ["Max Móvil 60", "Betonplus"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f84/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f84/41.jpg"],
+      "detalles": "Dos plantas dosificadoras y elaboradoras de hormigón Max Móvil 60 con una mezcladora de doble eje c/u., totalmente automatizadas con el sistema Betonplus."
+    },
+    {
+      "id": 11,
+      "nombre": "Dique Comarapa",
+      "pais": "Bolivia",
+      "lugar": "Río Comarapa",
+      "descripcion": "Dique en costrucción sobre el río Comarapa, ubicado a 230 km de la ciudad de Santa Cruz de la Sierra, sobre el antiguo camino que une esta ciudad con la de Cochabamba.Dicho dique cumplirá funciones de riego en la zona.<br/>Volúmen del embalse: 10.000.000 m3<br/>Altura de la presa: 51,7 m<br/>Longitud de la corona: 165 m<br/>Crecida de diseño: 320 m3/s<br/>Tubería de desfogue: FF DN1200<br/>En aproximadamente 16 semanas, se preveen colocar 66.000 m3 de RCC (HCR) para el cuerpo de la presa y 7.000 m3 de hormigón Convencional.<br/>Cliente: Cemento Soboce S.A.",
+      "materiales": ["Neo Móvil 70", "MBH 2250", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f33/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f33/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f33/42.jpg"],
+      "detalles": "Se han utilizado dos plantas Neo Móvil 70 alimentando a sendas mezcladoras MBH 2250, con una producción de 60 m3/hora cada una. Ambas plantas cuentan con automatización Betonmatic. Para asegurar la continuidad del vaciado de hormigón, fueron instalados 4 silos para los materiales cementicios (cemento y puzolana)con una capacidad de almacenamiento para abastecer la producción de hormigón de una semana. El transporte de la mezcla desde la planta de hormigón al cuerpo de la presa fue realizada por volquetas. Luego la mezcla fue bajada al cuerpo mediante un vacuum chute, una canaleta tapada por una goma que evita la segregación de la mezcla. Recibida por un volquete encima del cuerpo de la presa se extrae mediante tractores D4 y finalmente se compacta con rodillos vibratorios. El proceso de colocado es obligatoriomente continuo. Este hecho se debe a que la tongada a colocarse debe lograr una unión con la anteriormente vaciada. Como la mezcla de hormigón endurece con el tiempo, el llamado tiempo de recubrimiento es reducido. Como consecuencia, se estableció un rítmo de trabajo de 24 h y 7 días de la semana.El avance diario logrado fue de mas que 1.000 m3/día, lo que signfica un crecimiento diário de 0,60 m. Esta tasa es muy elevada en compararción con otras tecnologías empleadas en la construcción de presas (p.ej. presas de tierra, presas de hormigón convencional)."
+    },
+    {
+      "id": 12,
+      "nombre": "Proyecto Oruro Toledo",
+      "pais": "Bolivia",
+      "lugar": "Oruro",
+      "descripcion": "El Proyecto Oruro Toledo de pavimento rígido y obras complementarias, se encuentra ubicado en la ciudad de Oruro, y es parte de la Ruta Nº 12 de la red Fundamental de Carreteras de Bolivia. La empresa constructora es un consorcio formado por las empresas Soboce, Conoc e Illimani.<br />Longitud: 36.800,00 m (36,8 km).<br />Espesor: 0,22 m.<br />Ancho: 8,00 m (sin banquinas).<br />Ancho: 10,40 m (con banquinas tramo semi-urbano).<br />Ancho: 9,60 m (con banquinas tramo rural).<br />Volumen: 80.000,00 m3 de hormigón.<br />El record de volumen de hormigón colocado fué de 820 m3. <br />Cliente: Consorcio Toledo",
+      "materiales": ["Neo Móvil 70", "MBH 2250", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f34/40.JPG", "https://betonmac.com/images/stories/com_form2content/p4/f34/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f34/42.jpg"],
+      "detalles": "En esta obra se utilizaron dos plantas Neo Móvil 70 alimentando a sendas mezcladoras MBH 2250, con una producción de 60 m3/hora cada una. Para el acopio de cemento se colocaron dos silos verticales para cada planta mas un silo horizontal transportable de 40 toneladas."
+    },
+    {
+      "id": 13,
+      "nombre": "Acceso Norte y Av. Gral. Paz",
+      "pais": "Brasil",
+      "lugar": " Acceso Norte y Av. Gral. Paz - Buenos Aires",
+      "descripcion": "Obra vial por concesión, de dos de las autovías más importantes para acceder a la Ciudad de Buenos Aires, que son el Acceso Norte y la Avenida General Paz.Cliente: Autopistas del Sol, es un consorcio formado por: Dragados-Dycasa-AUREA, Impregilo-IGLYS y Sideco Ame",
+      "materiales": ["Max 100 D6", "Mezcladores HBV 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f17/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f17/41.jpg"],
+      "detalles": "Para esta obra, se utilizó como planta principal, una Max 100 D6 con dos mezcladores HBV 4500 y salida directa para carga de motohormigoneras.La producción de la planta con dos mezladores es de 120 m3/hora.Esta planta está automatizada con el sistema Betonmatic"
+    },
+    {
+      "id": 14,
+      "nombre": "Central hidroeléctrica de Porto Primavera",
+      "pais": "Brasil",
+      "lugar": "Dique sobre el río Paraná entre los estados de São Paulo y Mato Grosso do Sul",
+      "descripcion": "Iniciada en 1980, su finalización estaba prevista para 1988, pero se inauguró recién en el año 2000, a un costo de 9.000 millones de dólares.La presa tiene una longitud de 10.186 metros de longitud, y su embalse ocupa 2.250 km2, convirtiéndolo en el más largo lago artificial de ese país.1 A pesar de su tamaño, la central solo produce una media de 900 MW, sobre una potencia instalada de 1.540 MW,2 lo que la sitúa como la 3º central hidroeléctrica más ineficaz del mundo, detrás de la represa de Balbina, en Pará, Brasil y de otra en Egipto.Cuenta una esclusa que permite la navegación a lo largo de la Hidrovía Paraná-Tieté.Cliente: Construções e Comércio Camargo Corrêa",
+      "materiales": ["Planta Norteamericana fabricada año 1970","Dosificadores de aditivos", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f35/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f35/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f35/42.jpg"],
+      "detalles": "En 1997, Betonmac S.A. automatizó y mejoró el equipamiento de una importante central de hormigón fabricada en la década del 70 de origen norte americano. Dicha central es de tipo torre (carga y descarga por gravedad) con seis balanzas de áridos, balanzas de cemento, puzolana, agua, hielo y dos de aditivos, un derivador rotativo que descarga a cuatro mezcladoras de volteo, que a su vez descargan en dos tolvas de hormigón.Como la central estaba funcionando, era de vital importancia que el tiempo que permaneciera parada la misma fuese mínimo, dado que había que reemplazar el tablero de comando existente por otro con automatismo Betonmatic, descartar los relojes mecánicos de aguja y reemplazarlos por sistemas de pesada con celdas de carga, reemplazar las viejas balanzas de aditivos por dosificadores Betonmac S.A. y cambiar de lugar la cabina de comando a un nivel inferior de modo tal que los operadores vean la salida de hormigón en forma directa.Gracias a una estricta planificación de trabajos entre el personal de la constructora Camargo Corrêa y el personal de Betonmac S.A., el tiempo de parada efectivo de la central fue de tan sólo de cinco dias."
+    },
+    {
+      "id": 15,
+      "nombre": "Acceso Norte y Av. Gral. Paz",
+      "pais": "Argentina",
+      "lugar": " Acceso Norte y Av. Gral. Paz - Buenos Aires",
+      "descripcion": "Obra vial por concesión, de dos de las autovías más importantes para acceder a la Ciudad de Buenos Aires, que son el Acceso Norte y la Avenida General Paz.Cliente: Autopistas del Sol, es un consorcio formado por: Dragados-Dycasa-AUREA, Impregilo-IGLYS y Sideco Ame",
+      "materiales": ["Max 100 D6", "Mezcladores HBV 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f17/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f17/41.jpg"],
+      "detalles": "Para esta obra, se utilizó como planta principal, una Max 100 D6 con dos mezcladores HBV 4500 y salida directa para carga de motohormigoneras.La producción de la planta con dos mezladores es de 120 m3/hora.Esta planta está automatizada con el sistema Betonmatic"
+    },
+    {
+      "id": 16,
+      "nombre": "Acceso Norte y Av. Gral. Paz",
+      "pais": "Argentina",
+      "lugar": " Acceso Norte y Av. Gral. Paz - Buenos Aires",
+      "descripcion": "Obra vial por concesión, de dos de las autovías más importantes para acceder a la Ciudad de Buenos Aires, que son el Acceso Norte y la Avenida General Paz.Cliente: Autopistas del Sol, es un consorcio formado por: Dragados-Dycasa-AUREA, Impregilo-IGLYS y Sideco Ame",
+      "materiales": ["Max 100 D6", "Mezcladores HBV 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f17/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f17/41.jpg"],
+      "detalles": "Para esta obra, se utilizó como planta principal, una Max 100 D6 con dos mezcladores HBV 4500 y salida directa para carga de motohormigoneras.La producción de la planta con dos mezladores es de 120 m3/hora.Esta planta está automatizada con el sistema Betonmatic"
+    },
+    {
+      "id": 17,
+      "nombre": "Planta de premoldeados",
+      "pais": "Brasil",
+      "lugar": "Itanhaém, en el litoral del estado de San Pablo",
+      "descripcion": "En 1998, Bechelli Industria e Comércio decidió mejorar la calidad de su producto y al mismo tiempo elevar su rendimiento.Cliente: Bechelli Industria e Comércio de Artefatos de Cimento",
+      "materiales": ["Especial", "Betonplus"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f38/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/42.jpg"],
+      "detalles": "Para ello Betonmac S.A. (aprovechando dos mezcladoras con sus skips ya instalados y que se cargaban manualmente), proyectó y proveyó un sistema de dosificación especial, resultando una planta dosificadora y elaboradora automatizada, con las siguientes características: Tolva de acopio para 3 áridos, cargables con pala con una pequeña rampa. Balanza longitudinal con cinta pesadora por suma para los 3 áridos, con descarga a una u otra mezcladora. Dos torres de mezclado con mezcladoras de acción forzada con elevación de áridos con skips (existentes) y balanzas de cemento instaladas sobre cada mezcladora, con carga por rosca y descarga por gravedad. La descarga de las mezcladoras se efectúa directamente sobre las fabricadoras de viguetas. Circuito de agua con caudalímetro lanzaimpulsos 1 1/4 y derivador a ambas torres de mezclado. "
     }
+    
   ]
   

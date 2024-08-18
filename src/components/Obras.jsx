@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Obras.css';
-import Map from "./Mapa"
+import Latam from "./work-gallery/Latam"
 
 const Obras = () => {
   const [works, setWorks] = useState([]);
@@ -42,9 +42,13 @@ const Obras = () => {
           <div className="hero-work-text">
             <h1>obras</h1>
             <h3>proyectos en latinoamerica</h3>
+            
           </div>
         </div> 
      </header>
+     <div>
+     
+     </div>
     <section className="obras-container">
       {/*Grilla de Obras*/}
       <div className="works-grid">
