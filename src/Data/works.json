@@ -121,16 +121,6 @@
     },
     {
       "id": 13,
-      "nombre": "Acceso Norte y Av. Gral. Paz",
-      "pais": "Brasil",
-      "lugar": " Acceso Norte y Av. Gral. Paz - Buenos Aires",
-      "descripcion": "Obra vial por concesión, de dos de las autovías más importantes para acceder a la Ciudad de Buenos Aires, que son el Acceso Norte y la Avenida General Paz.Cliente: Autopistas del Sol, es un consorcio formado por: Dragados-Dycasa-AUREA, Impregilo-IGLYS y Sideco Ame",
-      "materiales": ["Max 100 D6", "Mezcladores HBV 4500", "Betonmatic"],
-      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f17/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f17/41.jpg"],
-      "detalles": "Para esta obra, se utilizó como planta principal, una Max 100 D6 con dos mezcladores HBV 4500 y salida directa para carga de motohormigoneras.La producción de la planta con dos mezladores es de 120 m3/hora.Esta planta está automatizada con el sistema Betonmatic"
-    },
-    {
-      "id": 14,
       "nombre": "Central hidroeléctrica de Porto Primavera",
       "pais": "Brasil",
       "lugar": "Dique sobre el río Paraná entre los estados de São Paulo y Mato Grosso do Sul",
@@ -140,27 +130,57 @@
       "detalles": "En 1997, Betonmac S.A. automatizó y mejoró el equipamiento de una importante central de hormigón fabricada en la década del 70 de origen norte americano. Dicha central es de tipo torre (carga y descarga por gravedad) con seis balanzas de áridos, balanzas de cemento, puzolana, agua, hielo y dos de aditivos, un derivador rotativo que descarga a cuatro mezcladoras de volteo, que a su vez descargan en dos tolvas de hormigón.Como la central estaba funcionando, era de vital importancia que el tiempo que permaneciera parada la misma fuese mínimo, dado que había que reemplazar el tablero de comando existente por otro con automatismo Betonmatic, descartar los relojes mecánicos de aguja y reemplazarlos por sistemas de pesada con celdas de carga, reemplazar las viejas balanzas de aditivos por dosificadores Betonmac S.A. y cambiar de lugar la cabina de comando a un nivel inferior de modo tal que los operadores vean la salida de hormigón en forma directa.Gracias a una estricta planificación de trabajos entre el personal de la constructora Camargo Corrêa y el personal de Betonmac S.A., el tiempo de parada efectivo de la central fue de tan sólo de cinco dias."
     },
     {
+      "id": 14,
+      "nombre": "Central hidroeléctrica de Santa Branca",
+      "pais": "Brasil",
+      "lugar": "Ampliación dique (casa de fuerza y vertedero) sobre el río Paraiba, en el estado de São Paulo. Volumen de hormigón: 15.000 m3Cliente: Cartellone do Brasil LTDA",
+      "descripcion": "Ubicacion: Ampliación dique sobre el río Paraiba, en el estado de São PauloAmpliación dique (casa de fuerza y vertedero) sobre el río Paraiba, en el estado de São Paulo.Volumen de hormigón: 15.000 m3Cliente: Cartellone do Brasil LTDA",
+      "materiales": ["Neo Móvil 70/30C", "Mezcladores HBV 4500", "Betonplus"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f36/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f36/41.jpg"],
+      "detalles": "Planta suministrada por Betonmac S.A. modelo Neo Móvil 70/30C con mezcladora TR1000 desplazable, totalmente automatizada con sistema Betonplus. El uso de una mezcladora con un dispositivo de desplazamiento, permite tener en el mismo equipo una salida de hormigón elaborado de 30 m3/hora y rápidamente cambiar la configuración del equipo para cargar camiones motohormigoneros con una producción de hasta 70 m3/hora. El módulo de la mezcladora con dispositivo de desplazamiento puede ser aplicado a cualquier planta dosificadora."
+    },
+    {
       "id": 15,
-      "nombre": "Acceso Norte y Av. Gral. Paz",
-      "pais": "Argentina",
-      "lugar": " Acceso Norte y Av. Gral. Paz - Buenos Aires",
-      "descripcion": "Obra vial por concesión, de dos de las autovías más importantes para acceder a la Ciudad de Buenos Aires, que son el Acceso Norte y la Avenida General Paz.Cliente: Autopistas del Sol, es un consorcio formado por: Dragados-Dycasa-AUREA, Impregilo-IGLYS y Sideco Ame",
-      "materiales": ["Max 100 D6", "Mezcladores HBV 4500", "Betonmatic"],
-      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f17/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f17/41.jpg"],
-      "detalles": "Para esta obra, se utilizó como planta principal, una Max 100 D6 con dos mezcladores HBV 4500 y salida directa para carga de motohormigoneras.La producción de la planta con dos mezladores es de 120 m3/hora.Esta planta está automatizada con el sistema Betonmatic"
+      "nombre": "Central hidroeléctrica de Machadinho",
+      "pais": "Brasil",
+      "lugar": "Dique sobre el río Pelotas entre los estados de Santa Catarina y Rio Grande do Sul",
+      "descripcion": "La presa comenzó a construirse en 1998 y fue inaugurada en 2002; posee una potencia total instalada de 1.140 MW. El dique tiene una longitud de 694 metros y una altura de 196 metros, su embalse ocupa 79 km², con una cota máxima de 485 msnm.Volumen total de hormigón: 340.000 m3. Cliente: Construções e Comércio Camargo Corrêa",
+      "materiales": ["Max Móvil 140 CP", "MBH 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f37/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f37/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f37/42.jpg"],
+      "detalles": "Betonmac S.A. suministró dos plantas gemelas modelo Max Móvil 140 CP con mezcladora MBH 4500, con una producción de 120 m3/hora, y acopio de áridos de 80 m3, totalmente automatizadas con tecnología de última generación (sitema Betonmatic). Tanto el módulo dosificador, el pórtico automontante de la mezcladora y el sistema de carga de áridos, son transportables, de fácil y rápida instalación, tanto mecánica como eléctricamente (todos los tableros se interconectan mediante cables con fichas). Lo anterior permitió que las plantas fueran reubicadas varias veces en los lugares más estratégicos de la obra para el máximo aprovechamiento."
     },
     {
       "id": 16,
-      "nombre": "Acceso Norte y Av. Gral. Paz",
-      "pais": "Argentina",
-      "lugar": " Acceso Norte y Av. Gral. Paz - Buenos Aires",
-      "descripcion": "Obra vial por concesión, de dos de las autovías más importantes para acceder a la Ciudad de Buenos Aires, que son el Acceso Norte y la Avenida General Paz.Cliente: Autopistas del Sol, es un consorcio formado por: Dragados-Dycasa-AUREA, Impregilo-IGLYS y Sideco Ame",
-      "materiales": ["Max 100 D6", "Mezcladores HBV 4500", "Betonmatic"],
-      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f17/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f17/41.jpg"],
-      "detalles": "Para esta obra, se utilizó como planta principal, una Max 100 D6 con dos mezcladores HBV 4500 y salida directa para carga de motohormigoneras.La producción de la planta con dos mezladores es de 120 m3/hora.Esta planta está automatizada con el sistema Betonmatic"
+      "nombre": "Planta de premoldeados",
+      "pais": "Brasil",
+      "lugar": "Itanhaém, en el litoral del estado de San Pablo",
+      "descripcion": "En 1998, Bechelli Industria e Comércio decidió mejorar la calidad de su producto y al mismo tiempo elevar su rendimiento.Cliente: Bechelli Industria e Comércio de Artefatos de Cimento",
+      "materiales": ["Especial", "Betonplus"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f38/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/42.jpg"],
+      "detalles": "Para ello Betonmac S.A. (aprovechando dos mezcladoras con sus skips ya instalados y que se cargaban manualmente), proyectó y proveyó un sistema de dosificación especial, resultando una planta dosificadora y elaboradora automatizada, con las siguientes características: Tolva de acopio para 3 áridos, cargables con pala con una pequeña rampa. Balanza longitudinal con cinta pesadora por suma para los 3 áridos, con descarga a una u otra mezcladora. Dos torres de mezclado con mezcladoras de acción forzada con elevación de áridos con skips (existentes) y balanzas de cemento instaladas sobre cada mezcladora, con carga por rosca y descarga por gravedad. La descarga de las mezcladoras se efectúa directamente sobre las fabricadoras de viguetas. Circuito de agua con caudalímetro lanzaimpulsos 1 1/4 y derivador a ambas torres de mezclado. "
     },
     {
       "id": 17,
+      "nombre": "Planta de premoldeados",
+      "pais": "Brasil",
+      "lugar": "Itanhaém, en el litoral del estado de San Pablo",
+      "descripcion": "En 1998, Bechelli Industria e Comércio decidió mejorar la calidad de su producto y al mismo tiempo elevar su rendimiento.Cliente: Bechelli Industria e Comércio de Artefatos de Cimento",
+      "materiales": ["Especial", "Betonplus"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f38/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/42.jpg"],
+      "detalles": "Para ello Betonmac S.A. (aprovechando dos mezcladoras con sus skips ya instalados y que se cargaban manualmente), proyectó y proveyó un sistema de dosificación especial, resultando una planta dosificadora y elaboradora automatizada, con las siguientes características: Tolva de acopio para 3 áridos, cargables con pala con una pequeña rampa. Balanza longitudinal con cinta pesadora por suma para los 3 áridos, con descarga a una u otra mezcladora. Dos torres de mezclado con mezcladoras de acción forzada con elevación de áridos con skips (existentes) y balanzas de cemento instaladas sobre cada mezcladora, con carga por rosca y descarga por gravedad. La descarga de las mezcladoras se efectúa directamente sobre las fabricadoras de viguetas. Circuito de agua con caudalímetro lanzaimpulsos 1 1/4 y derivador a ambas torres de mezclado. "
+    },
+    {
+      "id": 18,
+      "nombre": "Planta de premoldeados",
+      "pais": "Brasil",
+      "lugar": "Itanhaém, en el litoral del estado de San Pablo",
+      "descripcion": "En 1998, Bechelli Industria e Comércio decidió mejorar la calidad de su producto y al mismo tiempo elevar su rendimiento.Cliente: Bechelli Industria e Comércio de Artefatos de Cimento",
+      "materiales": ["Especial", "Betonplus"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f38/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/42.jpg"],
+      "detalles": "Para ello Betonmac S.A. (aprovechando dos mezcladoras con sus skips ya instalados y que se cargaban manualmente), proyectó y proveyó un sistema de dosificación especial, resultando una planta dosificadora y elaboradora automatizada, con las siguientes características: Tolva de acopio para 3 áridos, cargables con pala con una pequeña rampa. Balanza longitudinal con cinta pesadora por suma para los 3 áridos, con descarga a una u otra mezcladora. Dos torres de mezclado con mezcladoras de acción forzada con elevación de áridos con skips (existentes) y balanzas de cemento instaladas sobre cada mezcladora, con carga por rosca y descarga por gravedad. La descarga de las mezcladoras se efectúa directamente sobre las fabricadoras de viguetas. Circuito de agua con caudalímetro lanzaimpulsos 1 1/4 y derivador a ambas torres de mezclado. "
+    },
+    {
+      "id": 19,
       "nombre": "Planta de premoldeados",
       "pais": "Brasil",
       "lugar": "Itanhaém, en el litoral del estado de San Pablo",
