@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Obras.css';
+import Gallery from "./work-gallery/Gallery"
 import Latam from "./work-gallery/Latam"
 
 const Obras = () => {
@@ -47,7 +48,8 @@ const Obras = () => {
         </div> 
      </header>
      <div>
-     
+    
+     <Gallery />
      </div>
     <section className="obras-container">
       {/*Grilla de Obras*/}

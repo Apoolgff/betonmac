@@ -161,33 +161,83 @@
     },
     {
       "id": 17,
-      "nombre": "Planta de premoldeados",
+      "nombre": "Central hidroeléctrica de Santa Clara",
       "pais": "Brasil",
-      "lugar": "Itanhaém, en el litoral del estado de San Pablo",
-      "descripcion": "En 1998, Bechelli Industria e Comércio decidió mejorar la calidad de su producto y al mismo tiempo elevar su rendimiento.Cliente: Bechelli Industria e Comércio de Artefatos de Cimento",
-      "materiales": ["Especial", "Betonplus"],
-      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f38/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/42.jpg"],
-      "detalles": "Para ello Betonmac S.A. (aprovechando dos mezcladoras con sus skips ya instalados y que se cargaban manualmente), proyectó y proveyó un sistema de dosificación especial, resultando una planta dosificadora y elaboradora automatizada, con las siguientes características: Tolva de acopio para 3 áridos, cargables con pala con una pequeña rampa. Balanza longitudinal con cinta pesadora por suma para los 3 áridos, con descarga a una u otra mezcladora. Dos torres de mezclado con mezcladoras de acción forzada con elevación de áridos con skips (existentes) y balanzas de cemento instaladas sobre cada mezcladora, con carga por rosca y descarga por gravedad. La descarga de las mezcladoras se efectúa directamente sobre las fabricadoras de viguetas. Circuito de agua con caudalímetro lanzaimpulsos 1 1/4 y derivador a ambas torres de mezclado. "
+      "lugar": "Dique sobre el río Mucuri en el estado de Minas Gerais",
+      "descripcion": "Dados técnicos: Potencia 118 MW Captura y depósito: Área de Captación 3.900 km² Flujo anual promedio 101,3 m³ / s Cliente: Construtora Queiroz Galvão",
+      "materiales": [" Max Móvil 140/6", "MBH 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f39/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f39/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f39/42.jpg"],
+      "detalles": "Planta suministrada por Betonmac S.A. modelo Max Móvil 140/6 con mezcladora MBH 4500, con una producción de 120 m3/hora, y acopio de áridos de 80 m3, totalmente automatizada con sistema Betonmatic. El módulo dosificador es totalmente independiente de la mezcladora, lo que permitiría (quitando la mezcladora) utilizarlo como dosificador de camiones motohormigoneros. La mezcladora se puede aplicar a cualquier planta dosificadora. "
     },
     {
       "id": 18,
-      "nombre": "Planta de premoldeados",
+      "nombre": "Central hidroeléctrica de Tucuruí",
       "pais": "Brasil",
-      "lugar": "Itanhaém, en el litoral del estado de San Pablo",
-      "descripcion": "En 1998, Bechelli Industria e Comércio decidió mejorar la calidad de su producto y al mismo tiempo elevar su rendimiento.Cliente: Bechelli Industria e Comércio de Artefatos de Cimento",
-      "materiales": ["Especial", "Betonplus"],
-      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f38/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/42.jpg"],
+      "lugar": "Dique sobre el río Tocantins en el estado de Pará",
+      "descripcion": "Construcción de la segunda parte de la casa de máquinas. Cliente: Construções e Comércio Camargo Corrêa",
+      "materiales": ["Planta Norteamericana fabricada año 1970", "Dosificadores de aditivos", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f40/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f40/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f40/42.jpg"],
       "detalles": "Para ello Betonmac S.A. (aprovechando dos mezcladoras con sus skips ya instalados y que se cargaban manualmente), proyectó y proveyó un sistema de dosificación especial, resultando una planta dosificadora y elaboradora automatizada, con las siguientes características: Tolva de acopio para 3 áridos, cargables con pala con una pequeña rampa. Balanza longitudinal con cinta pesadora por suma para los 3 áridos, con descarga a una u otra mezcladora. Dos torres de mezclado con mezcladoras de acción forzada con elevación de áridos con skips (existentes) y balanzas de cemento instaladas sobre cada mezcladora, con carga por rosca y descarga por gravedad. La descarga de las mezcladoras se efectúa directamente sobre las fabricadoras de viguetas. Circuito de agua con caudalímetro lanzaimpulsos 1 1/4 y derivador a ambas torres de mezclado. "
     },
     {
       "id": 19,
       "nombre": "Planta de premoldeados",
       "pais": "Brasil",
-      "lugar": "Itanhaém, en el litoral del estado de San Pablo",
-      "descripcion": "En 1998, Bechelli Industria e Comércio decidió mejorar la calidad de su producto y al mismo tiempo elevar su rendimiento.Cliente: Bechelli Industria e Comércio de Artefatos de Cimento",
-      "materiales": ["Especial", "Betonplus"],
-      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f38/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f38/42.jpg"],
-      "detalles": "Para ello Betonmac S.A. (aprovechando dos mezcladoras con sus skips ya instalados y que se cargaban manualmente), proyectó y proveyó un sistema de dosificación especial, resultando una planta dosificadora y elaboradora automatizada, con las siguientes características: Tolva de acopio para 3 áridos, cargables con pala con una pequeña rampa. Balanza longitudinal con cinta pesadora por suma para los 3 áridos, con descarga a una u otra mezcladora. Dos torres de mezclado con mezcladoras de acción forzada con elevación de áridos con skips (existentes) y balanzas de cemento instaladas sobre cada mezcladora, con carga por rosca y descarga por gravedad. La descarga de las mezcladoras se efectúa directamente sobre las fabricadoras de viguetas. Circuito de agua con caudalímetro lanzaimpulsos 1 1/4 y derivador a ambas torres de mezclado. "
+      "lugar": "Porto Alegre, estado de Rio Grande do Sul",
+      "descripcion": "Aprovechando un desnivel natural del terreno, se construyó en hormigón un acopio de áridos, que permite descargar directamente los camiones al mismo. La mezcladora descarga el hormigón en una tolva motorizada, que se desliza sobre de rieles aéreos a lo largo de toda la nave, alimentando las diferentes máquinas procesadoras colocadas en hilera. Cliente: D'agostini Industria de Concreto LTDA",
+      "materiales": ["PM 1150","TR 1000", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f41/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f41/41.jpg"],
+      "detalles": ""
+    },
+    {
+      "id": 20,
+      "nombre": "Central hidroeléctrica de Campos Novos",
+      "pais": "Brasil",
+      "lugar": "Dique sobre el río Canoas en el estado de Santa Catarina",
+      "descripcion": "Dique sobre el río Canoas en el estado de Santa Catarina. Volumen total de hormigón: 309.000 m3. Altura del dique: 196 m. Movimiento de suelos: 2.599.000 m3. Excavaciones en roca: 5.786.000 m3. Excavaciones subterraneas (túneles de desvío): 360.000 m3. Plazo previsto para la ejecución de las obras: 48 meses.Cliente: Construções e Comércio Camargo Corrêa",
+      "materiales": ["Neo Móvil 120","MBH 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f42/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f42/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f42/42.jpg"],
+      "detalles": "Betonmac S.A. suministró una planta modelo Neo Móvil 120 con mezcladora MBH 4500, con una producción de 120 m3/hora, con acopio para 5 áridos de 65 m3 de capacidad, totalmente automatizada con tecnología de última generación. Tanto el módulo dosificador, el pórtico automontante de la mezcladora y el sistema de carga de áridos, son transportables, de fácil y rápida instalación, tanto mecánica como eléctricamente (todos los tableros se interconectan mediante cables con fichas). Esta previsto la incorporación de una segunda planta de características similares."
+    },
+    {
+      "id": 21,
+      "nombre": "Complejo hidroeléctrico de Ceran",
+      "pais": "Brasil",
+      "lugar": "14 de Julho, Monte Claro, Castro Alvares",
+      "descripcion": "Potencia Instalada: 130 MW Energía Asegurada: 64 MW Área de Reserva: 5 km2 Cliente: Camargo Correa",
+      "materiales": [" Max100 D2","Neo Movil 120","MBH 4500", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f43/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f43/41.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f43/42.jpg"],
+      "detalles": "Una Planta dosificadora y elaboradora compuesta por:<br /> Módulo de áridos Max100 D2, con dos balanzas independientes de 3 áridos cada una (hasta 6 materiales diferentes), con un acopio total de 87 m3 de capacidad.Torre de mezclado con tolva pulmón para los áridos dosificados, balanza de cemento con 4 silos de 75 Tn cada uno, carga por roscas de gran capacidad y elevada precisión (con microtormillo de ajuste), dosificación de agua volumétrica con caudalímetro y tolva pulmón, dosificadores de aditivos, mezcladora a doble eje MBH 4500 y tolva receptora de hormigón con descarga programable.Totalmente automatizada con tecnología de última generación.Producción hasta 165 m3/hora <br/> Segunda Planta dosificadora y elaboradora compuesta por:<br/>Módulo de áridos Neo Móvil 120, con una balanza por suma de 5 áridos, con un acopio total de 30 m3 de capacidad, transportable a semirremolque.Torre de mezclado, balanza de cemento con 3 silos de 75 Tn cada uno, carga por roscas, dosificación de agua volumétrica con caudalímetro, dosificadores de aditivos, mezcladora a doble eje MBH 3000 y encauzador de descarga a motohormigonera.Sistema de carga de áridos fijo con cinta distribuidora sobre el acopio de áridos de la planta. * Totalmente automatizada con tecnología de última generación.Producción hasta 85 m3/hora."
+    },
+    {
+      "id": 22,
+      "nombre": "Exclusas Tucuruí",
+      "pais": "Brasil",
+      "lugar": "Porto Alegre, estado de Rio Grande do Sul",
+      "descripcion": "Aprovechando un desnivel natural del terreno, se construyó en hormigón un acopio de áridos, que permite descargar directamente los camiones al mismo. La mezcladora descarga el hormigón en una tolva motorizada, que se desliza sobre de rieles aéreos a lo largo de toda la nave, alimentando las diferentes máquinas procesadoras colocadas en hilera. Cliente: D'agostini Industria de Concreto LTDA",
+      "materiales": ["PM 1150","TR 1000", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f41/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f41/41.jpg"],
+      "detalles": ""
+    },
+    {
+      "id": 23,
+      "nombre": "Planta de premoldeados",
+      "pais": "Brasil",
+      "lugar": "Porto Alegre, estado de Rio Grande do Sul",
+      "descripcion": "Aprovechando un desnivel natural del terreno, se construyó en hormigón un acopio de áridos, que permite descargar directamente los camiones al mismo. La mezcladora descarga el hormigón en una tolva motorizada, que se desliza sobre de rieles aéreos a lo largo de toda la nave, alimentando las diferentes máquinas procesadoras colocadas en hilera. Cliente: D'agostini Industria de Concreto LTDA",
+      "materiales": ["PM 1150","TR 1000", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f41/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f41/41.jpg"],
+      "detalles": ""
+    },
+    {
+      "id": 24,
+      "nombre": "Planta de premoldeados",
+      "pais": "Brasil",
+      "lugar": "Porto Alegre, estado de Rio Grande do Sul",
+      "descripcion": "Aprovechando un desnivel natural del terreno, se construyó en hormigón un acopio de áridos, que permite descargar directamente los camiones al mismo. La mezcladora descarga el hormigón en una tolva motorizada, que se desliza sobre de rieles aéreos a lo largo de toda la nave, alimentando las diferentes máquinas procesadoras colocadas en hilera. Cliente: D'agostini Industria de Concreto LTDA",
+      "materiales": ["PM 1150","TR 1000", "Betonmatic"],
+      "imagenes": ["https://betonmac.com/images/stories/com_form2content/p4/f41/40.jpg", "https://betonmac.com/images/stories/com_form2content/p4/f41/41.jpg"],
+      "detalles": ""
     }
     
   ]
