@@ -5,7 +5,7 @@ const Pin = () => {
   
 
   return (
-    <div>
+    <div className="pin">
         
     </div>
   );

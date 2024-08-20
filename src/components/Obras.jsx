@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Obras.css';
-import Gallery from "./work-gallery/Gallery"
-import Latam from "./work-gallery/Latam"
+import Portfolio from './work-gallery/Portfolio';
 
 const Obras = () => {
   const [works, setWorks] = useState([]);
@@ -49,7 +48,7 @@ const Obras = () => {
      </header>
      <div>
     
-     <Gallery />
+     <Portfolio />
      </div>
     <section className="obras-container">
       {/*Grilla de Obras*/}
