@@ -1,7 +1,7 @@
 .portfolio-container {
     
     padding: 6rem;
-   background-color: var(--background-color);
+   background-color: white;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
@@ -49,7 +49,7 @@
    
 }
 .portfolio-card-name{
-    background-color: var(--background-color);
+    background-color: white;
     padding: 0.5rem;
     border-radius: 0.5rem;
     color: black;

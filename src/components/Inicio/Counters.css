@@ -34,7 +34,7 @@
         }
         
       .paises-moto {
-       /transform: translateY(-25px) translateX(20px);
+       transform: translateY(-25px) translateX(20px);
         
       }
   
