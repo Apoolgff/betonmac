@@ -1,18 +1,27 @@
 .map-container {
-    background-color: aqua;
+    background-color: rgba(21, 41, 104, 0.431);
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
 .map-container path {
     fill: #010A66;
-    stroke: #fff;
+    stroke: #6b6f92;
+    stroke-width: 1px;
 }
 
 .map-container a:hover path {
     fill: #FF9900;
+}
+
+.map-container svg{
+    max-width: 100%; 
+    max-height: 100%;
+    overflow: visible;
 }
 
 .info-box {

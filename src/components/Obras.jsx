@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Obras.css';
 import Portfolio from './work-gallery/Portfolio';
+import Mapa from './Mapa'
 
 const Obras = () => {
   const [works, setWorks] = useState([]);
@@ -45,6 +46,7 @@ const Obras = () => {
             
           </div>
         </div> 
+        <Mapa />
      </header>
      <div>
     
