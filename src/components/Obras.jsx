@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Obras.css';
 import Portfolio from './work-gallery/Portfolio';
 import Mapa from './Mapa'
+import Counters from './Inicio/Counters';
 
 const Obras = () => {
   const [works, setWorks] = useState([]);
@@ -49,7 +50,7 @@ const Obras = () => {
         <Mapa />
      </header>
      <div>
-    
+    <Counters />
      <Portfolio />
      </div>
     <section className="obras-container">

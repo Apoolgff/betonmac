@@ -28,12 +28,13 @@
       
       }
       .paises-location{
-        transform: scale(130%);
-        
+        transform: translateY(-20px) translateX(-15px) scale(125%);
+        filter: brightness(0.97);
         
         }
         
       .paises-moto {
-        transform: translateY(-5px) translateX(-5px) scale(125%);
+       /transform: translateY(-25px) translateX(20px);
+        
       }
   

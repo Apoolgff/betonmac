@@ -17,11 +17,12 @@ const Portfolio = () => {
   return (
     <div className="portfolio-container"> 
       {portfolio.map(obra =>(
-        <Link key={obra.id} to={`/obra/${obra.id}`} className='portfolio-card' style={{ backgroundImage: `url(${obra.imagenes[1]})` }}>
-          <div className='portfolio-card-layer'>
-            <p className='portfolio-card-country'>{obra.pais}</p>
-            <p className='portfolio-card-name'>{obra.nombre}</p>
-          </div>  
+        <Link key={obra.id} to={`/obra/${obra.id}`} className='portfolio-card' >
+          <figure className='portfolio-card-figure'>
+            <img className='portfolio-card-image' src={obra.imagenes[1]} alt={obra.nombre} />
+            
+            <figcaption className='portfolio-card-name'>{obra.nombre}</figcaption>
+          </figure>  
         </Link>
       )) }
     </div>
