@@ -1,22 +1,26 @@
 .novedades {
-    text-align: center;
+    
     padding: 50px 20px;
     background-color: #f9f9f9;
 }
 
 .novedades h2 {
-    font-size: 2.5rem;
+    margin-left: 13rem;
+    text-align: left;
     margin-bottom: 20px;
     color: #333;
 }
 
 .novedades p {
+    text-align: left;
+    margin-left: 13rem;
     font-size: 1.2rem;
     margin-bottom: 40px;
     color: #666;
 }
 
 .novedades-grid {
+    margin: 0 13rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -47,10 +51,11 @@
 }
 
 .novedad-item p {
+    text-align: center;
     font-size: 1rem;
     color: #777;
+    margin: 0;
 }
-
 .novedad-item .btn {
     display: inline-block;
     margin-top: 10px;

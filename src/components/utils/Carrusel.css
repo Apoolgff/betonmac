@@ -1,13 +1,17 @@
-.Carousel {
-    max-width: 85%;
+.carousel {
+    max-width: 90%;
     margin: auto;
     position: relative;
-    margin: 10px auto;
+    margin: 1px auto;
+  }
+  .carousel-container-image {
+    object-fit: cover;
   }
   
   .slick-slide img {
-    width: 420px;
-    height: 300px;
+    width: 490px;
+    height: 350px;
+    object-fit: cover;
     /*border: 1px solid rgb(255, 255, 255);*/
   }
   
@@ -27,30 +31,30 @@
     content: '';
 }*/
   
-  .Carousel .slick-prev {
+  .carousel .slick-prev {
     left: -85px;
     top: 160px;
   }
   
-  .Carousel .slick-next {
+  .carousel .slick-next {
     right: -75px;
     top: 160px;
   }
   
-  .Carousel .slick-dots {
+  .carousel .slick-dots {
     text-align: center;
     margin: auto;
     z-index: 1;
     left: -10px;
   }
   
-  .Carousel .slick-dots li {
+  .carousel .slick-dots li {
     display: inline-block;
     margin: 0 15px;
     top: 15px;
   }
   
-  .Carousel .slick-dots li button {
+  .carousel .slick-dots li button {
     font-size: 20px;
     color: #333;
     background-color: #fff;
@@ -61,11 +65,11 @@
     cursor: pointer;
   }
 
-  .Carousel .slick-dots li button::before{
+  .carousel .slick-dots li button::before{
     color: transparent;
   }
   
-  .Carousel .slick-dots li.slick-active button {
+  .carousel .slick-dots li.slick-active button {
     background-color: #333;
     color: white;
   }
