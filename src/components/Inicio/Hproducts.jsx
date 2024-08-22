@@ -14,7 +14,7 @@ const products = [
       title: 'motohormigoneras', 
       url: '/productos',
       class: 'home-product-motohormigoneras'},
-    { image: '/public/images/home/silos.jpg', 
+    { image: '/images/home/silos.jpg', 
       title: 'silos', 
       url: '/productos',
       class: 'home-product-silos'},

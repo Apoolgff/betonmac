@@ -36,44 +36,58 @@ const Eventos = () => {
   };
 
   return (
-    <div className='container'>
-      <div className='calendar-container'>
-        <Calendar 
-          localizer={localizer} 
-          events={events}
-          startAccessor="start"
-          endAccessor="end"
-          style={{ height: 500 }}
-          onSelectEvent={handleSelectEvent}
-          messages={{
-            allDay: "Todo el día",
-            previous: "Anterior",
-            next: "Siguiente",
-            today: "Hoy",
-            month: "Mes",
-            week: "Semana",
-            day: "Día",
-            agenda: "Agenda",
-            date: "Fecha",
-            time: "Hora",
-            event: "Evento",
-            noEventsInRange: "Sin eventos"
-          }} 
-        />
+    <>
+      <header className="hero-calendar-image">
+        <div className="hero-calendar-layer">
+          <div className="hero-calendar-text">
+            <h1>Calendario</h1>
+            <h3>Eventos y cursos</h3>
+          </div>
+        </div>
+      </header>
+      <div className='container'>
+        <div className='calendar-container'>
+          <Calendar
+            localizer={localizer}
+            events={events}
+            startAccessor="start"
+            endAccessor="end"
+            style={{ height: 500 }}
+            onSelectEvent={handleSelectEvent}
+            messages={{
+              allDay: "Todo el día",
+              previous: "Anterior",
+              next: "Siguiente",
+              today: "Hoy",
+              month: "Mes",
+              week: "Semana",
+              day: "Día",
+              agenda: "Agenda",
+              date: "Fecha",
+              time: "Hora",
+              event: "Evento",
+              noEventsInRange: "Sin eventos"
+            }}
+          />
+        </div>
+        <div className='event-container'>
+          {selectedEvent ? (
+            <>
+              <h2>{selectedEvent.title}</h2>
+              <p className='event-line'><span>Descripcion:</span> {selectedEvent.description}</p>
+              <p><span>Fecha de inicio:</span> {dayjs(selectedEvent.start).format('DD/MM/YYYY')}</p>
+              <p className='event-line'><span>Horario de inicio:</span> {dayjs(selectedEvent.start).format('HH:mm')}</p>
+              <p><span>Fecha de finalizacion:</span> {dayjs(selectedEvent.end).format('DD/MM/YYYY HH:mm')}</p>
+              <p className='event-line'><span>Horario de finalizacion:</span> {dayjs(selectedEvent.end).format('HH:mm')}</p>
+            </>
+          ) : (
+            <p>Selecciona un evento del calendario para ver los detalles.</p>
+          )}
+        </div>
       </div>
-      <div className='event-container'>
-        {selectedEvent ? (
-          <>
-            <h2>{selectedEvent.title}</h2>
-            <p>Inicio: {dayjs(selectedEvent.start).format('DD/MM/YYYY HH:mm')}</p>
-            <p>Fin: {dayjs(selectedEvent.end).format('DD/MM/YYYY HH:mm')}</p>
-          </>
-        ) : (
-          <p>Selecciona un evento del calendario para ver los detalles.</p>
-        )}
-      </div>
-    </div>
+    </>
   );
 };
+
 
 export default Eventos;
