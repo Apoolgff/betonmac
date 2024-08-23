@@ -1,35 +1,33 @@
-import React from 'react'
+import React from 'react';
+import Rotation from '../utils/Rotation';
 import './Hnews.css'
 
 const Hnews = () => {
+  const slides = [
+    {
+      image: 'https://betonmac.com/images/stories/com_form2content/p7/f58/64.jpg',
+      title: 'Noticia 3',
+      text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam temporibus iusto aut suscipit quas, maxime eius ex, quis ab deleniti odio omnis eos tenetur facilis doloremque architecto reiciendis nisi.',
+    },
+    {
+      image: 'https://betonmac.com/images/Imagenes/PortadasMTH/Portada-Central-MTH2.jpg',
+      title: 'Noticia 2',
+      text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam temporibus iusto aut suscipit quas, maxime eius ex, quis ab deleniti odio omnis eos tenetur facilis doloremque architecto reiciendis nisi.',
+    },
+    {
+      image: '/public/images/home/silos.jpg',
+      title: 'Noticia 3',
+      text: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam temporibus iusto aut suscipit quas, maxime eius ex, quis ab deleniti odio omnis eos tenetur facilis doloremque architecto reiciendis nisi.',
+    },
+   
+  ];
+
   return (
-    <section className="novedades">
-    <h2>Novedades</h2>
-    <p>Descubre nuestros últimos productos y servicios.</p>
-    <div className="novedades-grid">
-        <div className="novedad-item">
-            <img src="/images/home/motohormigonera.png" alt="Producto 1" />
-            <h3>Producto 1</h3>
-            <p>Breve descripción del producto 1.</p>
-            <a href="#" className="btn">Más Información</a>
-        </div>
-        <div className="novedad-item">
-            <img src="/images/home/planta-movil.png" alt="Producto 2" />
-            <h3>Producto 2</h3>
-            <p>Breve descripción del producto 2.</p>
-            <a href="#" className="btn">Más Información</a>
-        </div>
-        <div className="novedad-item">
-            <img src="/images/home/silos.jpg" alt="Producto 3" />
-            <h3>Producto 2</h3>
-            <p>Breve descripción del producto 2.</p>
-            <a href="#" className="btn">Más Información</a>
-        </div>
-      
-    </div>
-</section>
+    <section className='home-news'>
+      <h2>Novedades</h2>
+      <Rotation slides={slides} />
+    </section>
+  );
+};
 
-  )
-}
-
-export default Hnews
+export default Hnews;

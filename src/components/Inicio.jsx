@@ -10,10 +10,12 @@ const Inicio = () => {
   return (
     <>
       <Hero />
-      <Hnews />
+      
       
       <Hproducts />
+     
       <Hconsulta />
+      <Hnews />
       <Hcards />
     </>
   )
