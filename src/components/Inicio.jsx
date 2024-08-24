@@ -13,9 +13,9 @@ const Inicio = () => {
       
       
       <Hproducts />
-     
-      <Hconsulta />
       <Hnews />
+      <Hconsulta />
+    
       <Hcards />
     </>
   )
