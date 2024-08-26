@@ -91,7 +91,7 @@ const Productos = () => {
         {filteredSubProducts.map(product => (
           <div key={product.id} className="product-card">
             <img src={product.image} alt={product.title} className="product-card-image" />
-            <h2>{product.title}</h2>
+            <h3>{product.title}</h3>
             <p>{product.subtitle}</p>
             <Link to={`/producto/${product.id}`} className="product-card-button">
               Ver Producto

@@ -9,6 +9,8 @@
   background-color: #333;
   color: white;
   padding: 10px;
+  font-family: 'roboto-bold';
+  text-transform: uppercase;
 }
 
 .top-bar-item {
@@ -47,7 +49,7 @@
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s;
-  
+  font-family: 'roboto-light';
 }
 
 .product-card:hover {
@@ -64,7 +66,7 @@
   display: inline-block;
   padding: 10px 20px;
   margin: 10px 0;
-  background-color: #007bff;
+  background-color: var(--primary-color);
   color: white;
   text-decoration: none;
   border-radius: 5px;

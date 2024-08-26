@@ -50,7 +50,7 @@ useEffect(() => {
           <div className="card-content">
           <div className="card-overlay">
          
-          <h4 className='card-title'>{card.title}</h4>
+          <h5 className='card-title'>{card.title}</h5>
          
           
             </div>
