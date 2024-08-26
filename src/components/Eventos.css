@@ -1,6 +1,6 @@
 /* Eventos.css */
 .hero-calendar-layer {
-  background-color:rgba(21, 41, 104, 0.431);
+  background-color:var(--layer-color);
   width: 100%;
   height: 100%;
   display:flex;
@@ -13,7 +13,8 @@
   position: relative;
   width: 100%;
   height: 50vh;
-  /*background: url('/images/backgrounds/latam.svg') no-repeat center center/contain;*/
+  background: url('https://lh3.googleusercontent.com/p/AF1QipNSTBe9FVFjc-xmW-an8gp7FnhsTo9XmQtKmVjx=s1360-w1360-h1020');
+  background-size: cover ;
   display: flex;
   align-items: center;
   justify-content: center;
