@@ -4,14 +4,14 @@
    
   }
   
-  .hero-carousel {
+  .work-hero-carousel {
     position: relative;
     width: 100%;
     height: calc(100vh - 90px);
     overflow: hidden;
   }
   
-  .carousel-image {
+  .work-carousel-image {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -20,44 +20,57 @@
     transition: opacity 1s ease-in-out;
   }
   
-  .carousel-text {
+  .work-carousel-text {
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 0px;
     color: white;
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--layer-color);
     padding: 20px;
-    border-radius: 10px;
+   
   }
   
-  .descriptive-text {
+  .work-descriptive-text {
+    height: 50vh;
     margin: 20px 0;
     text-align: center;
+  
     font-size: 1.2em;
   }
   
-  .services-section {
-    margin: 40px 0;
+  .work-services-section {
+    height: 50vh;
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-image: url('https://lh3.googleusercontent.com/p/AF1QipMkzDfrCRb9M5bdoXV5Ai4wNwjMI5yWf3ameOoU=s1360-w1360-h1020') ;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .work-services-layer {
+    background-color: var(--layer-color);
+    height: 100%;
   }
   
-  .services-section h2 {
+  .work-services-section h2 {
     margin-bottom: 20px;
     text-align: center;
+    color: white;
   }
   
-  .services-container {
+  .work-services-container {
     display: flex;
     justify-content: space-around;
   }
   
-  .service {
+  .work-service {
     text-align: center;
+    color: white;
+    font-family: 'roboto-light';
   }
   
-  .service-icon {
+  .work-service-icon {
     width: 100px;
     height: 100px;
     background-size: cover;
@@ -65,7 +78,7 @@
     margin: 0 auto 10px;
   }
   
-  .image-separator {
+  .work-image-separator {
     width: 100%;
     height: 200px;
     background-size: cover;
@@ -74,7 +87,7 @@
     background-image: url('https://betonmac.com/images/stories/com_form2content/p4/f14/40.jpg');
   }
   
-  .centered-text-section {
+  .work-centered-text-section {
     text-align: center;
     margin: 40px 0;
   }

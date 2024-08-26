@@ -53,25 +53,7 @@ const Obras = () => {
     <Counters />
      <Portfolio />
      </div>
-    <section className="obras-container">
-      {/*Grilla de Obras*/}
-      <div className="works-grid">
-        {countries.map((country, index) => (
-          <div key={index} className="country-card">
-            <h3>{country}</h3>
-            {groupedWorks[country] ? (
-              groupedWorks[country].map(obra => (
-                <Link key={obra.id} to={`/obra/${obra.id}`} className="work-link">
-                  {obra.nombre}
-                </Link>
-              ))
-            ) : (
-              <p>No hay obras en este país.</p>
-            )}
-          </div>
-        ))}
-      </div>
-    </section>
+   
     </>
   );
 };
