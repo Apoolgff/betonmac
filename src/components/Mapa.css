@@ -9,46 +9,101 @@
 }
 
 .map-container path {
-    fill: #010A66;
+    fill: var(--underline-color);
     stroke: #6b6f92;
     stroke-width: 1px;
-    
+
 }
 
-/*.map-container a:hover path {
-    fill: #FF9900;
-}*/
+.map-container a:hover path {
+    fill: var(--secondary-color);
+    stroke-width: 2px;
+}
 
-.map-container svg{
-    max-width: 100%; 
+.map-container svg {
+    max-width: 100%;
     max-height: 100%;
     overflow: visible;
+    flex-wrap: wrap;
+    animation: title-entrance 1.5s ease;
+}
+
+
+
+@keyframes title-entrance {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    50% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes subtitle-entrance {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .pins {
-    transform: translateZ(0); /* Asegura que se rendericen en la capa más alta disponible */
-  }
+    transform: translateZ(0);
+}
 
-
-
-.info-box {
-    position: absolute;
-    background-color: #fff;
-    border: 2px solid #010A66;
-    padding: 10px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-    z-index: 10;
-    pointer-events: none; /* Evita que el tooltip interfiera con el mouse */
-    white-space: nowrap;
-    border-radius: 10%;
-    padding: 4px 8px;
-    box-shadow: 0px 0px 4px #222;
-    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #eeeeee),color-stop(1, #cccccc));
-    background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
-    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
-    background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
-    background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+.beton-country path {
+    fill: #424b9e;
 }
 
 
+.country-list {
+    margin-right: 150px;
+}
+
+.country-list ul {
+    list-style-type: none;
+    padding: 0;
+    animation: subtitle-entrance 3.5s ease-in-out;
+}
+
+.country-list li {
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px;
+    color: var(--primary-color);
+    white-space: nowrap;
+}
+
+.country-list li::before {
+    content: '';
+    display: inline-block;
+    background-image: url('/images/icons/beton.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.country-list li.highlight {
+    color: var(--secondary-color);
+
+}

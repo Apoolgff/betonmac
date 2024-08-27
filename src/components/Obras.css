@@ -6,17 +6,22 @@
   justify-content: flex-start;
   align-items: center;
   padding-left: 13rem;
+  display: flex;
 }
 
 .hero-work-image {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 88vh;
   /*background: url('/images/backgrounds/latam.svg') no-repeat center center/contain;*/
   display: flex;
   align-items: center;
   justify-content: center;
   
+}
+
+.hero-work-list{
+  width: 300px;
 }
 
 .hero-work-text h1  {

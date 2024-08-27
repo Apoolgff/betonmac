@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, dayjsLocalizer } from 'react-big-calendar';
+import { Calendar, dayjsLocalizer, Views } from 'react-big-calendar';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import dayjs from 'dayjs';
 import localeData from 'dayjs/plugin/localeData';
@@ -54,6 +54,8 @@ const Eventos = () => {
             endAccessor="end"
             style={{ height: 500 }}
             onSelectEvent={handleSelectEvent}
+            views={[Views.MONTH]} 
+            defaultView={Views.MONTH} 
             messages={{
               allDay: "Todo el día",
               previous: "Anterior",
@@ -77,7 +79,7 @@ const Eventos = () => {
               <p className='event-line'><span>Descripcion:</span> {selectedEvent.description}</p>
               <p><span>Fecha de inicio:</span> {dayjs(selectedEvent.start).format('DD/MM/YYYY')}</p>
               <p className='event-line'><span>Horario de inicio:</span> {dayjs(selectedEvent.start).format('HH:mm')}</p>
-              <p><span>Fecha de finalizacion:</span> {dayjs(selectedEvent.end).format('DD/MM/YYYY HH:mm')}</p>
+              <p><span>Fecha de finalizacion:</span> {dayjs(selectedEvent.end).format('DD/MM/YYYY')}</p>
               <p className='event-line'><span>Horario de finalizacion:</span> {dayjs(selectedEvent.end).format('HH:mm')}</p>
             </>
           ) : (

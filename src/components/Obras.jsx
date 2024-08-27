@@ -39,21 +39,21 @@ const Obras = () => {
   return (
     <>
       {/*Hero*/}
-     <header className="hero-work-image">
+      <header className="hero-work-image">
         <div className="hero-work-layer">
           <div className="hero-work-text">
             <h1>obras</h1>
             <h3>proyectos en latinoamerica</h3>
-            
+
           </div>
-        </div> 
+        </div>
         <Mapa />
-     </header>
-     <div>
-    <Counters />
-     <Portfolio />
-     </div>
-   
+      </header>
+      <div>
+        <Counters />
+        <Portfolio />
+      </div>
+
     </>
   );
 };

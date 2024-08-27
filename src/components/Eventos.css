@@ -88,8 +88,9 @@
 .event-container h2 {
   font-size: 1.8rem;
   margin-bottom: 10px;
-  color: var(--primary-color);
+  color: #fff;
   text-align: center;
+  background-color: var(--primary-color);
 }
 
 .event-container p {
@@ -115,8 +116,16 @@
   color: #fff;
 }
 
+
+.rbc-toolbar .rbc-toolbar-label{
+  font-size: 36px;
+  text-transform: capitalize;
+}
+
+
 .rbc-toolbar button {
   color: #fff;
+  margin-left: 5px;
 }
 
 .rbc-toolbar span {
