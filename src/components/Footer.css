@@ -151,11 +151,7 @@
     
    
     
-    view-timeline-name: --reveal;
-    animation-name:  left-animation-logo;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: entry 5% cover 15%; 
+   
   }
   
   .farallelogram-c {
@@ -164,11 +160,7 @@
     top: 20px; 
     
     z-index: 1; 
-    view-timeline-name: --reveal;
-    animation-name:  left-animation-logo;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: entry 5% cover 15%; 
+
   }
   @keyframes left-animation-logo {
 	0% {
@@ -187,11 +179,7 @@
     transform: rotate(90deg) skew(-30deg); 
     top: 6px; 
     left: 26.5px; 
-    view-timeline-name: --reveal;
-    animation-name:  top-animation-logo;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: entry 5% cover 15%; 
+  
   }
   
   .farallelogram-d {
@@ -199,11 +187,7 @@
     transform: rotate(90deg) skew(-30deg); 
     top: 16px; 
     left: 44px;
-    view-timeline-name: --reveal;
-    animation-name:  top-animation-logo;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: entry 5% cover 15%; 
+   
   }
   @keyframes top-animation-logo {
 	0% {
@@ -222,11 +206,7 @@
     transform: rotate(210deg) skew(-30deg); 
     top: 36px; 
     left: 25px; 
-    view-timeline-name: --reveal;
-    animation-name:  right-animation-logo;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: entry 5% cover 15%; 
+  
     
   }
   .farallelogram-e {
@@ -234,11 +214,7 @@
     transform: rotate(210deg) skew(-30deg); 
      top: 46px; 
       left: 8px; 
-    view-timeline-name: --reveal;
-    animation-name:  right-animation-logo;
-    animation-fill-mode: both;
-    animation-timeline: --reveal;
-    animation-range: entry 5% cover 15%; 
+ 
   }
   @keyframes right-animation-logo {
 	0% {
