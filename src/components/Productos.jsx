@@ -46,7 +46,8 @@ const Productos = () => {
 
   return (
     <div className="productos-container">
-      <div className="top-bar">
+      <div className="top-bar-layout">
+        <div className='top-bar'>
         {productTypes.map(type => (
           <div
             key={type}
@@ -85,6 +86,7 @@ const Productos = () => {
           }} // Muestra todos los productos al hacer clic en "Todos"
         >
           Todos
+        </div>
         </div>
       </div>
       <div className="product-grid">

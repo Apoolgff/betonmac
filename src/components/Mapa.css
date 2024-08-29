@@ -83,8 +83,9 @@
     cursor: pointer;
     position: relative;
     padding-left: 30px;
-    color: var(--primary-color);
+    color: #fff;
     white-space: nowrap;
+    font-family: 'roboto-bold';
 }
 
 .country-list li::before {

@@ -91,6 +91,7 @@
   color: #fff;
   text-align: center;
   background-color: var(--primary-color);
+  font-family: 'roboto-medium';
 }
 
 .event-container p {
@@ -98,6 +99,7 @@
   line-height: 3rem;
   color: #555;
   text-align: start;
+  font-family: 'roboto-light';
 }
 
 .event-line{
@@ -108,6 +110,7 @@
   font-size: 1.5rem;
   color: #555;
   font-weight: bold;
+  font-family: 'roboto-bold';
 }
 
 /* Estilos para el calendario */
@@ -120,16 +123,19 @@
 .rbc-toolbar .rbc-toolbar-label{
   font-size: 36px;
   text-transform: capitalize;
+  font-family: 'roboto-bold';
 }
 
 
 .rbc-toolbar button {
   color: #fff;
   margin-left: 5px;
+  font-family: 'roboto-medium';
 }
 
 .rbc-toolbar span {
   color: #fff;
+  font-family: 'roboto-bold';
 }
 
 .rbc-toolbar button:active, .rbc-toolbar button.rbc-active {
@@ -147,6 +153,7 @@
   border-radius: 4px;
   height: 20px;
   margin: 3px 0 3px 0;
+  font-family: 'roboto-bold';
 }
 
 .rbc-event:hover {

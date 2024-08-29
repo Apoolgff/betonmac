@@ -6,11 +6,17 @@
 .top-bar {
   display: flex;
   justify-content: space-around;
-  background-color: #333;
+  background-color: var(--layer-color);
   color: white;
   padding: 10px;
   font-family: 'roboto-bold';
   text-transform: uppercase;
+}
+
+.top-bar-layout{
+  background: url("/images/backgrounds/light-cement-pores.webp");
+  background-size: cover;
+  background-attachment:fixed ;
 }
 
 .top-bar-item {
@@ -19,20 +25,28 @@
   cursor: pointer;
 }
 
+.top-bar-item:hover {
+  color: var(--secondary-color);
+}
+
 .submenu {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #444;
+  background-color: var(--layer-color);
   color: white;
   width: 200px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
+  z-index: 10;
 }
 
 .submenu-item {
   padding: 10px;
   cursor: pointer;
+}
+
+.submenu-item:hover {
+  color: var(--secondary-color);
 }
 
 .product-grid {
