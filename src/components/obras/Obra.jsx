@@ -27,7 +27,9 @@ const Obra = () => {
 
       {/*Descripcion*/}
       <div className="work-descriptive-text">
+        <div>
         <p>{obra.descripcion}</p>
+        </div>
       </div>
 
       {/*Materiales utilizados*/}
