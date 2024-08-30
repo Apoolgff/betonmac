@@ -21,12 +21,14 @@
   }
   
   .work-carousel-text {
-    position: absolute;
-    bottom: 20px;
-    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 60%;
+    margin: 5rem 0;
+    padding: 02rem 13rem;
     color: white;
-    background: var(--layer-color);
-    padding: 20px;
+    background: linear-gradient(125deg, var(--layer-color) 0 75%,  transparent 0% 100%);
    
   }
   
