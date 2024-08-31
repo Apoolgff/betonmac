@@ -13,10 +13,11 @@ const Inicio = () => {
       
       
       <Hproducts />
-      <Hnews />
+     
       <Hconsulta />
     
       <Hcards />
+      <Hnews />
     </>
   )
 }
