@@ -1,68 +1,53 @@
-import React , { useEffect, useState }  from 'react';
+import React, { useEffect, useState } from 'react';
 import useInViewHook from '../../hooks/useInViewHook';
 import { Link } from 'react-router-dom';
 import './Hcards.css';
 
 const cards = [
-    
-    { image: '/images/home/calendar.gif', 
-      title: 'Permanente formación de los recursos humanos para acompañar a las necesidades del negocio', 
-      link: '/calendario' 
-    },
-    { image: '/images/home/bureau-veritas.gif', 
-      title: 'Comprometidos de cumplir con los requisitos aplicables y la mejora continua de nuestro sistema de gestion de calidad', 
-      link: '/institucional' 
-      },
-    { image: '/images/home/hardox.gif', 
-      title: 'Maximizamos la performance de los equipos, desarrollando proveedores que aseguren la cadena de abastecimiento enfocada en las necesidades del cliente y del mercado', 
-      link: '/institucional'  
-      },
-    { image: '/images/home/historia.gif', 
-      title: 'Soluciones integrales para el acopio de materiales, dosificación, elaboracion y transporte de hormigón y productos afines, disponiendo hacia el cliente experiencia y especialización técnica en el rubro a través de un equipo multidisciplinario en los distintos campos de la ingeniería', 
-      link: '/institucional', 
-      },
-]
+  { image: '/images/home/calendar.gif', title: 'Permanente formación de los recursos humanos para acompañar a las necesidades del negocio', link: '/calendario' },
+  { image: '/images/home/bureau-veritas.gif', title: 'Comprometidos de cumplir con los requisitos aplicables y la mejora continua de nuestro sistema de gestion de calidad', link: '/institucional' },
+  { image: '/images/home/hardox.gif', title: 'Maximizamos la performance de los equipos, desarrollando proveedores que aseguren la cadena de abastecimiento enfocada en las necesidades del cliente y del mercado', link: '/institucional' },
+  { image: '/images/home/historia.gif', title: 'Soluciones integrales para el acopio de materiales, dosificación, elaboracion y transporte de hormigón y productos afines, disponiendo hacia el cliente experiencia y especialización técnica en el rubro a través de un equipo multidisciplinario en los distintos campos de la ingeniería', link: '/institucional' },
+];
 
 const Hcards = () => {
   const [bannerInViewOnce, setBannerInViewOnce] = useState(false);
-  const {ref:bannerRef, inView: bannerInView} = useInViewHook(1);
+  const { ref: bannerRef, inView: bannerInView } = useInViewHook(1);
 
-
-useEffect(() => {
-  
-  if (bannerInView && !bannerInViewOnce) {
+  useEffect(() => {
+    if (bannerInView && !bannerInViewOnce) {
       setBannerInViewOnce(true);
-  }
-}, [bannerInView, bannerInViewOnce]);
+    }
+  }, [bannerInView, bannerInViewOnce]);
 
   return (
-<section className="hcards-section">
-  <h2 ref={bannerRef} className= {`hcards-title ${bannerInViewOnce ? 'in-view-replacement' : ''} `}>64 años de experiencia</h2>
-  <p className='hcards-subtitle'>Acompañando las crecientes necesidades del mercado, asegurando la continua innovación de nuestros equipos
-    con foco en la investigacion y desarrollo de automatismos, tecnología avanzada y soluciones informáticas que
-    optimice el menor costo, mayor calidad y productividad de hormigón elaborado 
-  </p>
-  <div className="cards-container">
-      {cards.map((card, index) => (
-        
-        <article key={index} className="card" style={{ backgroundImage: `url(${card.image})` }}>
-          <Link className='hcards-link' to= {card.link}>
-          <div className="card-content">
-          <div className="card-overlay">
-         
-          <h5 className='card-title'>{card.title}</h5>
-         
-          
+    <section className="hcards-section">
+      <h2 ref={bannerRef} className={`hcards-title ${bannerInViewOnce ? 'in-view-replacement' : ''}`}>64 años de experiencia</h2>
+      <p className='hcards-subtitle'>
+        Acompañando las crecientes necesidades del mercado, asegurando la continua innovación de nuestros equipos
+        con foco en la investigacion y desarrollo de automatismos, tecnología avanzada y soluciones informáticas que
+        optimice el menor costo, mayor calidad y productividad de hormigón elaborado
+      </p>
+      <div className="cards-container">
+        {cards.map((card, index) => (
+          <article key={index} className="card">
+            <div className="card-inner">
+              <div className="card-front" style={{ backgroundImage: `url(${card.image})` }}></div>
+              <div className="card-back">
+                <Link className='hcards-link' to={card.link}>
+                  <div className="card-content">
+                    <div className="card-overlay">
+                      <h5 className='card-title'>{card.title}</h5>
+                    </div>
+                  </div>
+                </Link>
+              </div>
             </div>
-          </div>
-          </Link>
-        </article>
-       
-      ))}
+          </article>
+        ))}
       </div>
     </section>
   );
 };
 
 export default Hcards;
-
