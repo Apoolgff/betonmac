@@ -91,7 +91,7 @@
 .country-list li::before {
     content: '';
     display: inline-block;
-    background-image: url('/images/icons/beton.webp');
+    background-image: url('/images/icons/Beton2.webp');
     background-size: contain;
     background-repeat: no-repeat;
     position: absolute;

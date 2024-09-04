@@ -1,6 +1,7 @@
 [
     {
       "id": 1,
+      "importancia": 1,
       "nombre": "Ruta Nacional Nº14. (Ruta del Mercosur)",
       "pais": "Argentina",
       "lugar": "Entre Rios",
@@ -11,6 +12,7 @@
     },
     {
         "id": 2,
+        "importancia": 1,
         "nombre": "Torres de edificios Jardines del Libertador",
         "pais": "Argentina",
         "lugar": " Buenos Aires",
@@ -21,6 +23,7 @@
       },
     {
       "id": 3,
+      "importancia": 2,
       "nombre": "Carretera Rosario-Victoria",
       "pais": "Argentina",
       "lugar": "Rosario (provincia de Santa Fe) y Victoria (provincia de Entre Ríos)",
@@ -31,6 +34,7 @@
     },
     {
       "id": 4,
+      "importancia": 2,
       "nombre": "Acceso Norte y Av. Gral. Paz",
       "pais": "Argentina",
       "lugar": " Acceso Norte y Av. Gral. Paz - Buenos Aires",
@@ -41,6 +45,7 @@
     },
     {
       "id": 5,
+      "importancia": 3,
       "nombre": "Dique El Cajón",
       "pais": "Argentina",
       "lugar": "Córdoba",
@@ -51,6 +56,7 @@
     },
     {
       "id": 6,
+      "importancia": 3,
       "nombre": "Central hidroeléctrica Yacyretá",
       "pais": "Argentina",
       "lugar": "sobre el río Paraná entre Argentina (provincia de Corrientes) y Paraguay",
@@ -61,6 +67,7 @@
     },
     {
       "id": 7,
+      "importancia": 2,
       "nombre": "Complejo vial Zárate - Brazo Largo",
       "pais": "Argentina",
       "lugar": "Une las provincias de Buenos Aires y Entre Ríos",
@@ -71,6 +78,7 @@
     },
     {
       "id": 8,
+      "importancia": 3,
       "nombre": "Dique Piedras Moras",
       "pais": "Argentina",
       "lugar": "Córdoba",
@@ -81,6 +89,7 @@
     },
     {
       "id": 9,
+      "importancia": 3,
       "nombre": "Puente Posadas-Encarnación",
       "pais": "Argentina",
       "lugar": "Entre las localidades de Posadas (Argentina) y Encarnación (Paraguay).",
@@ -91,6 +100,7 @@
     },
     {
       "id": 10,
+      "importancia": 1,
       "nombre": "Dique Potrerillos Mendoza",
       "pais": "Argentina",
       "lugar": "Mendoza",
@@ -101,6 +111,7 @@
     },
     {
       "id": 11,
+      "importancia": 1,
       "nombre": "Dique Comarapa",
       "pais": "Bolivia",
       "lugar": "Río Comarapa",
@@ -111,6 +122,7 @@
     },
     {
       "id": 12,
+      "importancia": 1,
       "nombre": "Proyecto Oruro Toledo",
       "pais": "Bolivia",
       "lugar": "Oruro",
@@ -121,6 +133,7 @@
     },
     {
       "id": 13,
+      "importancia": 1,
       "nombre": "Central hidroeléctrica de Porto Primavera",
       "pais": "Brasil",
       "lugar": "Dique sobre el río Paraná entre los estados de São Paulo y Mato Grosso do Sul",
@@ -131,6 +144,7 @@
     },
     {
       "id": 14,
+      "importancia": 1,
       "nombre": "Central hidroeléctrica de Santa Branca",
       "pais": "Brasil",
       "lugar": "Ampliación dique (casa de fuerza y vertedero) sobre el río Paraiba, en el estado de São Paulo. Volumen de hormigón: 15.000 m3Cliente: Cartellone do Brasil LTDA",
@@ -141,6 +155,7 @@
     },
     {
       "id": 15,
+      "importancia": 2,
       "nombre": "Central hidroeléctrica de Machadinho",
       "pais": "Brasil",
       "lugar": "Dique sobre el río Pelotas entre los estados de Santa Catarina y Rio Grande do Sul",
@@ -151,6 +166,7 @@
     },
     {
       "id": 16,
+      "importancia": 3,
       "nombre": "Planta de premoldeados",
       "pais": "Brasil",
       "lugar": "Itanhaém, en el litoral del estado de San Pablo",
@@ -161,6 +177,7 @@
     },
     {
       "id": 17,
+      "importancia": 3,
       "nombre": "Central hidroeléctrica de Santa Clara",
       "pais": "Brasil",
       "lugar": "Dique sobre el río Mucuri en el estado de Minas Gerais",
@@ -171,6 +188,7 @@
     },
     {
       "id": 18,
+      "importancia": 2,
       "nombre": "Central hidroeléctrica de Tucuruí",
       "pais": "Brasil",
       "lugar": "Dique sobre el río Tocantins en el estado de Pará",
@@ -181,6 +199,7 @@
     },
     {
       "id": 19,
+      "importancia": 1,
       "nombre": "Planta de premoldeados",
       "pais": "Brasil",
       "lugar": "Porto Alegre, estado de Rio Grande do Sul",
@@ -191,6 +210,7 @@
     },
     {
       "id": 20,
+      "importancia": 3,
       "nombre": "Central hidroeléctrica de Campos Novos",
       "pais": "Brasil",
       "lugar": "Dique sobre el río Canoas en el estado de Santa Catarina",
@@ -201,6 +221,7 @@
     },
     {
       "id": 21,
+      "importancia": 2,
       "nombre": "Complejo hidroeléctrico de Ceran",
       "pais": "Brasil",
       "lugar": "14 de Julho, Monte Claro, Castro Alvares",
@@ -211,6 +232,7 @@
     },
     {
       "id": 22,
+      "importancia": 3,
       "nombre": "Exclusas Tucuruí",
       "pais": "Brasil",
       "lugar": "Porto Alegre, estado de Rio Grande do Sul",
@@ -221,6 +243,7 @@
     },
     {
       "id": 23,
+      "importancia": 3,
       "nombre": "Planta de premoldeados",
       "pais": "Brasil",
       "lugar": "Porto Alegre, estado de Rio Grande do Sul",
@@ -231,6 +254,7 @@
     },
     {
       "id": 24,
+      "importancia": 2,
       "nombre": "Planta de premoldeados",
       "pais": "Brasil",
       "lugar": "Porto Alegre, estado de Rio Grande do Sul",

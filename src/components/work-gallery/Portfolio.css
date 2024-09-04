@@ -1,59 +1,64 @@
 .portfolio-container {
-    
-    padding: 6rem;
-   background-color: white;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     align-items: center;
-    
 }
 
-.portfolio-card {
+.country-section {
+    margin-bottom: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-auto-rows: 200px;
+    gap: 10px;
+}
+
+.grid-item {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    color: #333;
     text-decoration: none;
-     height: 100%;
-    width: 100%;
     overflow: hidden;
-    /*border-radius: 0.5rem;*/
+    background-size: cover;
     background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
+}
+
+.importance-1 {
+    grid-column: span 2;
+    grid-row: span 2; 
+}
+
+.importance-2 {
+    grid-column: span 2; 
+    grid-row: span 1;
+}
+
+.importance-3 {
+    grid-column: span 1; 
+    grid-row: span 1; 
 }
 
 .portfolio-card-figure {
+    margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: end;
-    height: 100%;
-    width: 100%;
-    border-radius: 1rem;
-  
-    opacity: 1;
-}
-.portfolio-card-image {
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-}
-
-
-.portfolio-card-country {
-    background-color: var(--primary-color);
+    align-items: flex-start;
+    justify-content: flex-end;
+    z-index: 1; 
+    height: 100%; 
     
-    /*border-radius: 0.5rem;*/
-    color: white;
-    font-family: 'roboto-medium';
-    opacity: 0;
-   
 }
-.portfolio-card-name{
-    background-color: white;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    color: black;
-    font-family: 'roboto-medium';
-    width: 100%;
-    height: 5rem;
+
+.portfolio-card-name {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    z-index: 2; 
+    font-family: 'roboto-bold';
 }

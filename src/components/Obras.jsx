@@ -6,35 +6,7 @@ import Mapa from './Mapa'
 import Counters from './Inicio/Counters';
 
 const Obras = () => {
-  const [works, setWorks] = useState([]);
-
-  useEffect(() => {
-    fetch('/src/Data/works.json')
-      .then(response => response.json())
-      .then(data => setWorks(data))
-      .catch(error => console.error('Error fetching data:', error));
-  }, []);
-
-  const countries = [
-    'Argentina',
-    'Brasil',
-    'Chile',
-    'Peru',
-    'Uruguay',
-    'Paraguay',
-    'Bolivia',
-    'Colombia',
-    'Ecuador',
-    'Venezuela'
-  ];
-
-  const groupedWorks = works.reduce((acc, work) => {
-    if (!acc[work.pais]) {
-      acc[work.pais] = [];
-    }
-    acc[work.pais].push(work);
-    return acc;
-  }, {});
+ 
 
   return (
     <>
