@@ -26,12 +26,14 @@ const Obra = () => {
       </div>
 
       {/*Descripcion*/}
-      <div className="work-descriptive-text">
-        <div>
+      
+      <div className="product-image-first" style={{ backgroundImage: `url(${obra.imagenes[0]})` }}>
+        
+        <div className="product-text-first">
         <p>{obra.descripcion}</p>
         </div>
       </div>
-
+       
       {/*Materiales utilizados*/}
       <section className="work-services-section">
         <div className="work-services-layer">
@@ -51,9 +53,11 @@ const Obra = () => {
      
 
       {/*Descripcion de la obra/planta*/}
-      <div className="work-centered-text-section">
-        <h2>Detalles Adicionales:</h2>
+      <div className="product-image-second" style={{ backgroundImage: `url(${obra.imagenes[1]})` }}>
+        <div className="product-text-second">
+        
         <p>{obra.detalles}</p>
+        </div>
       </div>
     </div>
   );

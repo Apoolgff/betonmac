@@ -19,11 +19,11 @@ const Institucional = () => {
       <Misvis />
 
       {/*Cards*/}
-      <Cardseid />
+      
 
       {/*Seccion de Servicios*/}
       <Servicesinst />
-
+      <Cardseid />
       {/*Separador*/}
 
       {/*Historia*/}
