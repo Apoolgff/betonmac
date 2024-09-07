@@ -459,3 +459,54 @@
     
 
      /* */ 
+
+     .button-hexagon-blue-right{
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      height: 70px;
+      width: 70px;
+      background: url('/images/icons/button-blue-right.png');
+      background-size: cover ;
+      cursor: pointer;
+      transition: 0.1s; 
+    
+      
+    }
+
+    
+  .button-hexagon-blue-right .harallelogram {
+    background-color: var(--primary-color);
+  }
+  .button-hexagon-blue-right:hover{
+    background: none;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .button-hexagon-blue-right:hover .harallelogram-container{
+  opacity: 1;
+  transition: 1s;
+  }
+  .button-hexagon-blue-right:hover .harallelogram-c {
+    animation: left-animation-logo 0.3s ease-in-out 0s 1 normal none;
+  }
+  .button-hexagon-blue-right:hover .harallelogram-a {
+    animation: left-animation-logo 0.3s ease-in-out 0s 1 normal none;
+  }
+  .button-hexagon-blue-right:hover .harallelogram-b {
+    animation: top-animation-logo 0.5s ease-in-out 0s 1 normal none;
+  }
+  .button-hexagon-blue-right:hover .harallelogram-d {
+    animation: top-animation-logo 0.5s ease-in-out 0s 1 normal none;
+  }
+  .button-hexagon-blue-right:hover .harallelogram-e {
+    animation: right-animation-logo 0.7s ease-in-out 0s 1 normal none;
+  }
+  .button-hexagon-blue-right:hover .harallelogram-f {
+    animation: right-animation-logo 0.7s ease-in-out 0s 1 normal none;
+  }
+  .button-hexagon-blue-right:hover .button-hexagon-full {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+   }

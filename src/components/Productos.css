@@ -58,7 +58,9 @@
 
 .product-card {
   background-color: #fff;
-  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   border-radius: 2px;
   overflow: hidden;
   text-align: center;
@@ -68,6 +70,9 @@
 
 .product-card:hover {
   transform: scale(1.05);
+  -webkit-box-shadow: 0px 0px 16px 2px rgba(89, 89, 89, 0.144);
+-moz-box-shadow: 0px 0px 16px 2px rgba(89, 89, 89, 0.144);
+box-shadow: 0px 0px 16px 2px rgba(89, 89, 89, 0.144);
 }
 
 .product-card-image {
@@ -88,4 +93,8 @@
 
 .product-card-button:hover {
   background-color: #0056b3;
+}
+
+.button-hexagon-blue-right-container {
+margin: 1rem auto;
 }

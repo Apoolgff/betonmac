@@ -95,8 +95,18 @@ const Productos = () => {
             <img src={product.image} alt={product.title} className="product-card-image" />
             <h3>{product.title}</h3>
             <p>{product.subtitle}</p>
-            <Link to={`/producto/${product.id}`} className="product-card-button">
-              Ver Producto
+            <Link to={`/producto/${product.id}`}  className='button-hexagon-blue-right-container' >
+            <div className='button-hexagon-blue-right hero-button'>
+                        <div className='harallelogram-container harallelogram-button'>
+                            <div className='harallelogram harallelogram-c animation-button-left'></div>
+                            <div className='harallelogram harallelogram-a animation-button-left'></div>
+                            <div className='harallelogram harallelogram-b animation-button-top'></div>
+                            <div className='harallelogram harallelogram-d animation-button-top'></div>
+                            <div className='harallelogram harallelogram-e animation-button-right'></div>
+                            <div className='harallelogram harallelogram-f animation-button-right'></div>
+                            <img className="button-hexagon-full"src="/images/icons/button-blue-right-full.png" alt="" />  
+                        </div>
+                    </div>
             </Link>
           </div>
         ))}
