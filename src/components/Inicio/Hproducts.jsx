@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import './Hproducts.css';
 
 const products = [
-    { image: 'https://betonmac.com/images/Imagenes/Dispositivas/principal/Represas-patagonia.jpg', 
+    { image: 'https://betonmac.com/images/Imagenes/Plantas/Dosificadoras/Fotos-dosif/NM120-1.jpg', 
       title: 'plantas de hormigon', 
       url: '/productos',
       class: 'home-product-plantas'},
@@ -14,7 +14,7 @@ const products = [
       title: 'motohormigoneras', 
       url: '/productos',
       class: 'home-product-motohormigoneras'},
-    { image: '/images/home/silos.jpg', 
+    { image: 'https://betonmac.com/images/Imagenes/Portadas-plantas/SILOS/silos1.jpg', 
       title: 'silos', 
       url: '/productos',
       class: 'home-product-silos'},

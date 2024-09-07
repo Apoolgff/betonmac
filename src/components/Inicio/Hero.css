@@ -57,12 +57,13 @@
 
 
 .hero-subtitle {
+  margin: 20px 0 ;
   color: white;
-  font-size: 2rem;
-  margin: 0;
+  font-size: 1.9rem;
   text-transform: uppercase;
-  font-family: 'roboto-medium';
+  font-family: 'roboto-light';
   animation: subtitle-entrance 2s ease-in-out;
+  letter-spacing: 1px;
 }
 
 @keyframes subtitle-entrance {

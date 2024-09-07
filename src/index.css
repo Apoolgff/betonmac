@@ -26,9 +26,9 @@ h2 {
 }
 
 h3{
-  font-size: 2rem;
+  font-size: 1.9rem;
   text-transform: uppercase;
-  font-family: 'roboto-bold';
+  font-family: 'roboto-regular';
 }
 
 h4{
@@ -61,6 +61,12 @@ h4{
 @font-face {
   font-family: 'roboto-bold';
   src: url('/fonts/Roboto-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'roboto-regular';
+  src: url('/fonts/Roboto-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

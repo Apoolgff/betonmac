@@ -96,7 +96,7 @@ const Productos = () => {
             <h3>{product.title}</h3>
             <p>{product.subtitle}</p>
             <Link to={`/producto/${product.id}`}  className='button-hexagon-blue-right-container' >
-            <div className='button-hexagon-blue-right hero-button'>
+            <div className='button-hexagon-blue-right '>
                         <div className='harallelogram-container harallelogram-button'>
                             <div className='harallelogram harallelogram-c animation-button-left'></div>
                             <div className='harallelogram harallelogram-a animation-button-left'></div>
@@ -107,6 +107,7 @@ const Productos = () => {
                             <img className="button-hexagon-full"src="/images/icons/button-blue-right-full.png" alt="" />  
                         </div>
                     </div>
+                    VER MAS
             </Link>
           </div>
         ))}
